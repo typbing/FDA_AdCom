@@ -1,0 +1,526 @@
+{
+  "total_rows": 57,
+  "inferred_count": 7,
+  "already_present": 48,
+  "status_counts": {
+    "already_present": 48,
+    "inferred_from_last_modified": 6,
+    "inferred_from_pdf_metadata": 1,
+    "metadata_date_outside_meeting_window": 2
+  },
+  "results": [
+    {
+      "document_id": "2b2013a2acf6a3ce",
+      "ticker": "CDTX",
+      "meeting_date": "2023-01-24",
+      "inferred_date": "2023-01-19",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "0b99a891dd01a3b2",
+      "ticker": "RHHBY",
+      "meeting_date": "2023-03-09",
+      "inferred_date": "2023-03-06",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "6df8a6a4aa29769e",
+      "ticker": "REGN",
+      "meeting_date": "2023-01-09",
+      "inferred_date": "2023-01-04",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "f8bbf578a35e0569",
+      "ticker": "HZNP",
+      "meeting_date": "2019-12-13",
+      "inferred_date": "2019-12-10",
+      "source": "media Last-Modified header",
+      "confidence": "low",
+      "status": "inferred_from_last_modified"
+    },
+    {
+      "document_id": "2252b7c3b1118d54",
+      "ticker": "PRGO",
+      "meeting_date": "2023-05-09",
+      "inferred_date": "2023-05-04",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "44ec7ad56d1a47b2",
+      "ticker": "",
+      "meeting_date": "2023-02-15",
+      "inferred_date": "2023-02-09",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "inferred_from_pdf_metadata"
+    },
+    {
+      "document_id": "1b07cb209a078f7d",
+      "ticker": "SNY/AZN",
+      "meeting_date": "2023-06-08",
+      "inferred_date": "2023-05-23",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "af190de57f8c9774",
+      "ticker": "PFE",
+      "meeting_date": "2023-03-16",
+      "inferred_date": "2023-03-13",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "dd6f0d626e63c30c",
+      "ticker": "INVA",
+      "meeting_date": "2023-04-17",
+      "inferred_date": "2023-04-11",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "07d0a87f7ff02db9",
+      "ticker": "CDTX",
+      "meeting_date": "2023-01-24",
+      "inferred_date": "2023-01-19",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "3ea9b6d3e184b0d5",
+      "ticker": "REGN",
+      "meeting_date": "2023-01-09",
+      "inferred_date": "2023-01-04",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "07ae88dc3a7a1552",
+      "ticker": "HZNP",
+      "meeting_date": "2019-12-13",
+      "inferred_date": "2019-12-10",
+      "source": "media Last-Modified header",
+      "confidence": "low",
+      "status": "inferred_from_last_modified"
+    },
+    {
+      "document_id": "3b3b8e54170847af",
+      "ticker": "",
+      "meeting_date": "2023-05-19",
+      "inferred_date": "2023-05-04",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "35086eada06cf1cb",
+      "ticker": "",
+      "meeting_date": "2019-05-07",
+      "inferred_date": "2019-05-03",
+      "source": "media Last-Modified header",
+      "confidence": "low",
+      "status": "inferred_from_last_modified"
+    },
+    {
+      "document_id": "2df3a6f5abe90a0c",
+      "ticker": "",
+      "meeting_date": "2022-06-09",
+      "inferred_date": "2022-06-01",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "8d434aa9278b0cf2",
+      "ticker": "",
+      "meeting_date": "2022-06-09",
+      "inferred_date": "2022-05-25",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "40b964bf5edaa2cb",
+      "ticker": "",
+      "meeting_date": "2023-04-19",
+      "inferred_date": "2023-04-13",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "65950bfbc4d16fe2",
+      "ticker": "",
+      "meeting_date": "2022-10-17",
+      "inferred_date": "2022-10-11",
+      "source": "media Last-Modified header",
+      "confidence": "low",
+      "status": "inferred_from_last_modified"
+    },
+    {
+      "document_id": "f04f40cfe4351a27",
+      "ticker": "",
+      "meeting_date": "2023-06-16",
+      "inferred_date": "2023-06-12",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "25ffbfbe22b73aa6",
+      "ticker": "",
+      "meeting_date": "2023-04-28",
+      "inferred_date": "2023-04-05",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "low",
+      "status": "metadata_date_outside_meeting_window"
+    },
+    {
+      "document_id": "9c95a2aedd2a812b",
+      "ticker": "",
+      "meeting_date": "2022-10-17",
+      "inferred_date": "2022-10-11",
+      "source": "media Last-Modified header",
+      "confidence": "low",
+      "status": "inferred_from_last_modified"
+    },
+    {
+      "document_id": "2b7ff1a06c480c90",
+      "ticker": "",
+      "meeting_date": "2023-02-09",
+      "inferred_date": "2023-02-07",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "240cd9545335df0e",
+      "ticker": "",
+      "meeting_date": "2022-06-08",
+      "inferred_date": "2022-05-04",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "low",
+      "status": "metadata_date_outside_meeting_window"
+    },
+    {
+      "document_id": "a118892fa2431d44",
+      "ticker": "",
+      "meeting_date": "2021-02-26",
+      "inferred_date": "2021-02-23",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "5718dbb37dcd6999",
+      "ticker": "",
+      "meeting_date": "2020-12-17",
+      "inferred_date": "2020-12-14",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "3c2afb6950868d2b",
+      "ticker": "",
+      "meeting_date": "2020-12-10",
+      "inferred_date": "2020-12-07",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "284689ceeabfc67f",
+      "ticker": "",
+      "meeting_date": "2020-10-22",
+      "inferred_date": "2020-10-05",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "08d7a4cf68c80338",
+      "ticker": "RHHBY",
+      "meeting_date": "2023-03-09",
+      "inferred_date": "2023-03-06",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "74f2619b703a09c2",
+      "ticker": "REGN",
+      "meeting_date": "2023-01-09",
+      "inferred_date": "2023-01-05",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "765741af520c206b",
+      "ticker": "HZNP",
+      "meeting_date": "2019-12-13",
+      "inferred_date": "2019-12-12",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "9d2b630fa2e57570",
+      "ticker": "",
+      "meeting_date": "2023-04-28",
+      "inferred_date": "2023-04-25",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "fd90bab1d0efa617",
+      "ticker": "CDTX",
+      "meeting_date": "2023-01-24",
+      "inferred_date": "2023-01-23",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "dd15c80512cccec8",
+      "ticker": "HZNP",
+      "meeting_date": "2019-12-13",
+      "inferred_date": "2019-12-04",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "66e326fd862af572",
+      "ticker": "CDTX",
+      "meeting_date": "2023-01-24",
+      "inferred_date": "2023-01-18",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "97cb97638c1fc01a",
+      "ticker": "",
+      "meeting_date": "2022-06-09",
+      "inferred_date": "2022-05-31",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "0d2a6ee95a1222ca",
+      "ticker": "",
+      "meeting_date": "2021-02-26",
+      "inferred_date": "2021-02-23",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "0fc8404dea4b49e7",
+      "ticker": "",
+      "meeting_date": "2020-12-10",
+      "inferred_date": "2020-12-02",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "1034b51dfc26ba97",
+      "ticker": "",
+      "meeting_date": "2020-12-17",
+      "inferred_date": "2020-12-16",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "bf90c16bcfc8dd56",
+      "ticker": "",
+      "meeting_date": "2022-10-17",
+      "inferred_date": "2022-10-07",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "09a334a6da830f6d",
+      "ticker": "",
+      "meeting_date": "2020-10-02",
+      "inferred_date": "2020-09-29",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "1e073e5d75d2501a",
+      "ticker": "",
+      "meeting_date": "2020-03-04",
+      "inferred_date": "2020-03-03",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "beb756b638efcd52",
+      "ticker": "",
+      "meeting_date": "2022-10-17",
+      "inferred_date": "2022-10-12",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "e000494cea489c32",
+      "ticker": "",
+      "meeting_date": "2023-02-09",
+      "inferred_date": "2023-02-07",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "2dcd82ca6df64ddf",
+      "ticker": "",
+      "meeting_date": "2019-05-07",
+      "inferred_date": "2019-05-06",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "4673ede6596e5988",
+      "ticker": "",
+      "meeting_date": "2023-04-19",
+      "inferred_date": "2023-04-18",
+      "source": "media Last-Modified header",
+      "confidence": "low",
+      "status": "inferred_from_last_modified"
+    },
+    {
+      "document_id": "a49fd6fa786cde92",
+      "ticker": "",
+      "meeting_date": "2023-06-08",
+      "inferred_date": "2023-06-05",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "53b122bb42436799",
+      "ticker": "",
+      "meeting_date": "2023-02-09",
+      "inferred_date": "2023-02-01",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "74db73c2a563cd0a",
+      "ticker": "",
+      "meeting_date": "2023-06-08",
+      "inferred_date": "2023-06-05",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "ab25c59d5732321c",
+      "ticker": "",
+      "meeting_date": "2020-12-17",
+      "inferred_date": "2020-12-16",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "c5dd231a971d4725",
+      "ticker": "",
+      "meeting_date": "2023-03-16",
+      "inferred_date": "2023-03-13",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "3a4dcb0e38851c6c",
+      "ticker": "",
+      "meeting_date": "2023-05-19",
+      "inferred_date": "2023-05-12",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "c93ec1f8435c26b1",
+      "ticker": "",
+      "meeting_date": "2021-02-26",
+      "inferred_date": "2021-02-23",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "d47bc763422380d4",
+      "ticker": "",
+      "meeting_date": "2020-12-17",
+      "inferred_date": "2020-12-14",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "8402acbe7ffac6ca",
+      "ticker": "",
+      "meeting_date": "2020-03-04",
+      "inferred_date": "2020-02-28",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "c145d311e42378bb",
+      "ticker": "",
+      "meeting_date": "2020-10-02",
+      "inferred_date": "2020-09-25",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "e0e8d5db802b42ae",
+      "ticker": "",
+      "meeting_date": "2021-03-05",
+      "inferred_date": "2021-03-01",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    },
+    {
+      "document_id": "d64493489f965ed5",
+      "ticker": "",
+      "meeting_date": "2022-06-08",
+      "inferred_date": "2022-06-02",
+      "source": "PDF metadata /CreationDate",
+      "confidence": "medium",
+      "status": "already_present"
+    }
+  ]
+}

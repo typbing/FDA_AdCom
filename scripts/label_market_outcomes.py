@@ -17,6 +17,9 @@ REPORT_PATH = ROOT / "data" / "runs" / "market_label_audit.json"
 
 MARKET_FIELDS = [
     "briefing_pdf_release_date",
+    "briefing_pdf_release_date_source",
+    "briefing_pdf_release_date_confidence",
+    "market_ticker_used",
     "ticker_price_at_release",
     "benchmark_used",
     "return_1d",
@@ -137,7 +140,7 @@ def volume_ratio(rows: list[dict], start_index: int) -> float | None:
 
 
 def apply_market_label(row: dict[str, str], benchmark: str) -> tuple[dict[str, str], str]:
-    ticker = clean(row.get("ticker"))
+    ticker = normalize_market_ticker(clean(row.get("ticker")))
     release_date = clean(row.get("briefing_pdf_release_date"))
     if not ticker:
         row["market_label_notes"] = merge_note(row.get("market_label_notes", ""), "MARKET_TODO_TICKER")
@@ -147,6 +150,10 @@ def apply_market_label(row: dict[str, str], benchmark: str) -> tuple[dict[str, s
             row.get("market_label_notes", ""), "MARKET_TODO_RELEASE_DATE"
         )
         return row, "missing_release_date"
+    row["market_label_notes"] = remove_notes(
+        row.get("market_label_notes", ""),
+        ["MARKET_TODO_RELEASE_DATE", "MARKET_TODO_TICKER"],
+    )
 
     ticker_rows = fetch_yahoo_daily(ticker, release_date)
     benchmark_rows = fetch_yahoo_daily(benchmark, release_date)
@@ -159,6 +166,7 @@ def apply_market_label(row: dict[str, str], benchmark: str) -> tuple[dict[str, s
     base = ticker_rows[ticker_index]["close"]
     benchmark_base = benchmark_rows[benchmark_index]["close"]
     row["ticker_price_at_release"] = f"{base:.4f}"
+    row["market_ticker_used"] = ticker
     row["benchmark_used"] = benchmark
     row["market_label_source"] = "Yahoo Finance chart API"
 
@@ -178,8 +186,22 @@ def apply_market_label(row: dict[str, str], benchmark: str) -> tuple[dict[str, s
     if ratio is not None:
         row["volume_ratio_3d"] = f"{ratio:.4f}"
     row["market_label"] = market_label(abnormal_3d)
-    row["market_label_notes"] = merge_note(row.get("market_label_notes", ""), "MARKET_LABEL_COMPUTED")
+    row["market_label_notes"] = merge_note(
+        remove_prefixed_notes(row.get("market_label_notes", ""), "MARKET_ERROR:"),
+        "MARKET_LABEL_COMPUTED",
+    )
     return row, "computed"
+
+
+def normalize_market_ticker(ticker: str) -> str:
+    ticker = ticker.strip()
+    if "/" in ticker:
+        ticker = ticker.split("/", 1)[0]
+    if "," in ticker:
+        ticker = ticker.split(",", 1)[0]
+    if ";" in ticker:
+        ticker = ticker.split(";", 1)[0]
+    return ticker.strip()
 
 
 def merge_note(existing: str, note: str) -> str:
@@ -187,6 +209,16 @@ def merge_note(existing: str, note: str) -> str:
     if note not in parts:
         parts.append(note)
     return "; ".join(parts)
+
+
+def remove_notes(existing: str, notes: list[str]) -> str:
+    parts = [part.strip() for part in clean(existing).split(";") if part.strip()]
+    return "; ".join(part for part in parts if part not in notes)
+
+
+def remove_prefixed_notes(existing: str, prefix: str) -> str:
+    parts = [part.strip() for part in clean(existing).split(";") if part.strip()]
+    return "; ".join(part for part in parts if not part.startswith(prefix))
 
 
 def build_report(rows: list[dict[str, str]], statuses: list[str]) -> dict:

@@ -1,58 +1,58 @@
-document_id,meeting_date,sponsor,ticker,drug,indication,adcom_vote,adcom_outcome,fda_final_decision,fda_decision_date,briefing_pdf_release_date,ticker_price_at_release,benchmark_used,return_1d,return_3d,return_5d,return_10d,abn_return_1d,abn_return_3d,abn_return_5d,abn_return_10d,volume_ratio_3d,market_label,market_label_source,market_label_notes,outcome_source,notes
-2b2013a2acf6a3ce,2023-01-24,Cidara,CDTX,rezafungin / REZZAYO,candidemia and invasive candidiasis in adults with limited or no alternative options,14-1 favorable,positive,approved,2023-03-22,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,FDA Drug Trials Snapshot REZZAYO; FDA minutes / Cidara-Melinta announcement,FDA approved REZZAYO on 2023-03-22; committee vote favorable 14-1.
-0b99a891dd01a3b2,2023-03-09,Genentech,RHHBY,polatuzumab vedotin-piiq / POLIVY,previously untreated DLBCL / high-grade B-cell lymphoma with R-CHP,11-2 favorable,positive,approved,2023-04-19,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,Genentech ODAC vote press release; FDA approval page for polatuzumab vedotin-piiq,ODAC voted 11-2 in favor on 2023-03-09; FDA approved expanded indication on 2023-04-19.
-6df8a6a4aa29769e,2023-01-09,Regeneron,REGN,aflibercept / EYLEA,retinopathy of prematurity,,,approved,2023-02-08,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,FDA meeting page; public FDA approval history for aflibercept ROP,FDA approved aflibercept for retinopathy of prematurity in February 2023; advisory vote left blank pending primary-source minutes.; TODO_SOURCE_NEEDED
-f8bbf578a35e0569,2019-12-13,Horizon,HZNP,teprotumumab / TEPEZZA,thyroid eye disease,12-0 favorable,positive,approved,2020-01-21,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,Horizon/BusinessWire reporting DODAC 12-0; TEPEZZA FDA approval history,DODAC voted unanimously that benefits outweighed risks; FDA approved TEPEZZA on 2020-01-21.
-2252b7c3b1118d54,2023-05-09,HRA Pharma / Perrigo,PRGO,norgestrel / Opill,nonprescription daily oral contraception,17-0 favorable,positive,approved,2023-07-13,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,FDA approval press release; public reports of 17-0 advisory committee vote,Committees voted unanimously in favor; FDA approved first OTC daily oral contraceptive on 2023-07-13.
-44ec7ad56d1a47b2,2023-02-15,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-1b07cb209a078f7d,2023-06-08,Sanofi / AstraZeneca,SNY/AZN,nirsevimab / BEYFORTUS,RSV lower respiratory tract disease prevention in infants and vulnerable children,21-0 favorable,positive,approved,2023-07-17,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,FDA approval press release; CNBC/public report of 21-0 advisory vote,FDA approved BEYFORTUS on 2023-07-17; advisory panel recommended approval 21-0.
-af190de57f8c9774,2023-03-16,Pfizer,PFE,nirmatrelvir/ritonavir / PAXLOVID,COVID-19 treatment in high-risk adults,16-1 favorable,positive,approved,2023-05-25,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,FDA Paxlovid approval press release; public report of 16-1 AMDAC vote,AMDAC recommended full approval; FDA approved Paxlovid on 2023-05-25.
-dd6f0d626e63c30c,2023-04-17,Entasis / Innoviva,INVA,sulbactam-durlobactam / XACDURO,HABP/VABP caused by Acinetobacter baumannii-calcoaceticus complex,12-0 favorable,positive,approved,2023-05-23,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,FDA XACDURO Drug Trials Snapshot; public report of 12-0 AMDAC vote,AMDAC voted unanimously in support; FDA approved XACDURO on 2023-05-23.
-07d0a87f7ff02db9,2023-01-24,Cidara,CDTX,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-3ea9b6d3e184b0d5,2023-01-09,Regeneron,REGN,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-07ae88dc3a7a1552,2019-12-13,Horizon,HZNP,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-3b3b8e54170847af,2023-05-19,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-35086eada06cf1cb,2019-05-07,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-2df3a6f5abe90a0c,2022-06-09,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-8d434aa9278b0cf2,2022-06-09,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-40b964bf5edaa2cb,2023-04-19,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-65950bfbc4d16fe2,2022-10-17,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-f04f40cfe4351a27,2023-06-16,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-25ffbfbe22b73aa6,2023-04-28,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-9c95a2aedd2a812b,2022-10-17,Covis,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-2b7ff1a06c480c90,2023-02-09,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-240cd9545335df0e,2022-06-08,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-a118892fa2431d44,2021-02-26,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-5718dbb37dcd6999,2020-12-17,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-3c2afb6950868d2b,2020-12-10,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-284689ceeabfc67f,2020-10-22,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-08d7a4cf68c80338,2023-03-09,Genentech,RHHBY,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-74f2619b703a09c2,2023-01-09,Regeneron,REGN,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-765741af520c206b,2019-12-13,Horizon,HZNP,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-9d2b630fa2e57570,2023-04-28,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-fd90bab1d0efa617,2023-01-24,Cidara,CDTX,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-dd15c80512cccec8,2019-12-13,Horizon,HZNP,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-66e326fd862af572,2023-01-24,Cidara,CDTX,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_RELEASE_DATE,,TODO_SOURCE_NEEDED
-97cb97638c1fc01a,2022-06-09,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-0d2a6ee95a1222ca,2021-02-26,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-0fc8404dea4b49e7,2020-12-10,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-1034b51dfc26ba97,2020-12-17,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-bf90c16bcfc8dd56,2022-10-17,References to the,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-09a334a6da830f6d,2020-10-02,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-1e073e5d75d2501a,2020-03-04,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-beb756b638efcd52,2022-10-17,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-e000494cea489c32,2023-02-09,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-2dcd82ca6df64ddf,2019-05-07,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-4673ede6596e5988,2023-04-19,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-a49fd6fa786cde92,2023-06-08,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-53b122bb42436799,2023-02-09,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-74db73c2a563cd0a,2023-06-08,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-ab25c59d5732321c,2020-12-17,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-c5dd231a971d4725,2023-03-16,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-3a4dcb0e38851c6c,2023-05-19,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-c93ec1f8435c26b1,2021-02-26,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-d47bc763422380d4,2020-12-17,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-8402acbe7ffac6ca,2020-03-04,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-c145d311e42378bb,2020-10-02,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-e0e8d5db802b42ae,2021-03-05,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
-d64493489f965ed5,2022-06-08,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+document_id,meeting_date,sponsor,ticker,drug,indication,adcom_vote,adcom_outcome,fda_final_decision,fda_decision_date,market_ticker_used,briefing_pdf_release_date_source,briefing_pdf_release_date_confidence,briefing_pdf_release_date,ticker_price_at_release,benchmark_used,return_1d,return_3d,return_5d,return_10d,abn_return_1d,abn_return_3d,abn_return_5d,abn_return_10d,volume_ratio_3d,market_label,market_label_source,market_label_notes,outcome_source,notes
+2b2013a2acf6a3ce,2023-01-24,Cidara,CDTX,rezafungin / REZZAYO,candidemia and invasive candidiasis in adults with limited or no alternative options,14-1 favorable,positive,approved,2023-03-22,,PDF metadata /CreationDate,medium,2023-01-19,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CDTX?period1=1673247600&period2=1676703600&interval=1d&events=history,FDA Drug Trials Snapshot REZZAYO; FDA minutes / Cidara-Melinta announcement,FDA approved REZZAYO on 2023-03-22; committee vote favorable 14-1.
+0b99a891dd01a3b2,2023-03-09,Genentech,RHHBY,polatuzumab vedotin-piiq / POLIVY,previously untreated DLBCL / high-grade B-cell lymphoma with R-CHP,11-2 favorable,positive,approved,2023-04-19,RHHBY,PDF metadata /CreationDate,medium,2023-03-06,36.2700,IBB,-2.4814,-3.1431,0.2206,-3.1155,-0.8959,0.9946,3.2600,-0.4473,1.4433,NEUTRAL,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,Genentech ODAC vote press release; FDA approval page for polatuzumab vedotin-piiq,ODAC voted 11-2 in favor on 2023-03-09; FDA approved expanded indication on 2023-04-19.
+6df8a6a4aa29769e,2023-01-09,Regeneron,REGN,aflibercept / EYLEA,retinopathy of prematurity,,,approved,2023-02-08,REGN,PDF metadata /CreationDate,medium,2023-01-04,726.4900,IBB,-0.3758,-6.3318,-2.2781,-1.5031,-0.4593,-5.2461,-4.0092,-3.2797,1.2197,DOWN,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,FDA meeting page; public FDA approval history for aflibercept ROP,FDA approved aflibercept for retinopathy of prematurity in February 2023; advisory vote left blank pending primary-source minutes.; TODO_SOURCE_NEEDED
+f8bbf578a35e0569,2019-12-13,Horizon,HZNP,teprotumumab / TEPEZZA,thyroid eye disease,12-0 favorable,positive,approved,2020-01-21,,media Last-Modified header,low,2019-12-10,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HZNP?period1=1575097200&period2=1578553200&interval=1d&events=history,Horizon/BusinessWire reporting DODAC 12-0; TEPEZZA FDA approval history,DODAC voted unanimously that benefits outweighed risks; FDA approved TEPEZZA on 2020-01-21.
+2252b7c3b1118d54,2023-05-09,HRA Pharma / Perrigo,PRGO,norgestrel / Opill,nonprescription daily oral contraception,17-0 favorable,positive,approved,2023-07-13,PRGO,PDF metadata /CreationDate,medium,2023-05-04,36.9400,IBB,-3.2485,-5.5766,-3.8982,-9.5019,-4.4918,-5.8068,-3.9980,-8.4812,2.2866,DOWN,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,FDA approval press release; public reports of 17-0 advisory committee vote,Committees voted unanimously in favor; FDA approved first OTC daily oral contraceptive on 2023-07-13.
+44ec7ad56d1a47b2,2023-02-15,,,,,,,,,,PDF metadata /CreationDate,medium,2023-02-09,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+1b07cb209a078f7d,2023-06-08,Sanofi / AstraZeneca,SNY/AZN,nirsevimab / BEYFORTUS,RSV lower respiratory tract disease prevention in infants and vulnerable children,21-0 favorable,positive,approved,2023-07-17,SNY,PDF metadata /CreationDate,medium,2023-05-23,54.3900,IBB,-0.7722,-3.4565,-6.1960,-6.4534,0.6236,-0.3904,-2.5121,-4.7144,0.8883,NEUTRAL,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,FDA approval press release; CNBC/public report of 21-0 advisory vote,FDA approved BEYFORTUS on 2023-07-17; advisory panel recommended approval 21-0.
+af190de57f8c9774,2023-03-16,Pfizer,PFE,nirmatrelvir/ritonavir / PAXLOVID,COVID-19 treatment in high-risk adults,16-1 favorable,positive,approved,2023-05-25,PFE,PDF metadata /CreationDate,medium,2023-03-13,39.8600,IBB,0.1004,1.2795,2.3833,0.9032,-1.1599,0.1867,2.0004,0.3768,1.3636,NEUTRAL,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,FDA Paxlovid approval press release; public report of 16-1 AMDAC vote,AMDAC recommended full approval; FDA approved Paxlovid on 2023-05-25.
+dd6f0d626e63c30c,2023-04-17,Entasis / Innoviva,INVA,sulbactam-durlobactam / XACDURO,HABP/VABP caused by Acinetobacter baumannii-calcoaceticus complex,12-0 favorable,positive,approved,2023-05-23,INVA,PDF metadata /CreationDate,medium,2023-04-11,11.8100,IBB,-0.9314,1.7782,-3.4716,-0.6774,-0.8166,0.4623,-4.9634,-0.5167,0.9775,NEUTRAL,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,FDA XACDURO Drug Trials Snapshot; public report of 12-0 AMDAC vote,AMDAC voted unanimously in support; FDA approved XACDURO on 2023-05-23.
+07d0a87f7ff02db9,2023-01-24,Cidara,CDTX,,,,,,,,PDF metadata /CreationDate,medium,2023-01-19,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CDTX?period1=1673247600&period2=1676703600&interval=1d&events=history,,TODO_SOURCE_NEEDED
+3ea9b6d3e184b0d5,2023-01-09,Regeneron,REGN,,,,,,,REGN,PDF metadata /CreationDate,medium,2023-01-04,726.4900,IBB,-0.3758,-6.3318,-2.2781,-1.5031,-0.4593,-5.2461,-4.0092,-3.2797,1.2197,DOWN,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,,TODO_SOURCE_NEEDED
+07ae88dc3a7a1552,2019-12-13,Horizon,HZNP,,,,,,,,media Last-Modified header,low,2019-12-10,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HZNP?period1=1575097200&period2=1578553200&interval=1d&events=history,,TODO_SOURCE_NEEDED
+3b3b8e54170847af,2023-05-19,,,,,,,,,,PDF metadata /CreationDate,medium,2023-05-04,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+35086eada06cf1cb,2019-05-07,,,,,,,,,,media Last-Modified header,low,2019-05-03,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+2df3a6f5abe90a0c,2022-06-09,,,,,,,,,,PDF metadata /CreationDate,medium,2022-06-01,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+8d434aa9278b0cf2,2022-06-09,,,,,,,,,,PDF metadata /CreationDate,medium,2022-05-25,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+40b964bf5edaa2cb,2023-04-19,,,,,,,,,,PDF metadata /CreationDate,medium,2023-04-13,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+65950bfbc4d16fe2,2022-10-17,,,,,,,,,,media Last-Modified header,low,2022-10-11,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+f04f40cfe4351a27,2023-06-16,,,,,,,,,,PDF metadata /CreationDate,medium,2023-06-12,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+25ffbfbe22b73aa6,2023-04-28,,,,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+9c95a2aedd2a812b,2022-10-17,Covis,,,,,,,,,media Last-Modified header,low,2022-10-11,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+2b7ff1a06c480c90,2023-02-09,,,,,,,,,,PDF metadata /CreationDate,medium,2023-02-07,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+240cd9545335df0e,2022-06-08,,,,,,,,,,,,,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+a118892fa2431d44,2021-02-26,,,,,,,,,,PDF metadata /CreationDate,medium,2021-02-23,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+5718dbb37dcd6999,2020-12-17,,,,,,,,,,PDF metadata /CreationDate,medium,2020-12-14,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+3c2afb6950868d2b,2020-12-10,,,,,,,,,,PDF metadata /CreationDate,medium,2020-12-07,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+284689ceeabfc67f,2020-10-22,,,,,,,,,,PDF metadata /CreationDate,medium,2020-10-05,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+08d7a4cf68c80338,2023-03-09,Genentech,RHHBY,,,,,,,RHHBY,PDF metadata /CreationDate,medium,2023-03-06,36.2700,IBB,-2.4814,-3.1431,0.2206,-3.1155,-0.8959,0.9946,3.2600,-0.4473,1.4433,NEUTRAL,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,,TODO_SOURCE_NEEDED
+74f2619b703a09c2,2023-01-09,Regeneron,REGN,,,,,,,REGN,PDF metadata /CreationDate,medium,2023-01-05,723.7600,IBB,1.8501,-3.4279,-1.2698,-0.2432,0.8487,-4.4975,-3.7656,-3.0121,2.0268,DOWN,Yahoo Finance chart API,MARKET_LABEL_COMPUTED,,TODO_SOURCE_NEEDED
+765741af520c206b,2019-12-13,Horizon,HZNP,,,,,,,,PDF metadata /CreationDate,medium,2019-12-12,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HZNP?period1=1575270000&period2=1578726000&interval=1d&events=history,,TODO_SOURCE_NEEDED
+9d2b630fa2e57570,2023-04-28,,,,,,,,,,PDF metadata /CreationDate,medium,2023-04-25,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+fd90bab1d0efa617,2023-01-24,Cidara,CDTX,,,,,,,,PDF metadata /CreationDate,medium,2023-01-23,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CDTX?period1=1673593200&period2=1677049200&interval=1d&events=history,,TODO_SOURCE_NEEDED
+dd15c80512cccec8,2019-12-13,Horizon,HZNP,,,,,,,,PDF metadata /CreationDate,medium,2019-12-04,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/HZNP?period1=1574578800&period2=1578034800&interval=1d&events=history,,TODO_SOURCE_NEEDED
+66e326fd862af572,2023-01-24,Cidara,CDTX,,,,,,,,PDF metadata /CreationDate,medium,2023-01-18,,,,,,,,,,,,,,MARKET_ERROR: 404 Client Error: Not Found for url: https://query1.finance.yahoo.com/v8/finance/chart/CDTX?period1=1673161200&period2=1676617200&interval=1d&events=history,,TODO_SOURCE_NEEDED
+97cb97638c1fc01a,2022-06-09,,,,,,,,,,PDF metadata /CreationDate,medium,2022-05-31,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+0d2a6ee95a1222ca,2021-02-26,,,,,,,,,,PDF metadata /CreationDate,medium,2021-02-23,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+0fc8404dea4b49e7,2020-12-10,,,,,,,,,,PDF metadata /CreationDate,medium,2020-12-02,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+1034b51dfc26ba97,2020-12-17,,,,,,,,,,PDF metadata /CreationDate,medium,2020-12-16,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+bf90c16bcfc8dd56,2022-10-17,References to the,,,,,,,,,PDF metadata /CreationDate,medium,2022-10-07,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+09a334a6da830f6d,2020-10-02,,,,,,,,,,PDF metadata /CreationDate,medium,2020-09-29,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+1e073e5d75d2501a,2020-03-04,,,,,,,,,,PDF metadata /CreationDate,medium,2020-03-03,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+beb756b638efcd52,2022-10-17,,,,,,,,,,PDF metadata /CreationDate,medium,2022-10-12,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+e000494cea489c32,2023-02-09,,,,,,,,,,PDF metadata /CreationDate,medium,2023-02-07,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+2dcd82ca6df64ddf,2019-05-07,,,,,,,,,,PDF metadata /CreationDate,medium,2019-05-06,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+4673ede6596e5988,2023-04-19,,,,,,,,,,media Last-Modified header,low,2023-04-18,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+a49fd6fa786cde92,2023-06-08,,,,,,,,,,PDF metadata /CreationDate,medium,2023-06-05,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+53b122bb42436799,2023-02-09,,,,,,,,,,PDF metadata /CreationDate,medium,2023-02-01,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+74db73c2a563cd0a,2023-06-08,,,,,,,,,,PDF metadata /CreationDate,medium,2023-06-05,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+ab25c59d5732321c,2020-12-17,,,,,,,,,,PDF metadata /CreationDate,medium,2020-12-16,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+c5dd231a971d4725,2023-03-16,,,,,,,,,,PDF metadata /CreationDate,medium,2023-03-13,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+3a4dcb0e38851c6c,2023-05-19,,,,,,,,,,PDF metadata /CreationDate,medium,2023-05-12,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+c93ec1f8435c26b1,2021-02-26,,,,,,,,,,PDF metadata /CreationDate,medium,2021-02-23,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+d47bc763422380d4,2020-12-17,,,,,,,,,,PDF metadata /CreationDate,medium,2020-12-14,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+8402acbe7ffac6ca,2020-03-04,,,,,,,,,,PDF metadata /CreationDate,medium,2020-02-28,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+c145d311e42378bb,2020-10-02,,,,,,,,,,PDF metadata /CreationDate,medium,2020-09-25,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+e0e8d5db802b42ae,2021-03-05,,,,,,,,,,PDF metadata /CreationDate,medium,2021-03-01,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
+d64493489f965ed5,2022-06-08,,,,,,,,,,PDF metadata /CreationDate,medium,2022-06-02,,,,,,,,,,,,,,MARKET_TODO_TICKER,,TODO_SOURCE_NEEDED
