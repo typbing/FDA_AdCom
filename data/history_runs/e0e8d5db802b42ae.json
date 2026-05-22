@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:50:10.725314+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "e0e8d5db802b42ae",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-march-5-2021-meeting-announcement",
+    "title": "Vaccines and Related Biological Products Advisory Committee March 5, 2021 Meeting Briefing Document- WHO and CDC Links",
+    "url": "https://www.fda.gov/media/146339/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/history_pdfs/e0e8d5db802b42ae_Vaccines_and_Related_Biological_Products_Advisory_Committee_March_5_2021_Meeting_Briefing_Document-_WHO_and_CDC_Links.pdf",
+  "section_lengths": {
+    "executive_summary": 709
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

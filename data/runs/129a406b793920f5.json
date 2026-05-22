@@ -1,0 +1,85 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 75,
+    "confidence": 80,
+    "key_concerns": [
+      "Numerically higher early deaths in the ide-cel arm within the first 6 months (11.8% vs 6.8%)",
+      "Overall survival not improved; HR = 1.012 (95% CI: 0.731–1.400)",
+      "Interpretability of OS confounded by extensive crossover (56.1% of control arm received ide-cel)",
+      "Trial design limited bridging therapy to 1 cycle, which may have been inadequate for high-risk patients"
+    ],
+    "key_positives": [
+      "Statistically significant and clinically meaningful PFS benefit (HR = 0.493, median 13.3 vs 4.4 months)",
+      "High overall response rate (71.3% vs 41.7%) with deep and durable responses, including MRD negativity",
+      "Consistent benefit across all prespecified subgroups, including high-risk patients",
+      "Long treatment-free interval with a one-time infusion versus continuous standard therapy",
+      "No new safety signals; toxicity profile consistent with known, manageable, and predictable risks"
+    ],
+    "overall_sentiment": 7,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 75,
+      "confidence": 80,
+      "evidence_notes": [
+        "PFS HR = 0.493 (95% CI: 0.377–0.645), p < 0.0001; median PFS 13.3 vs 4.4 months (page 13)",
+        "ORR 71.3% vs 41.7%, p < 0.0001; 38.6% vs 5.3% achieved ≥CR (page 14)",
+        "OS HR = 1.012 (95% CI: 0.731–1.400) with median OS 41.4 vs 37.9 months (page 15)",
+        "Early deaths: 30/254 (11.8%) in ide-cel arm vs 9/132 (6.8%) in control within 6 months (page 17)",
+        "Of early deaths in the ide-cel arm, 17/30 (56.7%) never received ide-cel; 13 died from disease progression (page 18)",
+        "Crossover: 74/132 (56.1%) of control arm received ide-cel; median time to infusion 8.1 months (page 16)",
+        "Sensitivity analyses adjusting for crossover consistently showed HR < 1 for OS (page 16)",
+        "Standard regimens arm OS (37.9 months) substantially exceeded historical data (9–22 months) (Table 1.3-1, page 15)"
+      ],
+      "key_concerns": [
+        "Numerically higher early deaths in the ide-cel arm within the first 6 months (11.8% vs 6.8%)",
+        "Overall survival not improved; HR = 1.012 (95% CI: 0.731–1.400)",
+        "Interpretability of OS confounded by extensive crossover (56.1% of control arm received ide-cel)",
+        "Trial design limited bridging therapy to 1 cycle, which may have been inadequate for high-risk patients"
+      ],
+      "key_positives": [
+        "Statistically significant and clinically meaningful PFS benefit (HR = 0.493, median 13.3 vs 4.4 months)",
+        "High overall response rate (71.3% vs 41.7%) with deep and durable responses, including MRD negativity",
+        "Consistent benefit across all prespecified subgroups, including high-risk patients",
+        "Long treatment-free interval with a one-time infusion versus continuous standard therapy",
+        "No new safety signals; toxicity profile consistent with known, manageable, and predictable risks"
+      ],
+      "overall_sentiment": 7,
+      "questions_framing": {
+        "likely_questions": [
+          "Discuss the interpretability of OS in the context of extensive crossover.",
+          "Address the numerical imbalance in early deaths and whether it indicates a potential safety signal.",
+          "Evaluate the adequacy of the bridging therapy protocol and its impact on outcomes.",
+          "Consider the benefit-risk profile given the PFS advantage but uncertain OS benefit."
+        ],
+        "polarity": "cautious/negative",
+        "primary_focus": "Overall survival and early death imbalance"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:43:20.412722+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "129a406b793920f5",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-15-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03152024",
+    "title": "March 15, 2024 Meeting of the Oncologic Drugs Advisory Committee- Celgene Briefing Document (ABECMA)",
+    "url": "https://www.fda.gov/media/176990/download"
+  },
+  "page_count": 61,
+  "pdf_path": "data/raw_pdfs/129a406b793920f5_March_15_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Celgene_Briefing_Document_ABECMA.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 80,
+    "label": "STRONG_POSITIVE",
+    "probability": 75,
+    "rationale": [
+      "Concerns: Numerically higher early deaths in the ide-cel arm within the first 6 months (11.8% vs 6.8%); Overall survival not improved; HR = 1.012 (95% CI: 0.731–1.400); Interpretability of OS confounded by extensive crossover (56.1% of control arm received ide-cel); Trial design limited bridging therapy to 1 cycle, which may have been inadequate for high-risk patients",
+      "Positives: Statistically significant and clinically meaningful PFS benefit (HR = 0.493, median 13.3 vs 4.4 months); High overall response rate (71.3% vs 41.7%) with deep and durable responses, including MRD negativity; Consistent benefit across all prespecified subgroups, including high-risk patients; Long treatment-free interval with a one-time infusion versus continuous standard therapy; No new safety signals; toxicity profile consistent with known, manageable, and predictable risks"
+    ]
+  }
+}

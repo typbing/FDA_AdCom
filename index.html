@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FDA AdCom Research Dashboard</title>
+    <link rel="stylesheet" href="site/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">FDA AdCom monitor</p>
+        <h1>Research Dashboard</h1>
+      </div>
+      <div class="status-strip" aria-label="Project status">
+        <span id="data-status">Loading data</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="metric-grid" aria-label="Backtest metrics">
+        <article class="metric">
+          <span class="metric-label">Accuracy</span>
+          <strong id="metric-accuracy">--</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Actionable</span>
+          <strong id="metric-actionable">--</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Correct</span>
+          <strong id="metric-correct">--</strong>
+        </article>
+        <article class="metric">
+          <span class="metric-label">Fully Labeled</span>
+          <strong id="metric-labeled">--</strong>
+        </article>
+        <article class="metric warning">
+          <span class="metric-label">TODO Labels</span>
+          <strong id="metric-todo">--</strong>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <h2>Backtest Cases</h2>
+          <span id="case-count">-- cases</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Document</th>
+                <th>Ticker</th>
+                <th>Signal</th>
+                <th>Probability</th>
+                <th>Confidence</th>
+                <th>Target</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <tbody id="case-table"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="split">
+        <article class="panel">
+          <div class="section-heading">
+            <h2>Known Misses</h2>
+            <span id="miss-count">--</span>
+          </div>
+          <div id="miss-list" class="stack"></div>
+        </article>
+
+        <article class="panel">
+          <div class="section-heading">
+            <h2>Label Gaps</h2>
+            <span id="gap-count">--</span>
+          </div>
+          <div id="gap-list" class="stack"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <div class="section-heading">
+          <h2>Paper Trades</h2>
+          <span id="trade-count">-- rows</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Trade</th>
+                <th>Ticker</th>
+                <th>Signal</th>
+                <th>Probability</th>
+                <th>Confidence</th>
+                <th>Outcome</th>
+                <th>Notes</th>
+              </tr>
+            </thead>
+            <tbody id="trade-table"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="site/app.js"></script>
+  </body>
+</html>

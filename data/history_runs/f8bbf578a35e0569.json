@@ -1,0 +1,108 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 85,
+    "confidence": 80,
+    "key_concerns": [
+      "Small safety database (<90 subjects), limiting detection of rare adverse events",
+      "Hyperglycemia risk, especially in diabetics, requiring glucose monitoring",
+      "Hearing impairment (hypoacusis, tinnitus) with unknown mechanism",
+      "Higher infection rate vs placebo without clear cause",
+      "Undefined 'Active' Thyroid Eye Disease criteria for indication",
+      "Unknown long-term efficacy and safety of repeat treatment courses"
+    ],
+    "key_positives": [
+      "Significant proptosis reduction: 82% vs 16% placebo (2 mm threshold)",
+      "No approved drug therapies for Thyroid Eye Disease",
+      "Clinically meaningful improvement in diplopia and corneal coverage",
+      "Favorable effect on non-study eye (68% reduction)",
+      "Inclusion of patient-reported outcomes and clinician-reported outcomes"
+    ],
+    "overall_sentiment": 3,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 85,
+      "confidence": 80,
+      "evidence_notes": [
+        "Efficacy claim: 'Eighty-two percent (82%) of patients... had at least a two-millimeter reduction in ptosis [likely proptosis] compared to only 16 percent' (Section: Efficacy)",
+        "Clinical significance: 'A two-millimeter reduction is considered clinically significant because it is expected to reduce the incidence of diplopia and improve the lid coverage over the cornea' (Section: Efficacy)",
+        "Limited database: 'Less than 90 subjects treated with infusions of teprotumumab have been enrolled in controlled clinical trials' (Section: Efficacy C)",
+        "Safety signal: 'Based on the rule of 3’s, with a safety database of 90 subjects, adverse events may be expected to occur at rates of 3% without the event being observed' (Section: Efficacy C)",
+        "Hyperglycemia: 'Three teprotumumab subjects with normal fasting glucose values at Baseline demonstrated elevated fasting glucose values for at least 1 visit' (Section: Efficacy E)",
+        "Infection rate: 'The reported infection rate associated with teprotumumab was 33%, and higher than that of the placebo control in both studies' (Section: Safety I)",
+        "Hearing impairment: 'At least five patients reported hypoacusis/loss of hearing... The mechanism of action for hypoacusis remains unknown' (Section: Safety G)"
+      ],
+      "key_concerns": [
+        "Small safety database (<90 subjects), limiting detection of rare adverse events",
+        "Hyperglycemia risk, especially in diabetics, requiring glucose monitoring",
+        "Hearing impairment (hypoacusis, tinnitus) with unknown mechanism",
+        "Higher infection rate vs placebo without clear cause",
+        "Undefined 'Active' Thyroid Eye Disease criteria for indication",
+        "Unknown long-term efficacy and safety of repeat treatment courses"
+      ],
+      "key_positives": [
+        "Significant proptosis reduction: 82% vs 16% placebo (2 mm threshold)",
+        "No approved drug therapies for Thyroid Eye Disease",
+        "Clinically meaningful improvement in diplopia and corneal coverage",
+        "Favorable effect on non-study eye (68% reduction)",
+        "Inclusion of patient-reported outcomes and clinician-reported outcomes"
+      ],
+      "overall_sentiment": 3,
+      "questions_framing": {
+        "description": "FDA briefing poses neutral benefit-risk question ('Do the potential benefits... outweigh the potential risks?') and requests labeling recommendations, indicating standard advisory committee framing focused on approval conditions rather than outright rejection."
+      }
+    }
+  },
+  "created_at": "2026-05-21T13:57:11.248573+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+    "id": "f8bbf578a35e0569",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "url": "https://www.fda.gov/media/133429/download"
+  },
+  "history_rank": {
+    "document_id": "f8bbf578a35e0569",
+    "file": "data/history_runs/f8bbf578a35e0569.json",
+    "has_ai_analysis": false,
+    "meeting_date": "2019-12-13",
+    "page_count": 50,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "efficacy and safety sections",
+      "substantial PDF length",
+      "ticker inferred from same meeting page: HZNP"
+    ],
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "sponsor": "Horizon",
+    "ticker": "HZNP",
+    "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "url": "https://www.fda.gov/media/133429/download",
+    "value_score": 79
+  },
+  "page_count": 50,
+  "pdf_path": "data/history_pdfs/f8bbf578a35e0569_FDA_Briefing_Information_for_the_December_13_2019_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 80,
+    "label": "STRONG_POSITIVE",
+    "probability": 85,
+    "rationale": [
+      "Concerns: Small safety database (<90 subjects), limiting detection of rare adverse events; Hyperglycemia risk, especially in diabetics, requiring glucose monitoring; Hearing impairment (hypoacusis, tinnitus) with unknown mechanism; Higher infection rate vs placebo without clear cause; Undefined 'Active' Thyroid Eye Disease criteria for indication",
+      "Positives: Significant proptosis reduction: 82% vs 16% placebo (2 mm threshold); No approved drug therapies for Thyroid Eye Disease; Clinically meaningful improvement in diplopia and corneal coverage; Favorable effect on non-study eye (68% reduction); Inclusion of patient-reported outcomes and clinician-reported outcomes"
+    ]
+  }
+}

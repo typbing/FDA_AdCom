@@ -1,0 +1,75 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 45,
+    "confidence": 45,
+    "key_concerns": [
+      "Early overall survival detriment observed in the cilta-cel arm",
+      "Higher rate of deaths due to adverse events in the cilta-cel arm (11% vs 8%)",
+      "Significant underreporting of Grade 3-4 lymphopenia not recovered by Day 30 (corrected from 3.2% to 29.3%)",
+      "Neurological toxicities including encephalopathy and parkinsonism",
+      "Retrospective identification of high-risk subpopulations suggests post-hoc data exploration",
+      "Increased rate of early deaths before disease progression in the cilta-cel arm (8% vs 2%)"
+    ],
+    "key_positives": [
+      "Median duration of response has not been reached, indicating durable responses",
+      "Corrections are minor in some areas and do not fundamentally alter the efficacy claims",
+      "Serious adverse event rates similar between arms after correction (37.8% vs 38.9%)"
+    ],
+    "overall_sentiment": -5,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 45,
+      "confidence": 45,
+      "evidence_notes": [
+        "Corrected SAE rates slightly higher but similar between arms (37.8% vs 38.9%) [Errata item 1: 'Serious adverse events (SAEs) occurred in 37.8% and 38.9% of patients in the cilta-cel and standard therapy arms, respectively.']",
+        "Duration of response not reached, suggesting ongoing benefit [Errata item 2: 'median duration of response has not been reached.']",
+        "Early OS detriment acknowledged, with more deaths due to AEs in cilta-cel arm [Errata item 17: 'more deaths due to AEs occurred in the cilta-cel arm (11%) compared to the standard therapy arm (8%)']",
+        "Significant correction of lymphopenia grade 3-4 not recovered by Day 30 from 3.2% to 29.3% [Errata item 16: 'row 2 (lymphopenia) ... reads 6 (3.2%) should read 55 (29.3%).']",
+        "Higher proportion of early deaths before disease progression in cilta-cel arm [Errata item 17: 'higher proportion of subjects died before disease progression in the cilta-cel arm (8%) compared to the standard therapy arm (2%)']",
+        "Five high-risk subpopulations retrospectively identified, including rapid progressors, extramedullary disease, high beta-2 microglobulin, poor ECOG, and early progressors on cilta-cel [Errata item 19: 'These five high-risk subpopulations were retrospectively identified...']"
+      ],
+      "key_concerns": [
+        "Early overall survival detriment observed in the cilta-cel arm",
+        "Higher rate of deaths due to adverse events in the cilta-cel arm (11% vs 8%)",
+        "Significant underreporting of Grade 3-4 lymphopenia not recovered by Day 30 (corrected from 3.2% to 29.3%)",
+        "Neurological toxicities including encephalopathy and parkinsonism",
+        "Retrospective identification of high-risk subpopulations suggests post-hoc data exploration",
+        "Increased rate of early deaths before disease progression in the cilta-cel arm (8% vs 2%)"
+      ],
+      "key_positives": [
+        "Median duration of response has not been reached, indicating durable responses",
+        "Corrections are minor in some areas and do not fundamentally alter the efficacy claims",
+        "Serious adverse event rates similar between arms after correction (37.8% vs 38.9%)"
+      ],
+      "overall_sentiment": -5,
+      "questions_framing": {
+        "description": "FDA questions are expected to focus on the observed early overall survival detriment and increased toxicity in the cilta-cel arm, seeking committee input on the benefit-risk assessment for the proposed earlier-line indication.",
+        "polarity": "negative"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:39:02.980044+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "f672b1312adfbc7a",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-15-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03152024",
+    "title": "March 15, 2024 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document- Errata (CARVYKTI)",
+    "url": "https://www.fda.gov/media/176987/download"
+  },
+  "page_count": 5,
+  "pdf_path": "data/raw_pdfs/f672b1312adfbc7a_March_15_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document-_Errata_CARVYKTI.pdf",
+  "sections_found": [
+    "executive_summary",
+    "safety"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 45,
+    "label": "MIXED",
+    "probability": 45,
+    "rationale": [
+      "Concerns: Early overall survival detriment observed in the cilta-cel arm; Higher rate of deaths due to adverse events in the cilta-cel arm (11% vs 8%); Significant underreporting of Grade 3-4 lymphopenia not recovered by Day 30 (corrected from 3.2% to 29.3%); Neurological toxicities including encephalopathy and parkinsonism; Retrospective identification of high-risk subpopulations suggests post-hoc data exploration",
+      "Positives: Median duration of response has not been reached, indicating durable responses; Corrections are minor in some areas and do not fundamentally alter the efficacy claims; Serious adverse event rates similar between arms after correction (37.8% vs 38.9%)"
+    ]
+  }
+}

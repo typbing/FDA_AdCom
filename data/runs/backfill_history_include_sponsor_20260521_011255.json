@@ -1,0 +1,226 @@
+[
+  {
+    "document": {
+      "title": "Horizon Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+      "url": "https://www.fda.gov/media/133431/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "07ae88dc3a7a1552"
+    },
+    "pdf_path": "data/history_pdfs/07ae88dc3a7a1552_Horizon_Briefing_Information_for_the_December_13_2019_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committe.pdf",
+    "page_count": 84,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 1118,
+      "background": 7710,
+      "efficacy": 12348,
+      "safety": 26362
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:14:20.848863+00:00",
+    "result_path": "data/history_runs/07ae88dc3a7a1552.json"
+  },
+  {
+    "document": {
+      "title": "Final Questions for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC)",
+      "url": "https://www.fda.gov/media/133642/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "765741af520c206b"
+    },
+    "pdf_path": "data/history_pdfs/765741af520c206b_Final_Questions_for_the_December_13_2019_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee_DODAC.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 1713
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:14:21.438455+00:00",
+    "result_path": "data/history_runs/765741af520c206b.json"
+  },
+  {
+    "document": {
+      "title": "October 17-19, 2022 Hearing of the Obstetrics Reproductive and Urologic Drugs Advisory Committee - References to the Briefing Documents",
+      "url": "https://www.fda.gov/media/162245/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-october-17-19-2022-hearing-announcement-involving-obstetrics-reproductive-and",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "bf90c16bcfc8dd56"
+    },
+    "pdf_path": "data/history_pdfs/bf90c16bcfc8dd56_October_17-19_2022_Hearing_of_the_Obstetrics_Reproductive_and_Urologic_Drugs_Advisory_Committee_-_References_to_the_Brie.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 266
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:14:22.000065+00:00",
+    "result_path": "data/history_runs/bf90c16bcfc8dd56.json"
+  },
+  {
+    "document": {
+      "title": "October 17-19, 2022 Hearing of the Obstetrics Reproductive and Urologic Drugs Advisory Committee - Covis Briefing Document",
+      "url": "https://www.fda.gov/media/162247/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-october-17-19-2022-hearing-announcement-involving-obstetrics-reproductive-and",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "9c95a2aedd2a812b"
+    },
+    "pdf_path": "data/history_pdfs/9c95a2aedd2a812b_October_17-19_2022_Hearing_of_the_Obstetrics_Reproductive_and_Urologic_Drugs_Advisory_Committee_-_Covis_Briefing_Documen.pdf",
+    "page_count": 175,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "background": 1864,
+      "safety": 12116,
+      "efficacy": 10783,
+      "executive_summary": 23410
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:14:34.845499+00:00",
+    "result_path": "data/history_runs/9c95a2aedd2a812b.json"
+  },
+  {
+    "document": {
+      "title": "October 17-19, 2022 Hearing of the Obstetrics Reproductive and Urologic Drugs Advisory Committee - Final Questions",
+      "url": "https://www.fda.gov/media/162270/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-october-17-19-2022-hearing-announcement-involving-obstetrics-reproductive-and",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "beb756b638efcd52"
+    },
+    "pdf_path": "data/history_pdfs/beb756b638efcd52_October_17-19_2022_Hearing_of_the_Obstetrics_Reproductive_and_Urologic_Drugs_Advisory_Committee_-_Final_Questions.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 1567
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:14:35.507471+00:00",
+    "result_path": "data/history_runs/beb756b638efcd52.json"
+  },
+  {
+    "document": {
+      "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- Regeneron Briefing Document",
+      "url": "https://www.fda.gov/media/164339/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "3ea9b6d3e184b0d5"
+    },
+    "pdf_path": "data/history_pdfs/3ea9b6d3e184b0d5_January_9_2023_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee-_Regeneron_Briefing_Document.pdf",
+    "page_count": 90,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 8903,
+      "background": 7701,
+      "safety": 30170,
+      "efficacy": 23454
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:14:47.007361+00:00",
+    "result_path": "data/history_runs/3ea9b6d3e184b0d5.json"
+  },
+  {
+    "document": {
+      "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- Final Questions",
+      "url": "https://www.fda.gov/media/164372/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "74f2619b703a09c2"
+    },
+    "pdf_path": "data/history_pdfs/74f2619b703a09c2_January_9_2023_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee-_Final_Questions.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 725
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:14:47.556122+00:00",
+    "result_path": "data/history_runs/74f2619b703a09c2.json"
+  },
+  {
+    "document": {
+      "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- Cidara Briefing Document",
+      "url": "https://www.fda.gov/media/164668/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "07d0a87f7ff02db9"
+    },
+    "pdf_path": "data/history_pdfs/07d0a87f7ff02db9_January_24_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_Cidara_Briefing_Document.pdf",
+    "page_count": 163,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 1188,
+      "background": 1613,
+      "efficacy": 89928,
+      "safety": 75925
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:15:10.512098+00:00",
+    "result_path": "data/history_runs/07d0a87f7ff02db9.json"
+  },
+  {
+    "document": {
+      "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- Final Questions",
+      "url": "https://www.fda.gov/media/164722/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "fd90bab1d0efa617"
+    },
+    "pdf_path": "data/history_pdfs/fd90bab1d0efa617_January_24_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_Final_Questions.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 818
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:15:11.965372+00:00",
+    "result_path": "data/history_runs/fd90bab1d0efa617.json"
+  },
+  {
+    "document": {
+      "title": "February 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Final Questions",
+      "url": "https://www.fda.gov/media/165280/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-february-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+      "id": "e000494cea489c32"
+    },
+    "pdf_path": "data/history_pdfs/e000494cea489c32_February_9_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Final_Questions.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 1443
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T07:15:13.288044+00:00",
+    "result_path": "data/history_runs/e000494cea489c32.json"
+  }
+]

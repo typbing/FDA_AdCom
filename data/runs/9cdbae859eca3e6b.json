@@ -1,0 +1,80 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 90,
+    "confidence": 85,
+    "key_concerns": [
+      "Early imbalance in PFS and OS events in the cilta-cel arm before treatment administration, potentially due to disease progression or inadequate bridging therapy.",
+      "Reliance on a pre-specified weighted analysis to address the early event imbalance may raise interpretability questions.",
+      "Long-term safety and durability of response in earlier lines of therapy remain uncertain."
+    ],
+    "key_positives": [
+      "Statistically significant and clinically meaningful PFS improvement with 60% risk reduction (HR 0.40, p<0.0001).",
+      "Deep and durable responses with high MRD negativity rate and CR or better rate.",
+      "Strong trend toward improved overall survival (HR 0.57, 95% CI 0.40–0.83).",
+      "Health-related quality of life improvements over standard of care.",
+      "Consistent efficacy across all prespecified subgroups."
+    ],
+    "overall_sentiment": 9,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 90,
+      "confidence": 85,
+      "evidence_notes": [
+        "Median PFS not estimable in cilta-cel arm vs 11.8 months in SoC (95% CI: 9.7–13.8) – indicates substantial PFS delay.",
+        "ITT HR=0.40 (95% CI: 0.29–0.55, p<0.0001) – robust statistical significance for primary endpoint.",
+        "Weighted analysis HR=0.26 (95% CI: 0.18–0.38, p<0.0001) – 74% risk reduction when early events excluded.",
+        "OS HR=0.57 (95% CI: 0.40–0.83) – trend toward survival benefit.",
+        "\"Early imbalance... driven by disease progression... not due to cilta-cel toxicity\" – sponsor addresses potential confound.",
+        "\"No specific patient population was identified as driving this early imbalance\" – suggests broad applicability.",
+        "\"Safety findings... consistent with previous cilta-cel experience\" – safety profile is known and manageable."
+      ],
+      "key_concerns": [
+        "Early imbalance in PFS and OS events in the cilta-cel arm before treatment administration, potentially due to disease progression or inadequate bridging therapy.",
+        "Reliance on a pre-specified weighted analysis to address the early event imbalance may raise interpretability questions.",
+        "Long-term safety and durability of response in earlier lines of therapy remain uncertain."
+      ],
+      "key_positives": [
+        "Statistically significant and clinically meaningful PFS improvement with 60% risk reduction (HR 0.40, p<0.0001).",
+        "Deep and durable responses with high MRD negativity rate and CR or better rate.",
+        "Strong trend toward improved overall survival (HR 0.57, 95% CI 0.40–0.83).",
+        "Health-related quality of life improvements over standard of care.",
+        "Consistent efficacy across all prespecified subgroups."
+      ],
+      "overall_sentiment": 9,
+      "questions_framing": {
+        "focus_areas": [
+          "Interpretability of the primary PFS analysis given early event imbalance and use of weighted methodology.",
+          "Adequacy of bridging therapy and its impact on outcomes in both arms.",
+          "Long-term safety and whether the PFS benefit will translate into a definitive OS advantage."
+        ],
+        "polarity": "cautiously positive"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:40:07.205023+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "9cdbae859eca3e6b",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-15-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03152024",
+    "title": "March 15, 2024 Meeting of the Oncologic Drugs Advisory Committee- Janssen Briefing Document (CARVYKTI)",
+    "url": "https://www.fda.gov/media/176988/download"
+  },
+  "page_count": 93,
+  "pdf_path": "data/raw_pdfs/9cdbae859eca3e6b_March_15_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Janssen_Briefing_Document_CARVYKTI.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 85,
+    "label": "STRONG_POSITIVE",
+    "probability": 90,
+    "rationale": [
+      "Concerns: Early imbalance in PFS and OS events in the cilta-cel arm before treatment administration, potentially due to disease progression or inadequate bridging therapy.; Reliance on a pre-specified weighted analysis to address the early event imbalance may raise interpretability questions.; Long-term safety and durability of response in earlier lines of therapy remain uncertain.",
+      "Positives: Statistically significant and clinically meaningful PFS improvement with 60% risk reduction (HR 0.40, p<0.0001).; Deep and durable responses with high MRD negativity rate and CR or better rate.; Strong trend toward improved overall survival (HR 0.57, 95% CI 0.40–0.83).; Health-related quality of life improvements over standard of care.; Consistent efficacy across all prespecified subgroups."
+    ]
+  }
+}

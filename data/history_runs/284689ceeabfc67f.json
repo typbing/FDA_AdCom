@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:48:21.908778+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "284689ceeabfc67f",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-october-22-2020-meeting-announcement",
+    "title": "Vaccines and Related Biological Products Advisory Committee October 22, 2020 Meeting Briefing Document- FDA",
+    "url": "https://www.fda.gov/media/142723/download"
+  },
+  "page_count": 38,
+  "pdf_path": "data/history_pdfs/284689ceeabfc67f_Vaccines_and_Related_Biological_Products_Advisory_Committee_October_22_2020_Meeting_Briefing_Document-_FDA.pdf",
+  "section_lengths": {
+    "background": 32919,
+    "efficacy": 5378,
+    "executive_summary": 781,
+    "safety": 293
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

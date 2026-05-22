@@ -1,0 +1,60 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 50,
+    "confidence": 10,
+    "key_concerns": [
+      "Adequacy of available data for MRD as endpoint",
+      "Applicability across different MM disease settings",
+      "Acceptability of MRD assessment timepoints",
+      "Durability of MRD negative response"
+    ],
+    "key_positives": [],
+    "overall_sentiment": -3,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 50,
+      "confidence": 10,
+      "evidence_notes": [
+        "The FDA questions the adequacy of data to support MRD as an accelerated approval endpoint (Q1: 'Discuss the adequacy of the available data...')",
+        "Uncertainty about data supporting MRD use in newly diagnosed and relapsed/refractory MM (Q2: 'Discuss whether the available data supports...')",
+        "Concerns about specific MRD assessment timepoints and durability requirement (Q3: 'Discuss the acceptability of the timepoints...', 'Requirement for assessment of durability')",
+        "Vote question implies evidence is borderline (Q4: 'Does the evidence support...')"
+      ],
+      "key_concerns": [
+        "Adequacy of available data for MRD as endpoint",
+        "Applicability across different MM disease settings",
+        "Acceptability of MRD assessment timepoints",
+        "Durability of MRD negative response"
+      ],
+      "key_positives": [],
+      "overall_sentiment": -3,
+      "questions_framing": {
+        "focus": "adequacy and applicability of MRD as surrogate endpoint",
+        "polarity": "slightly negative",
+        "type": "discussion and vote questions highlighting evidence gaps"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:46:50.122526+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "c3d27fbadaf0a35d",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-12-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04122024",
+    "title": "April 12, 2024 Meeting of the Oncologic Drugs Advisory Committee- Final Questions",
+    "url": "https://www.fda.gov/media/177735/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/raw_pdfs/c3d27fbadaf0a35d_April_12_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Final_Questions.pdf",
+  "sections_found": [
+    "executive_summary"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 10,
+    "label": "MIXED",
+    "probability": 50,
+    "rationale": [
+      "Concerns: Adequacy of available data for MRD as endpoint; Applicability across different MM disease settings; Acceptability of MRD assessment timepoints; Durability of MRD negative response"
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+[
+  {
+    "file": "data/history_runs/2b2013a2acf6a3ce.json",
+    "document_id": "2b2013a2acf6a3ce",
+    "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/164666/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+    "meeting_date": "2023-01-24",
+    "sponsor": "Cidara",
+    "ticker": "CDTX",
+    "page_count": 75,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 98,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "questions available",
+      "efficacy and safety sections",
+      "substantial PDF length",
+      "ticker inferred from same meeting page: CDTX"
+    ]
+  },
+  {
+    "file": "data/history_runs/0b99a891dd01a3b2.json",
+    "document_id": "0b99a891dd01a3b2",
+    "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document",
+    "url": "https://www.fda.gov/media/165961/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023",
+    "meeting_date": "2023-03-09",
+    "sponsor": "Genentech",
+    "ticker": "RHHBY",
+    "page_count": 104,
+    "sections_found": [
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "has_ai_analysis": true,
+    "value_score": 96,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "ticker mapped: RHHBY",
+      "market reaction can be fetched",
+      "efficacy and safety sections",
+      "substantial PDF length",
+      "AI analysis already available"
+    ]
+  },
+  {
+    "file": "data/history_runs/07d0a87f7ff02db9.json",
+    "document_id": "07d0a87f7ff02db9",
+    "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- Cidara Briefing Document",
+    "url": "https://www.fda.gov/media/164668/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+    "meeting_date": "2023-01-24",
+    "sponsor": "Cidara",
+    "ticker": "CDTX",
+    "page_count": 163,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 91,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "ticker mapped: CDTX",
+      "market reaction can be fetched",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ]
+  },
+  {
+    "file": "data/history_runs/3ea9b6d3e184b0d5.json",
+    "document_id": "3ea9b6d3e184b0d5",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- Regeneron Briefing Document",
+    "url": "https://www.fda.gov/media/164339/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "meeting_date": "2023-01-09",
+    "sponsor": "Regeneron",
+    "ticker": "REGN",
+    "page_count": 90,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 91,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "ticker mapped: REGN",
+      "market reaction can be fetched",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ]
+  },
+  {
+    "file": "data/history_runs/07ae88dc3a7a1552.json",
+    "document_id": "07ae88dc3a7a1552",
+    "title": "Horizon Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "url": "https://www.fda.gov/media/133431/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "meeting_date": "2019-12-13",
+    "sponsor": "Horizon",
+    "ticker": "HZNP",
+    "page_count": 84,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 91,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "ticker mapped: HZNP",
+      "market reaction can be fetched",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ]
+  },
+  {
+    "file": "data/history_runs/6df8a6a4aa29769e.json",
+    "document_id": "6df8a6a4aa29769e",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/164338/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "meeting_date": "2023-01-09",
+    "sponsor": "Regeneron",
+    "ticker": "REGN",
+    "page_count": 64,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 79,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "efficacy and safety sections",
+      "substantial PDF length",
+      "ticker inferred from same meeting page: REGN"
+    ]
+  },
+  {
+    "file": "data/history_runs/f8bbf578a35e0569.json",
+    "document_id": "f8bbf578a35e0569",
+    "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "url": "https://www.fda.gov/media/133429/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "meeting_date": "2019-12-13",
+    "sponsor": "Horizon",
+    "ticker": "HZNP",
+    "page_count": 50,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 79,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "efficacy and safety sections",
+      "substantial PDF length",
+      "ticker inferred from same meeting page: HZNP"
+    ]
+  },
+  {
+    "file": "data/history_runs/2252b7c3b1118d54.json",
+    "document_id": "2252b7c3b1118d54",
+    "title": "May 9-10, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Obstetrics, Reproductive and Urologic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/167892/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-9-10-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-obstetrics-reproductive-and",
+    "meeting_date": "2023-05-09",
+    "sponsor": null,
+    "ticker": null,
+    "page_count": 130,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 78,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "questions available",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ]
+  },
+  {
+    "file": "data/history_runs/44ec7ad56d1a47b2.json",
+    "document_id": "44ec7ad56d1a47b2",
+    "title": "February 15, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/165338/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/february-15-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-anesthetic-and-analgesic",
+    "meeting_date": "2023-02-15",
+    "sponsor": null,
+    "ticker": null,
+    "page_count": 85,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 78,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "questions available",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ]
+  },
+  {
+    "file": "data/history_runs/1b07cb209a078f7d.json",
+    "document_id": "1b07cb209a078f7d",
+    "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/169226/download",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+    "meeting_date": "2023-06-08",
+    "sponsor": null,
+    "ticker": null,
+    "page_count": 55,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "has_ai_analysis": false,
+    "value_score": 78,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "questions available",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ]
+  }
+]

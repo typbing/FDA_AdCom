@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T06:55:19.829147+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "40b964bf5edaa2cb",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-19-2023-meeting-anesthetic-and-analgesic-drug-products-advisory-committee-meeting-announcement",
+    "title": "April 19, 2023 Meeting of the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/167164/download"
+  },
+  "page_count": 174,
+  "pdf_path": "data/history_pdfs/40b964bf5edaa2cb_April_19_2023_Meeting_of_the_Anesthetic_and_Analgesic_Drug_Products_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "section_lengths": {
+    "background": 4034,
+    "efficacy": 24103,
+    "executive_summary": 9942,
+    "safety": 4447
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

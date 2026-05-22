@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:48:19.670006+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "09a334a6da830f6d",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-october-2-2020-meeting-announcement",
+    "title": "Vaccines and Related Biological Products Advisory Committee October 2, 2020 Meeting Briefing Materials Committee Questions",
+    "url": "https://www.fda.gov/media/142502/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/history_pdfs/09a334a6da830f6d_Vaccines_and_Related_Biological_Products_Advisory_Committee_October_2_2020_Meeting_Briefing_Materials_Committee_Question.pdf",
+  "section_lengths": {
+    "executive_summary": 572
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:48:16.808374+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "35086eada06cf1cb",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-7-2019-meeting-pharmaceutical-science-and-clinical-pharmacology-advisory-committee-meeting",
+    "title": "FDA Briefing Information for the May 07, 2019 Meeting of the Pharmaceutical Science and Clinical Pharmacology (PSCP) Drugs Advisory Committee",
+    "url": "https://www.fda.gov/media/124495/download"
+  },
+  "page_count": 15,
+  "pdf_path": "data/history_pdfs/35086eada06cf1cb_FDA_Briefing_Information_for_the_May_07_2019_Meeting_of_the_Pharmaceutical_Science_and_Clinical_Pharmacology_PSCP_Drugs_.pdf",
+  "section_lengths": {
+    "background": 4161,
+    "efficacy": 3949,
+    "executive_summary": 29998,
+    "questions": 29972,
+    "safety": 11196
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 85,
+    "confidence": 70,
+    "key_concerns": [
+      "Grade 3/4 neutropenia and thrombocytopenia requiring dose reduction in 49% of patients",
+      "Potential for severe bleeding and infections, though comparable to placebo",
+      "IRRs, LFT abnormalities, and hepatic adverse events, mostly non-severe"
+    ],
+    "key_positives": [
+      "Statistically significant improvement in ≥8-week and ≥24-week RBC TI (p<0.001)",
+      "Durable transfusion independence with median 51.6 weeks for ≥8-week TI responders",
+      "17.8% of patients achieved ≥1-year RBC TI, clinically meaningful in this population",
+      "Exposure-efficacy positive relationship supports dose selection",
+      "Unmet medical need with limited approved therapies for ESA-refractory LR MDS",
+      "Safety profile manageable with dose modifications and monitoring"
+    ],
+    "overall_sentiment": 9,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 85,
+      "confidence": 70,
+      "evidence_notes": [
+        "\"≥ 8-week RBC TI: 39.8% in the imetelstat group compared to 15.0% in the placebo group, p < 0.001\" - Primary endpoint met with large effect size.",
+        "\"≥ 24-week RBC TI: 28.0% in the imetelstat group compared to 3.3% in the placebo group, p < 0.001\" - Durable response key secondary endpoint.",
+        "\"Among patients who achieved ≥ 8-week RBC TI, the median length of TI was 51.6 weeks in imetelstat arm and 13.3 weeks in placebo\" - Demonstrates long duration of benefit.",
+        "\"17.8% of patients in the imetelstat group had ≥ 1-year RBC TI, versus 1.7% in the placebo group (p=0.002)\" - One-third of life expectancy in TI, highly clinically meaningful.",
+        "\"no significant E-R relationship for any grade or Grade 3/4 infection or bleeding events\" - Suggests cytopenias not translating into higher severe clinical events.",
+        "\"Dose reductions mitigated the risks of clinical consequences... while enabling patients to continue treatment\" - Risk management strategy effective."
+      ],
+      "key_concerns": [
+        "Grade 3/4 neutropenia and thrombocytopenia requiring dose reduction in 49% of patients",
+        "Potential for severe bleeding and infections, though comparable to placebo",
+        "IRRs, LFT abnormalities, and hepatic adverse events, mostly non-severe"
+      ],
+      "key_positives": [
+        "Statistically significant improvement in ≥8-week and ≥24-week RBC TI (p<0.001)",
+        "Durable transfusion independence with median 51.6 weeks for ≥8-week TI responders",
+        "17.8% of patients achieved ≥1-year RBC TI, clinically meaningful in this population",
+        "Exposure-efficacy positive relationship supports dose selection",
+        "Unmet medical need with limited approved therapies for ESA-refractory LR MDS",
+        "Safety profile manageable with dose modifications and monitoring"
+      ],
+      "overall_sentiment": 9,
+      "questions_framing": {
+        "polarity": "Not provided in document sections; FDA questions likely focus on safety and benefit-risk",
+        "presumed_focus": [
+          "Safety of cytopenias",
+          "Durability of response",
+          "Patient selection criteria"
+        ]
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:36:37.310759+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "dc56c78452bdfcc3",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-14-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03142024",
+    "title": "March 14, 2024 Meeting of the Oncologic Drugs Advisory Committee- Geron Briefing Document",
+    "url": "https://www.fda.gov/media/176968/download"
+  },
+  "page_count": 116,
+  "pdf_path": "data/raw_pdfs/dc56c78452bdfcc3_March_14_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Geron_Briefing_Document.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 70,
+    "label": "STRONG_POSITIVE",
+    "probability": 85,
+    "rationale": [
+      "Concerns: Grade 3/4 neutropenia and thrombocytopenia requiring dose reduction in 49% of patients; Potential for severe bleeding and infections, though comparable to placebo; IRRs, LFT abnormalities, and hepatic adverse events, mostly non-severe",
+      "Positives: Statistically significant improvement in ≥8-week and ≥24-week RBC TI (p<0.001); Durable transfusion independence with median 51.6 weeks for ≥8-week TI responders; 17.8% of patients achieved ≥1-year RBC TI, clinically meaningful in this population; Exposure-efficacy positive relationship supports dose selection; Unmet medical need with limited approved therapies for ESA-refractory LR MDS"
+    ]
+  }
+}

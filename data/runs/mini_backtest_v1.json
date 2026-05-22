@@ -1,0 +1,80 @@
+{
+  "labeled_analyzed_count": 6,
+  "actionable_count": 5,
+  "correct_count": 3,
+  "accuracy": 0.6,
+  "rows": [
+    {
+      "document_id": "2b2013a2acf6a3ce",
+      "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "ticker": "CDTX",
+      "signal": "MIXED",
+      "signal_bucket": "mixed",
+      "probability": 55,
+      "confidence": 70,
+      "target_outcome": "positive",
+      "correct": null,
+      "value_score": 100
+    },
+    {
+      "document_id": "0b99a891dd01a3b2",
+      "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document",
+      "ticker": "RHHBY",
+      "signal": "POSITIVE",
+      "signal_bucket": "positive",
+      "probability": 65,
+      "confidence": 80,
+      "target_outcome": "positive",
+      "correct": true,
+      "value_score": 96
+    },
+    {
+      "document_id": "6df8a6a4aa29769e",
+      "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+      "ticker": "REGN",
+      "signal": "STRONG_NEGATIVE",
+      "signal_bucket": "negative",
+      "probability": 15,
+      "confidence": 90,
+      "target_outcome": "positive",
+      "correct": false,
+      "value_score": 84
+    },
+    {
+      "document_id": "f8bbf578a35e0569",
+      "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+      "ticker": "HZNP",
+      "signal": "STRONG_POSITIVE",
+      "signal_bucket": "positive",
+      "probability": 85,
+      "confidence": 80,
+      "target_outcome": "positive",
+      "correct": true,
+      "value_score": 84
+    },
+    {
+      "document_id": "2252b7c3b1118d54",
+      "title": "May 9-10, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Obstetrics, Reproductive and Urologic Drugs Advisory Committee- FDA Briefing Document",
+      "ticker": null,
+      "signal": "STRONG_NEGATIVE",
+      "signal_bucket": "negative",
+      "probability": 30,
+      "confidence": 90,
+      "target_outcome": "positive",
+      "correct": false,
+      "value_score": 83
+    },
+    {
+      "document_id": "1b07cb209a078f7d",
+      "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "ticker": null,
+      "signal": "STRONG_POSITIVE",
+      "signal_bucket": "positive",
+      "probability": 85,
+      "confidence": 70,
+      "target_outcome": "positive",
+      "correct": true,
+      "value_score": 83
+    }
+  ]
+}

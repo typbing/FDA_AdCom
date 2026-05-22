@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T07:14:22.000065+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+    "id": "bf90c16bcfc8dd56",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-october-17-19-2022-hearing-announcement-involving-obstetrics-reproductive-and",
+    "title": "October 17-19, 2022 Hearing of the Obstetrics Reproductive and Urologic Drugs Advisory Committee - References to the Briefing Documents",
+    "url": "https://www.fda.gov/media/162245/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/history_pdfs/bf90c16bcfc8dd56_October_17-19_2022_Hearing_of_the_Obstetrics_Reproductive_and_Urologic_Drugs_Advisory_Committee_-_References_to_the_Brie.pdf",
+  "section_lengths": {
+    "executive_summary": 266
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

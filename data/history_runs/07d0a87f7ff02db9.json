@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T07:15:10.512098+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+    "id": "07d0a87f7ff02db9",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+    "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- Cidara Briefing Document",
+    "url": "https://www.fda.gov/media/164668/download"
+  },
+  "page_count": 163,
+  "pdf_path": "data/history_pdfs/07d0a87f7ff02db9_January_24_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_Cidara_Briefing_Document.pdf",
+  "section_lengths": {
+    "background": 1613,
+    "efficacy": 89928,
+    "executive_summary": 1188,
+    "safety": 75925
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

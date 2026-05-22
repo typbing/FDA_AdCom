@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T07:14:34.845499+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+    "id": "9c95a2aedd2a812b",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-october-17-19-2022-hearing-announcement-involving-obstetrics-reproductive-and",
+    "title": "October 17-19, 2022 Hearing of the Obstetrics Reproductive and Urologic Drugs Advisory Committee - Covis Briefing Document",
+    "url": "https://www.fda.gov/media/162247/download"
+  },
+  "page_count": 175,
+  "pdf_path": "data/history_pdfs/9c95a2aedd2a812b_October_17-19_2022_Hearing_of_the_Obstetrics_Reproductive_and_Urologic_Drugs_Advisory_Committee_-_Covis_Briefing_Documen.pdf",
+  "section_lengths": {
+    "background": 1864,
+    "efficacy": 10783,
+    "executive_summary": 23410,
+    "safety": 12116
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

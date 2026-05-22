@@ -1,0 +1,27 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T06:56:07.055521+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "3b3b8e54170847af",
+    "source_page": "https://www.fda.gov/advisory-committees/committees-and-meeting-materials/may-19-2023-meeting-gastrointestinal-drugs-advisory-committee-meeting-announcement-05192023",
+    "title": "May 19, 2023 Meeting of the Gastrointestinal Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/168215/download"
+  },
+  "page_count": 87,
+  "pdf_path": "data/history_pdfs/3b3b8e54170847af_May_19_2023_Meeting_of_the_Gastrointestinal_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "section_lengths": {
+    "background": 22083,
+    "efficacy": 5453,
+    "executive_summary": 3504,
+    "questions": 2265,
+    "safety": 1574
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ]
+}

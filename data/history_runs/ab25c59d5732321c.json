@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:49:52.200409+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "ab25c59d5732321c",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-december-17-2020-meeting-announcement",
+    "title": "Vaccines and Related Biological Products Advisory Committee December 17, 2020 Meeting Voting Question",
+    "url": "https://www.fda.gov/media/144586/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/history_pdfs/ab25c59d5732321c_Vaccines_and_Related_Biological_Products_Advisory_Committee_December_17_2020_Meeting_Voting_Question.pdf",
+  "section_lengths": {
+    "executive_summary": 221
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

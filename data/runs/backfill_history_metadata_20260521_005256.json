@@ -1,0 +1,482 @@
+[
+  {
+    "document": {
+      "title": "October 17-19, 2022 Hearing of the Obstetrics Reproductive and Urologic Drugs Advisory Committee - FDA Briefing Document",
+      "url": "https://www.fda.gov/media/162246/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-october-17-19-2022-hearing-announcement-involving-obstetrics-reproductive-and",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "65950bfbc4d16fe2"
+    },
+    "pdf_path": "data/history_pdfs/65950bfbc4d16fe2_October_17-19_2022_Hearing_of_the_Obstetrics_Reproductive_and_Urologic_Drugs_Advisory_Committee_-_FDA_Briefing_Document.pdf",
+    "page_count": 86,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "efficacy": 43567,
+      "executive_summary": 839,
+      "background": 15054,
+      "safety": 23170
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:23.666127+00:00",
+    "result_path": "data/history_runs/65950bfbc4d16fe2.json"
+  },
+  {
+    "document": {
+      "title": "February 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Information",
+      "url": "https://www.fda.gov/media/165219/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-february-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "2b7ff1a06c480c90"
+    },
+    "pdf_path": "data/history_pdfs/2b7ff1a06c480c90_February_9_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Information.pdf",
+    "page_count": 36,
+    "sections_found": [
+      "background",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "background": 4735,
+      "executive_summary": 6080,
+      "safety": 28347
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:26.180627+00:00",
+    "result_path": "data/history_runs/2b7ff1a06c480c90.json"
+  },
+  {
+    "document": {
+      "title": "February 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Information-Errata",
+      "url": "https://www.fda.gov/media/165220/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-february-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "53b122bb42436799"
+    },
+    "pdf_path": "data/history_pdfs/53b122bb42436799_February_9_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Information-Errata.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 1812
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:26.704979+00:00",
+    "result_path": "data/history_runs/53b122bb42436799.json"
+  },
+  {
+    "document": {
+      "title": "February 15, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/165338/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/february-15-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-anesthetic-and-analgesic",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "44ec7ad56d1a47b2"
+    },
+    "pdf_path": "data/history_pdfs/44ec7ad56d1a47b2_February_15_2023_Joint_Meeting_of_the_Nonprescription_Drugs_Advisory_Committee_and_the_Anesthetic_and_Analgesic_Drug_Pro.pdf",
+    "page_count": 85,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 14615,
+      "questions": 1660,
+      "background": 7553,
+      "efficacy": 3406,
+      "safety": 86453
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:37.066669+00:00",
+    "result_path": "data/history_runs/44ec7ad56d1a47b2.json"
+  },
+  {
+    "document": {
+      "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document",
+      "url": "https://www.fda.gov/media/165961/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "0b99a891dd01a3b2"
+    },
+    "pdf_path": "data/history_pdfs/0b99a891dd01a3b2_March_9_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Combined_FDA_and_Genentech_Briefing_Document.pdf",
+    "page_count": 104,
+    "sections_found": [
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "efficacy": 22953,
+      "safety": 37,
+      "executive_summary": 31912
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:50.726102+00:00",
+    "result_path": "data/history_runs/0b99a891dd01a3b2.json"
+  },
+  {
+    "document": {
+      "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document-Errata",
+      "url": "https://www.fda.gov/media/165962/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "08d7a4cf68c80338"
+    },
+    "pdf_path": "data/history_pdfs/08d7a4cf68c80338_March_9_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Combined_FDA_and_Genentech_Briefing_Document-Errata.pdf",
+    "page_count": 8,
+    "sections_found": [
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "safety": 9557,
+      "executive_summary": 4906
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:51.800661+00:00",
+    "result_path": "data/history_runs/08d7a4cf68c80338.json"
+  },
+  {
+    "document": {
+      "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/166197/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "af190de57f8c9774"
+    },
+    "pdf_path": "data/history_pdfs/af190de57f8c9774_March_16_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 54,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 5909,
+      "efficacy": 319,
+      "safety": 64,
+      "questions": 999,
+      "background": 8988
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:57.877493+00:00",
+    "result_path": "data/history_runs/af190de57f8c9774.json"
+  },
+  {
+    "document": {
+      "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document- Errata",
+      "url": "https://www.fda.gov/media/166198/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "c5dd231a971d4725"
+    },
+    "pdf_path": "data/history_pdfs/c5dd231a971d4725_March_16_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document-_Errata.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 2338
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:54:58.446772+00:00",
+    "result_path": "data/history_runs/c5dd231a971d4725.json"
+  },
+  {
+    "document": {
+      "title": "April 17, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167096/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-april-17-2023-meeting-antimicrobial-drugs-advisory-committee-meeting",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "dd6f0d626e63c30c"
+    },
+    "pdf_path": "data/history_pdfs/dd6f0d626e63c30c_April_17_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 47,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 3872,
+      "questions": 366,
+      "background": 10106,
+      "efficacy": 13202,
+      "safety": 21090
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:55:04.022443+00:00",
+    "result_path": "data/history_runs/dd6f0d626e63c30c.json"
+  },
+  {
+    "document": {
+      "title": "April 19, 2023 Meeting of the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167164/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-19-2023-meeting-anesthetic-and-analgesic-drug-products-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "40b964bf5edaa2cb"
+    },
+    "pdf_path": "data/history_pdfs/40b964bf5edaa2cb_April_19_2023_Meeting_of_the_Anesthetic_and_Analgesic_Drug_Products_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 174,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "background": 4034,
+      "executive_summary": 9942,
+      "efficacy": 24103,
+      "safety": 4447
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:55:19.829147+00:00",
+    "result_path": "data/history_runs/40b964bf5edaa2cb.json"
+  },
+  {
+    "document": {
+      "title": "April 19, 2023 Meeting of the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document- Errata",
+      "url": "https://www.fda.gov/media/167230/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-19-2023-meeting-anesthetic-and-analgesic-drug-products-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "4673ede6596e5988"
+    },
+    "pdf_path": "data/history_pdfs/4673ede6596e5988_April_19_2023_Meeting_of_the_Anesthetic_and_Analgesic_Drug_Products_Advisory_Committee-_FDA_Briefing_Document-_Errata.pdf",
+    "page_count": 2,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 2788
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:55:20.997572+00:00",
+    "result_path": "data/history_runs/4673ede6596e5988.json"
+  },
+  {
+    "document": {
+      "title": "April 28, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167483/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-28-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04282023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "25ffbfbe22b73aa6"
+    },
+    "pdf_path": "data/history_pdfs/25ffbfbe22b73aa6_April_28_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 29,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 14975,
+      "background": 8151,
+      "efficacy": 23138,
+      "safety": 4372
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:55:25.357293+00:00",
+    "result_path": "data/history_runs/25ffbfbe22b73aa6.json"
+  },
+  {
+    "document": {
+      "title": "April 28, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document- Addendum",
+      "url": "https://www.fda.gov/media/167484/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-28-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04282023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "9d2b630fa2e57570"
+    },
+    "pdf_path": "data/history_pdfs/9d2b630fa2e57570_April_28_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document-_Addendum.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 478
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:55:27.147504+00:00",
+    "result_path": "data/history_runs/9d2b630fa2e57570.json"
+  },
+  {
+    "document": {
+      "title": "May 9-10, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Obstetrics, Reproductive and Urologic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167892/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-9-10-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-obstetrics-reproductive-and",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "2252b7c3b1118d54"
+    },
+    "pdf_path": "data/history_pdfs/2252b7c3b1118d54_May_9-10_2023_Joint_Meeting_of_the_Nonprescription_Drugs_Advisory_Committee_and_the_Obstetrics_Reproductive_and_Urologic.pdf",
+    "page_count": 130,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 6346,
+      "safety": 8383,
+      "questions": 2816,
+      "background": 9987,
+      "efficacy": 3600
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:55:51.629485+00:00",
+    "result_path": "data/history_runs/2252b7c3b1118d54.json"
+  },
+  {
+    "document": {
+      "title": "May 19, 2023 Meeting of the Gastrointestinal Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/168215/download",
+      "source_page": "https://www.fda.gov/advisory-committees/committees-and-meeting-materials/may-19-2023-meeting-gastrointestinal-drugs-advisory-committee-meeting-announcement-05192023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "3b3b8e54170847af"
+    },
+    "pdf_path": "data/history_pdfs/3b3b8e54170847af_May_19_2023_Meeting_of_the_Gastrointestinal_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 87,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 3504,
+      "questions": 2265,
+      "background": 22083,
+      "safety": 1574,
+      "efficacy": 5453
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:56:07.055521+00:00",
+    "result_path": "data/history_runs/3b3b8e54170847af.json"
+  },
+  {
+    "document": {
+      "title": "May 19, 2023 Meeting of the Gastrointestinal Drugs Advisory Committee- FDA Briefing Document- Errata",
+      "url": "https://www.fda.gov/media/168216/download",
+      "source_page": "https://www.fda.gov/advisory-committees/committees-and-meeting-materials/may-19-2023-meeting-gastrointestinal-drugs-advisory-committee-meeting-announcement-05192023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "3a4dcb0e38851c6c"
+    },
+    "pdf_path": "data/history_pdfs/3a4dcb0e38851c6c_May_19_2023_Meeting_of_the_Gastrointestinal_Drugs_Advisory_Committee-_FDA_Briefing_Document-_Errata.pdf",
+    "page_count": 3,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 5779
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:56:08.129350+00:00",
+    "result_path": "data/history_runs/3a4dcb0e38851c6c.json"
+  },
+  {
+    "document": {
+      "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/169226/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "1b07cb209a078f7d"
+    },
+    "pdf_path": "data/history_pdfs/1b07cb209a078f7d_June_8_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 55,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 9783,
+      "efficacy": 424,
+      "safety": 605,
+      "questions": 1068,
+      "background": 10233
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:56:17.581475+00:00",
+    "result_path": "data/history_runs/1b07cb209a078f7d.json"
+  },
+  {
+    "document": {
+      "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document-First Errata",
+      "url": "https://www.fda.gov/media/169227/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "74db73c2a563cd0a"
+    },
+    "pdf_path": "data/history_pdfs/74db73c2a563cd0a_June_8_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document-First_Errata.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 1899
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:56:18.125432+00:00",
+    "result_path": "data/history_runs/74db73c2a563cd0a.json"
+  },
+  {
+    "document": {
+      "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document-Second Errata",
+      "url": "https://www.fda.gov/media/169230/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "a49fd6fa786cde92"
+    },
+    "pdf_path": "data/history_pdfs/a49fd6fa786cde92_June_8_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document-Second_Errata.pdf",
+    "page_count": 2,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 2928
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:56:18.869638+00:00",
+    "result_path": "data/history_runs/a49fd6fa786cde92.json"
+  },
+  {
+    "document": {
+      "title": "June 16, 2023 Meeting of the Pediatric Oncology Subcommittee of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/169486/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-16-2023-pediatric-oncology-subcommittee-oncologic-drugs-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "f04f40cfe4351a27"
+    },
+    "pdf_path": "data/history_pdfs/f04f40cfe4351a27_June_16_2023_Meeting_of_the_Pediatric_Oncology_Subcommittee_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Docu.pdf",
+    "page_count": 65,
+    "sections_found": [
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "safety": 36218,
+      "efficacy": 97329,
+      "executive_summary": 29998
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:56:23.172063+00:00",
+    "result_path": "data/history_runs/f04f40cfe4351a27.json"
+  }
+]

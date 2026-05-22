@@ -1,0 +1,66 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 0,
+    "confidence": 10,
+    "key_concerns": [
+      "Challenges with FDARA implementation",
+      "Uncertainty in preclinical proof-of-concept requirements",
+      "Barriers to international pediatric oncology trials"
+    ],
+    "key_positives": [
+      "FDA proactively seeking input to improve pediatric oncology development",
+      "Emphasis on international collaboration and clinical trial networks",
+      "Focus on identifying relevant molecular targets"
+    ],
+    "overall_sentiment": 0,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 0,
+      "confidence": 10,
+      "evidence_notes": [
+        "No clinical data presented; document only contains discussion questions.",
+        "Document states: 'Please discuss your perspectives on how the 2017 FDA Reauthorization Act (FDARA) is impacting pediatric oncology' – indicates FDA is evaluating legislative impact.",
+        "Document states: 'Please discuss factors that should be considered when determining whether nonclinical proof-of-concept studies should be conducted' – highlights lack of standardized preclinical evidence requirements.",
+        "Document states: 'Please discuss the role of pediatric clinical trial networks and international collaboration' – signals recognition of needed infrastructure improvements."
+      ],
+      "key_concerns": [
+        "Challenges with FDARA implementation",
+        "Uncertainty in preclinical proof-of-concept requirements",
+        "Barriers to international pediatric oncology trials"
+      ],
+      "key_positives": [
+        "FDA proactively seeking input to improve pediatric oncology development",
+        "Emphasis on international collaboration and clinical trial networks",
+        "Focus on identifying relevant molecular targets"
+      ],
+      "overall_sentiment": 0,
+      "questions_framing": {
+        "polarity": "neutral",
+        "type": "open-ended discussion"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:48:21.261473+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "7d8133fb3ea67d2a",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-22-2024-meeting-pediatric-oncology-subcommittee-oncologic-drugs-advisory-committee-meeting",
+    "title": "May 22, 2024 Meeting of the Pediatric Oncology Subcommittee of the Oncologic Drugs Advisory Committee- Final Questions",
+    "url": "https://www.fda.gov/media/178814/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/raw_pdfs/7d8133fb3ea67d2a_May_22_2024_Meeting_of_the_Pediatric_Oncology_Subcommittee_of_the_Oncologic_Drugs_Advisory_Committee-_Final_Questions.pdf",
+  "sections_found": [
+    "executive_summary"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 10,
+    "label": "MIXED",
+    "probability": 0,
+    "rationale": [
+      "Concerns: Challenges with FDARA implementation; Uncertainty in preclinical proof-of-concept requirements; Barriers to international pediatric oncology trials",
+      "Positives: FDA proactively seeking input to improve pediatric oncology development; Emphasis on international collaboration and clinical trial networks; Focus on identifying relevant molecular targets"
+    ]
+  }
+}

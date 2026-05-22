@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T07:14:20.848863+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+    "id": "07ae88dc3a7a1552",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "title": "Horizon Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "url": "https://www.fda.gov/media/133431/download"
+  },
+  "page_count": 84,
+  "pdf_path": "data/history_pdfs/07ae88dc3a7a1552_Horizon_Briefing_Information_for_the_December_13_2019_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committe.pdf",
+  "section_lengths": {
+    "background": 7710,
+    "efficacy": 12348,
+    "executive_summary": 1118,
+    "safety": 26362
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 40,
+    "confidence": 20,
+    "key_concerns": [
+      "Risk of early death",
+      "Uncertain overall survival benefit",
+      "Acceptability of risk-benefit in earlier lines of therapy"
+    ],
+    "key_positives": [
+      "Significant PFS benefit",
+      "Addresses unmet need in relapsed/refractory multiple myeloma"
+    ],
+    "overall_sentiment": -2,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 40,
+      "confidence": 20,
+      "evidence_notes": [
+        "\"The Committee will have a general discussion focused on the overall survival data in the Study MMY3002 (CARTITUDE-4) and the risk and benefit [...]\"",
+        "\"Is the risk of early death associated with ciltacabtagene autoleucel treatment acceptable in the context of the PFS benefit?\"",
+        "\"The Committee will have a general discussion focused on the overall survival data in the Study MM-003 (KarMMa-3) and the risk and benefit [...]\"",
+        "\"Is the risk of early death associated with idecabtagene vicleucel treatment acceptable in the context of the PFS benefit?\""
+      ],
+      "key_concerns": [
+        "Risk of early death",
+        "Uncertain overall survival benefit",
+        "Acceptability of risk-benefit in earlier lines of therapy"
+      ],
+      "key_positives": [
+        "Significant PFS benefit",
+        "Addresses unmet need in relapsed/refractory multiple myeloma"
+      ],
+      "overall_sentiment": -2,
+      "questions_framing": "FDA questions directly raise concerns about early death and overall survival data, framing risk-benefit discussion around these safety signals."
+    }
+  },
+  "created_at": "2026-05-21T06:44:33.619831+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "2a3792c78b0f12f3",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-15-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03152024",
+    "title": "March 15, 2024 Meeting of the Oncologic Drugs Advisory Committee- Final Questions",
+    "url": "https://www.fda.gov/media/177056/download"
+  },
+  "page_count": 2,
+  "pdf_path": "data/raw_pdfs/2a3792c78b0f12f3_March_15_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Final_Questions.pdf",
+  "sections_found": [
+    "executive_summary"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 20,
+    "label": "MIXED",
+    "probability": 40,
+    "rationale": [
+      "Concerns: Risk of early death; Uncertain overall survival benefit; Acceptability of risk-benefit in earlier lines of therapy",
+      "Positives: Significant PFS benefit; Addresses unmet need in relapsed/refractory multiple myeloma"
+    ]
+  }
+}

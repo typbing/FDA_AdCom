@@ -1,0 +1,100 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 85,
+    "confidence": 70,
+    "key_concerns": [
+      "Imbalance in deaths between treatment groups (details not provided in excerpt)",
+      "Efficacy in second RSV season limited due to low RSV circulation during COVID-19 pandemic",
+      "Hospitalization reduction in Trial 04 not statistically significant (p=0.09)"
+    ],
+    "key_positives": [
+      "High efficacy in reducing medically attended RSV LRTI in both preterm and term infants",
+      "Single-dose regimen offers convenience over monthly palivizumab",
+      "Favorable safety profile with mostly mild adverse events"
+    ],
+    "overall_sentiment": 7,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 85,
+      "confidence": 70,
+      "evidence_notes": [
+        "Nirsevimab showed 70.1% relative risk reduction of MA RSV LRTI in preterm infants ('relative risk reduction of 70.1%...p <0.0001')",
+        "Nirsevimab showed 74.9% relative risk reduction of MA RSV LRTI in term infants ('relative risk reduction of 74.9%...p <0.0001')",
+        "Hospitalization reduction was 78.4% in Trial 03 ('relative risk reduction of 78.4%...p=.0002') but 60.2% in Trial 04 with wide confidence interval crossing zero ('relative risk reduction of 60.2% (95% CI: -14.6% to 86.2%; p=0.09)')",
+        "Safety data pooled from 3 trials showed most common adverse reactions were rash and injection site reactions ('most common adverse reactions...rash (0.7%) and injection site reactions (0.4%)')",
+        "Second season efficacy data from Trial 05 showed no cases, but RSV circulation was low during pandemic ('There were no cases of MA RSV LRTI in the second RSV season, which was conducted in 2020 during the COVID-19 pandemic')",
+        "The document notes an imbalance in deaths as a safety consideration without further detail ('Safety Considerations: • Hypersensitivity reactions, including anaphylaxis and rash • Imbalance in deaths')"
+      ],
+      "key_concerns": [
+        "Imbalance in deaths between treatment groups (details not provided in excerpt)",
+        "Efficacy in second RSV season limited due to low RSV circulation during COVID-19 pandemic",
+        "Hospitalization reduction in Trial 04 not statistically significant (p=0.09)"
+      ],
+      "key_positives": [
+        "High efficacy in reducing medically attended RSV LRTI in both preterm and term infants",
+        "Single-dose regimen offers convenience over monthly palivizumab",
+        "Favorable safety profile with mostly mild adverse events"
+      ],
+      "overall_sentiment": 7,
+      "questions_framing": {
+        "polarity": "neutral",
+        "remarks": "Questions focus on benefit-risk, subpopulation appropriateness, and post-marketing considerations; they do not appear leading or negative."
+      }
+    }
+  },
+  "created_at": "2026-05-21T14:00:35.144777+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "1b07cb209a078f7d",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+    "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/169226/download"
+  },
+  "history_rank": {
+    "document_id": "1b07cb209a078f7d",
+    "file": "data/history_runs/1b07cb209a078f7d.json",
+    "has_ai_analysis": false,
+    "meeting_date": "2023-06-08",
+    "page_count": 55,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "questions available",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ],
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+    "sponsor": null,
+    "ticker": null,
+    "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/169226/download",
+    "value_score": 78
+  },
+  "page_count": 55,
+  "pdf_path": "data/history_pdfs/1b07cb209a078f7d_June_8_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 70,
+    "label": "STRONG_POSITIVE",
+    "probability": 85,
+    "rationale": [
+      "Concerns: Imbalance in deaths between treatment groups (details not provided in excerpt); Efficacy in second RSV season limited due to low RSV circulation during COVID-19 pandemic; Hospitalization reduction in Trial 04 not statistically significant (p=0.09)",
+      "Positives: High efficacy in reducing medically attended RSV LRTI in both preterm and term infants; Single-dose regimen offers convenience over monthly palivizumab; Favorable safety profile with mostly mild adverse events"
+    ]
+  }
+}

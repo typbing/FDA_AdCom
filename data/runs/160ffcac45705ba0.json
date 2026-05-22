@@ -1,0 +1,79 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 45,
+    "confidence": 75,
+    "key_concerns": [
+      "Higher rate of early deaths in cilta-cel arm",
+      "Crossing OS curves indicating non-proportional hazards",
+      "Unclear overall benefit-risk due to safety concerns",
+      "Inability to identify patient subgroups to mitigate risk",
+      "Heavy censoring limits OS interpretation after 11 months"
+    ],
+    "key_positives": [
+      "Statistically significant and clinically meaningful PFS improvement (HR 0.41)",
+      "High response rates (CR/sCR 74% vs 22%)",
+      "Overall AE rates comparable, with some toxicities lower in cilta-cel",
+      "Unmet medical need in relapsed/refractory multiple myeloma"
+    ],
+    "overall_sentiment": -3,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 45,
+      "confidence": 75,
+      "evidence_notes": [
+        "Treatment with cilta-cel demonstrated a statistically significant improvement in PFS as assessed by IRC; HR 0.41 (95% CI: 0.30, 0.56; p-value <0.0001)",
+        "Higher rate of early deaths associated with ciltacabtagene-autoleucel treatment",
+        "Crossing hazards pattern favoring the standard therapy arm up to approximately 11 months",
+        "More deaths due to AEs occurred in the cilta-cel arm (11%) compared to the standard therapy arm (8%)",
+        "The rate of death in the first 10 months post randomization was higher in the cilta-cel arm (29 of 208; 14%) than in the standard therapy arm (25 of 211; 12%)",
+        "Exploratory, retrospective, data-informed analyses... may be limited in providing definitive evidence to support potential risk mitigation strategies"
+      ],
+      "key_concerns": [
+        "Higher rate of early deaths in cilta-cel arm",
+        "Crossing OS curves indicating non-proportional hazards",
+        "Unclear overall benefit-risk due to safety concerns",
+        "Inability to identify patient subgroups to mitigate risk",
+        "Heavy censoring limits OS interpretation after 11 months"
+      ],
+      "key_positives": [
+        "Statistically significant and clinically meaningful PFS improvement (HR 0.41)",
+        "High response rates (CR/sCR 74% vs 22%)",
+        "Overall AE rates comparable, with some toxicities lower in cilta-cel",
+        "Unmet medical need in relapsed/refractory multiple myeloma"
+      ],
+      "overall_sentiment": -3,
+      "questions_framing": {
+        "focus": "early death risk",
+        "polarity": "negative",
+        "question": "Discuss whether the results are sufficient to support a positive risk-benefit assessment, specifically if the risk of early death is acceptable."
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:37:39.565081+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "160ffcac45705ba0",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-15-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03152024",
+    "title": "March 15, 2024 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document (CARVYKTI)",
+    "url": "https://www.fda.gov/media/176986/download"
+  },
+  "page_count": 42,
+  "pdf_path": "data/raw_pdfs/160ffcac45705ba0_March_15_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document_CARVYKTI.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 75,
+    "label": "MIXED",
+    "probability": 45,
+    "rationale": [
+      "Concerns: Higher rate of early deaths in cilta-cel arm; Crossing OS curves indicating non-proportional hazards; Unclear overall benefit-risk due to safety concerns; Inability to identify patient subgroups to mitigate risk; Heavy censoring limits OS interpretation after 11 months",
+      "Positives: Statistically significant and clinically meaningful PFS improvement (HR 0.41); High response rates (CR/sCR 74% vs 22%); Overall AE rates comparable, with some toxicities lower in cilta-cel; Unmet medical need in relapsed/refractory multiple myeloma"
+    ]
+  }
+}

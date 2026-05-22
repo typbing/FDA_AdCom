@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T06:56:18.125432+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "74db73c2a563cd0a",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+    "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document-First Errata",
+    "url": "https://www.fda.gov/media/169227/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/history_pdfs/74db73c2a563cd0a_June_8_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document-First_Errata.pdf",
+  "section_lengths": {
+    "executive_summary": 1899
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

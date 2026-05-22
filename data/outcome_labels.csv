@@ -1,0 +1,58 @@
+document_id,meeting_date,sponsor,ticker,drug,indication,adcom_vote,adcom_outcome,fda_final_decision,fda_decision_date,outcome_source,notes
+2b2013a2acf6a3ce,2023-01-24,Cidara,CDTX,rezafungin / REZZAYO,candidemia and invasive candidiasis in adults with limited or no alternative options,14-1 favorable,positive,approved,2023-03-22,FDA Drug Trials Snapshot REZZAYO; FDA minutes / Cidara-Melinta announcement,FDA approved REZZAYO on 2023-03-22; committee vote favorable 14-1.
+0b99a891dd01a3b2,2023-03-09,Genentech,RHHBY,polatuzumab vedotin-piiq / POLIVY,previously untreated DLBCL / high-grade B-cell lymphoma with R-CHP,11-2 favorable,positive,approved,2023-04-19,Genentech ODAC vote press release; FDA approval page for polatuzumab vedotin-piiq,ODAC voted 11-2 in favor on 2023-03-09; FDA approved expanded indication on 2023-04-19.
+6df8a6a4aa29769e,2023-01-09,Regeneron,REGN,aflibercept / EYLEA,retinopathy of prematurity,,,approved,2023-02-08,FDA meeting page; public FDA approval history for aflibercept ROP,FDA approved aflibercept for retinopathy of prematurity in February 2023; advisory vote left blank pending primary-source minutes.; TODO_SOURCE_NEEDED
+f8bbf578a35e0569,2019-12-13,Horizon,HZNP,teprotumumab / TEPEZZA,thyroid eye disease,12-0 favorable,positive,approved,2020-01-21,Horizon/BusinessWire reporting DODAC 12-0; TEPEZZA FDA approval history,DODAC voted unanimously that benefits outweighed risks; FDA approved TEPEZZA on 2020-01-21.
+2252b7c3b1118d54,2023-05-09,HRA Pharma / Perrigo,PRGO,norgestrel / Opill,nonprescription daily oral contraception,17-0 favorable,positive,approved,2023-07-13,FDA approval press release; public reports of 17-0 advisory committee vote,Committees voted unanimously in favor; FDA approved first OTC daily oral contraceptive on 2023-07-13.
+44ec7ad56d1a47b2,2023-02-15,,,,,,,,,,TODO_SOURCE_NEEDED
+1b07cb209a078f7d,2023-06-08,Sanofi / AstraZeneca,SNY/AZN,nirsevimab / BEYFORTUS,RSV lower respiratory tract disease prevention in infants and vulnerable children,21-0 favorable,positive,approved,2023-07-17,FDA approval press release; CNBC/public report of 21-0 advisory vote,FDA approved BEYFORTUS on 2023-07-17; advisory panel recommended approval 21-0.
+af190de57f8c9774,2023-03-16,Pfizer,PFE,nirmatrelvir/ritonavir / PAXLOVID,COVID-19 treatment in high-risk adults,16-1 favorable,positive,approved,2023-05-25,FDA Paxlovid approval press release; public report of 16-1 AMDAC vote,AMDAC recommended full approval; FDA approved Paxlovid on 2023-05-25.
+dd6f0d626e63c30c,2023-04-17,Entasis / Innoviva,INVA,sulbactam-durlobactam / XACDURO,HABP/VABP caused by Acinetobacter baumannii-calcoaceticus complex,12-0 favorable,positive,approved,2023-05-23,FDA XACDURO Drug Trials Snapshot; public report of 12-0 AMDAC vote,AMDAC voted unanimously in support; FDA approved XACDURO on 2023-05-23.
+07d0a87f7ff02db9,2023-01-24,Cidara,CDTX,,,,,,,,TODO_SOURCE_NEEDED
+3ea9b6d3e184b0d5,2023-01-09,Regeneron,REGN,,,,,,,,TODO_SOURCE_NEEDED
+07ae88dc3a7a1552,2019-12-13,Horizon,HZNP,,,,,,,,TODO_SOURCE_NEEDED
+3b3b8e54170847af,2023-05-19,,,,,,,,,,TODO_SOURCE_NEEDED
+35086eada06cf1cb,2019-05-07,,,,,,,,,,TODO_SOURCE_NEEDED
+2df3a6f5abe90a0c,2022-06-09,,,,,,,,,,TODO_SOURCE_NEEDED
+8d434aa9278b0cf2,2022-06-09,,,,,,,,,,TODO_SOURCE_NEEDED
+40b964bf5edaa2cb,2023-04-19,,,,,,,,,,TODO_SOURCE_NEEDED
+65950bfbc4d16fe2,2022-10-17,,,,,,,,,,TODO_SOURCE_NEEDED
+f04f40cfe4351a27,2023-06-16,,,,,,,,,,TODO_SOURCE_NEEDED
+25ffbfbe22b73aa6,2023-04-28,,,,,,,,,,TODO_SOURCE_NEEDED
+9c95a2aedd2a812b,2022-10-17,Covis,,,,,,,,,TODO_SOURCE_NEEDED
+2b7ff1a06c480c90,2023-02-09,,,,,,,,,,TODO_SOURCE_NEEDED
+240cd9545335df0e,2022-06-08,,,,,,,,,,TODO_SOURCE_NEEDED
+a118892fa2431d44,2021-02-26,,,,,,,,,,TODO_SOURCE_NEEDED
+5718dbb37dcd6999,2020-12-17,,,,,,,,,,TODO_SOURCE_NEEDED
+3c2afb6950868d2b,2020-12-10,,,,,,,,,,TODO_SOURCE_NEEDED
+284689ceeabfc67f,2020-10-22,,,,,,,,,,TODO_SOURCE_NEEDED
+08d7a4cf68c80338,2023-03-09,Genentech,RHHBY,,,,,,,,TODO_SOURCE_NEEDED
+74f2619b703a09c2,2023-01-09,Regeneron,REGN,,,,,,,,TODO_SOURCE_NEEDED
+765741af520c206b,2019-12-13,Horizon,HZNP,,,,,,,,TODO_SOURCE_NEEDED
+9d2b630fa2e57570,2023-04-28,,,,,,,,,,TODO_SOURCE_NEEDED
+fd90bab1d0efa617,2023-01-24,Cidara,CDTX,,,,,,,,TODO_SOURCE_NEEDED
+dd15c80512cccec8,2019-12-13,Horizon,HZNP,,,,,,,,TODO_SOURCE_NEEDED
+66e326fd862af572,2023-01-24,Cidara,CDTX,,,,,,,,TODO_SOURCE_NEEDED
+97cb97638c1fc01a,2022-06-09,,,,,,,,,,TODO_SOURCE_NEEDED
+0d2a6ee95a1222ca,2021-02-26,,,,,,,,,,TODO_SOURCE_NEEDED
+0fc8404dea4b49e7,2020-12-10,,,,,,,,,,TODO_SOURCE_NEEDED
+1034b51dfc26ba97,2020-12-17,,,,,,,,,,TODO_SOURCE_NEEDED
+bf90c16bcfc8dd56,2022-10-17,References to the,,,,,,,,,TODO_SOURCE_NEEDED
+09a334a6da830f6d,2020-10-02,,,,,,,,,,TODO_SOURCE_NEEDED
+1e073e5d75d2501a,2020-03-04,,,,,,,,,,TODO_SOURCE_NEEDED
+beb756b638efcd52,2022-10-17,,,,,,,,,,TODO_SOURCE_NEEDED
+e000494cea489c32,2023-02-09,,,,,,,,,,TODO_SOURCE_NEEDED
+2dcd82ca6df64ddf,2019-05-07,,,,,,,,,,TODO_SOURCE_NEEDED
+4673ede6596e5988,2023-04-19,,,,,,,,,,TODO_SOURCE_NEEDED
+a49fd6fa786cde92,2023-06-08,,,,,,,,,,TODO_SOURCE_NEEDED
+53b122bb42436799,2023-02-09,,,,,,,,,,TODO_SOURCE_NEEDED
+74db73c2a563cd0a,2023-06-08,,,,,,,,,,TODO_SOURCE_NEEDED
+ab25c59d5732321c,2020-12-17,,,,,,,,,,TODO_SOURCE_NEEDED
+c5dd231a971d4725,2023-03-16,,,,,,,,,,TODO_SOURCE_NEEDED
+3a4dcb0e38851c6c,2023-05-19,,,,,,,,,,TODO_SOURCE_NEEDED
+c93ec1f8435c26b1,2021-02-26,,,,,,,,,,TODO_SOURCE_NEEDED
+d47bc763422380d4,2020-12-17,,,,,,,,,,TODO_SOURCE_NEEDED
+8402acbe7ffac6ca,2020-03-04,,,,,,,,,,TODO_SOURCE_NEEDED
+c145d311e42378bb,2020-10-02,,,,,,,,,,TODO_SOURCE_NEEDED
+e0e8d5db802b42ae,2021-03-05,,,,,,,,,,TODO_SOURCE_NEEDED
+d64493489f965ed5,2022-06-08,,,,,,,,,,TODO_SOURCE_NEEDED

@@ -1,0 +1,71 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 45,
+    "confidence": 30,
+    "key_concerns": [
+      "Multiple statistical errors in original briefing document, including misstated confidence intervals and risk differences",
+      "Inconsistent data cut-off dates for safety analyses undermine reliability",
+      "Potential over-attribution of fractures with broad search criteria, narrowing changes incidence",
+      "Unclear attribution of hepatic event with dechallenge/rechallenge timing",
+      "Corrected medical encounters show higher healthcare utilization with imetelstat"
+    ],
+    "key_positives": [
+      "Corrected placebo CI for RBC-TI suggests lower placebo response, potentially favoring treatment effect",
+      "Narrow fracture definition reduces imetelstat-associated fracture rate from 8% to 3%",
+      "Hepatic adjudication committee did not attribute the event to imetelstat and no confirmed Hy's law cases"
+    ],
+    "overall_sentiment": -3,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 45,
+      "confidence": 30,
+      "evidence_notes": [
+        "Correction of RBC-TI placebo CI from (12.6, 34.2) to (0.4, 11.5) significantly alters the efficacy context",
+        "Grade 3-4 neutrophil decrease risk difference corrected from +6.4 to +64, indicating much higher neutropenia risk",
+        "Medical encounters per patient for imetelstat corrected to 1.3 vs placebo 1.6, still higher but with correct numbers",
+        "Fracture rates using narrow definition: 3% overall, 4% at ≥7.1 mg/kg, versus broad 8%",
+        "Hepatic event: no recurrence of Hy's law criteria lab abnormalities upon re-challenge with deferasirox, but timing attribution difficulty remains"
+      ],
+      "key_concerns": [
+        "Multiple statistical errors in original briefing document, including misstated confidence intervals and risk differences",
+        "Inconsistent data cut-off dates for safety analyses undermine reliability",
+        "Potential over-attribution of fractures with broad search criteria, narrowing changes incidence",
+        "Unclear attribution of hepatic event with dechallenge/rechallenge timing",
+        "Corrected medical encounters show higher healthcare utilization with imetelstat"
+      ],
+      "key_positives": [
+        "Corrected placebo CI for RBC-TI suggests lower placebo response, potentially favoring treatment effect",
+        "Narrow fracture definition reduces imetelstat-associated fracture rate from 8% to 3%",
+        "Hepatic adjudication committee did not attribute the event to imetelstat and no confirmed Hy's law cases"
+      ],
+      "overall_sentiment": -3,
+      "questions_framing": {
+        "availability": "not provided in document",
+        "inferred_polarity": "likely skeptical due to significant data corrections and safety concerns"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:35:12.707671+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "e0adcaf554c140b0",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-14-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03142024",
+    "title": "March 14, 2024 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document- Errata",
+    "url": "https://www.fda.gov/media/176967/download"
+  },
+  "page_count": 2,
+  "pdf_path": "data/raw_pdfs/e0adcaf554c140b0_March_14_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document-_Errata.pdf",
+  "sections_found": [
+    "executive_summary"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 30,
+    "label": "MIXED",
+    "probability": 45,
+    "rationale": [
+      "Concerns: Multiple statistical errors in original briefing document, including misstated confidence intervals and risk differences; Inconsistent data cut-off dates for safety analyses undermine reliability; Potential over-attribution of fractures with broad search criteria, narrowing changes incidence; Unclear attribution of hepatic event with dechallenge/rechallenge timing; Corrected medical encounters show higher healthcare utilization with imetelstat",
+      "Positives: Corrected placebo CI for RBC-TI suggests lower placebo response, potentially favoring treatment effect; Narrow fracture definition reduces imetelstat-associated fracture rate from 8% to 3%; Hepatic adjudication committee did not attribute the event to imetelstat and no confirmed Hy's law cases"
+    ]
+  }
+}

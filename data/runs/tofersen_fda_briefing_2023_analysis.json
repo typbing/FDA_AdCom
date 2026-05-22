@@ -1,0 +1,76 @@
+{
+  "document": {
+    "id": "tofersen_fda_briefing_2023",
+    "title": "tofersen_fda_briefing_2023.pdf",
+    "url": "data/sample_pdfs/tofersen_fda_briefing_2023.pdf",
+    "source_page": "local",
+    "discovered_at": "2026-05-21T05:27:39.538602+00:00"
+  },
+  "pdf_path": "data/sample_pdfs/tofersen_fda_briefing_2023.pdf",
+  "page_count": 68,
+  "sections_found": [
+    "executive_summary"
+  ],
+  "analysis": {
+    "provider": "deepseek",
+    "overall_sentiment": 5,
+    "approval_probability_estimate": 55,
+    "confidence": 60,
+    "key_concerns": [
+      "Pivotal study failed primary endpoint with p=0.97",
+      "Statistical uncertainties in post-hoc analyses",
+      "Serious neurologic adverse events from intrathecal administration",
+      "NfL not an established surrogate endpoint",
+      "Confirmatory studies delayed or insufficient"
+    ],
+    "key_positives": [
+      "Strong target engagement shown by SOD1 reduction",
+      "Substantial NfL reduction correlating with disease progression",
+      "Post-hoc analyses suggest clinical benefit",
+      "Severe unmet need for rare SOD1-ALS",
+      "FDA regulatory flexibility for accelerated approval"
+    ],
+    "raw": {
+      "overall_sentiment": 5,
+      "approval_probability_estimate": 55,
+      "confidence": 60,
+      "key_concerns": [
+        "Pivotal study failed primary endpoint with p=0.97",
+        "Statistical uncertainties in post-hoc analyses",
+        "Serious neurologic adverse events from intrathecal administration",
+        "NfL not an established surrogate endpoint",
+        "Confirmatory studies delayed or insufficient"
+      ],
+      "key_positives": [
+        "Strong target engagement shown by SOD1 reduction",
+        "Substantial NfL reduction correlating with disease progression",
+        "Post-hoc analyses suggest clinical benefit",
+        "Severe unmet need for rare SOD1-ALS",
+        "FDA regulatory flexibility for accelerated approval"
+      ],
+      "evidence_notes": [
+        "Study failed to show a statistically significant difference for primary endpoint (ALSFRS-R) in fast progressor population (p=0.97)",
+        "55% reduction in plasma NfL observed at Week 28 vs 12% increase in placebo (nominal p<0.0001)",
+        "Post-hoc analysis suggest a correlation between the reduction in NfL and change from baseline in ALSFRS-R",
+        "Causal inference analysis may support the predictive value of plasma NfL",
+        "Serious neurologic adverse events including myelitis, radiculitis, and aseptic meningitis"
+      ],
+      "questions_framing": {
+        "polarity": "neutral_to_positive",
+        "focus": "Whether NfL reduction is reasonably likely to predict clinical benefit for accelerated approval",
+        "uncertainty": "high"
+      }
+    }
+  },
+  "signal": {
+    "label": "MIXED",
+    "probability": 55,
+    "confidence": 60,
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "rationale": [
+      "Concerns: Pivotal study failed primary endpoint with p=0.97; Statistical uncertainties in post-hoc analyses; Serious neurologic adverse events from intrathecal administration; NfL not an established surrogate endpoint; Confirmatory studies delayed or insufficient",
+      "Positives: Strong target engagement shown by SOD1 reduction; Substantial NfL reduction correlating with disease progression; Post-hoc analyses suggest clinical benefit; Severe unmet need for rare SOD1-ALS; FDA regulatory flexibility for accelerated approval"
+    ]
+  },
+  "created_at": "2026-05-21T05:27:39.538632+00:00"
+}

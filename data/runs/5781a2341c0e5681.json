@@ -1,0 +1,53 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 50,
+    "confidence": 20,
+    "key_concerns": [
+      "Potential safety concerns relative to efficacy in a lower-risk MDS population."
+    ],
+    "key_positives": [
+      "Addresses unmet need in transfusion-dependent anemia for lower-risk MDS patients with limited options."
+    ],
+    "overall_sentiment": 0,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 50,
+      "confidence": 20,
+      "evidence_notes": [
+        "Cite: 'Discuss the efficacy... considering the safety profile' → Note: Balancing efficacy and safety is required.",
+        "Cite: 'Do the benefits... outweigh its risks' → Note: Benefit-risk ratio is explicitly questioned."
+      ],
+      "key_concerns": [
+        "Potential safety concerns relative to efficacy in a lower-risk MDS population."
+      ],
+      "key_positives": [
+        "Addresses unmet need in transfusion-dependent anemia for lower-risk MDS patients with limited options."
+      ],
+      "overall_sentiment": 0,
+      "questions_framing": "Questions are neutrally worded but imply potential concerns regarding safety and magnitude of benefit, as they require a benefit-risk vote after discussion."
+    }
+  },
+  "created_at": "2026-05-21T06:43:55.445705+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "5781a2341c0e5681",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-14-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03142024",
+    "title": "March 14, 2024 Meeting of the Oncologic Drugs Advisory Committee- Final Questions",
+    "url": "https://www.fda.gov/media/177019/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/raw_pdfs/5781a2341c0e5681_March_14_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Final_Questions.pdf",
+  "sections_found": [
+    "executive_summary"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 20,
+    "label": "MIXED",
+    "probability": 50,
+    "rationale": [
+      "Concerns: Potential safety concerns relative to efficacy in a lower-risk MDS population.",
+      "Positives: Addresses unmet need in transfusion-dependent anemia for lower-risk MDS patients with limited options."
+    ]
+  }
+}

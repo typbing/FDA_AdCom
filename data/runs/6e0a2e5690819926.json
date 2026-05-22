@@ -1,0 +1,68 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 75,
+    "confidence": 70,
+    "key_concerns": [
+      "Historical reluctance and low financial incentives to study drugs in children with cancer",
+      "Limited patient populations causing delays in enrollment and trial completion",
+      "Potential duplication of studies and competition for scarce patients without global collaboration"
+    ],
+    "key_positives": [
+      "FDARA shifts pediatric investigation requirements to molecular target basis, closing previous regulatory gaps",
+      "Early pediatric study plans and guidance documents facilitate proactive development planning",
+      "International collaboration and regulatory alignment (e.g., with EMA) improve efficiency",
+      "Innovative trial designs, adolescent inclusion, and master protocols are encouraged to accelerate pediatric access"
+    ],
+    "overall_sentiment": 5,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 75,
+      "confidence": 70,
+      "evidence_notes": [
+        "pediatric cancer drug development typically leverages adult cancer drug discovery but has lagged far behind (Page 3)",
+        "FDARA thereby created a mechanism to require evaluation of certain novel targeted therapies that may potentially address an unmet medical need (Page 5)",
+        "Timely enrollment and conduct of clinical trials in pediatric oncology have been long-standing challenges (Page 9)",
+        "international multistakeholder collaboration to facilitate the conduct of global pediatric clinical trials has become increasingly important (Page 11)"
+      ],
+      "key_concerns": [
+        "Historical reluctance and low financial incentives to study drugs in children with cancer",
+        "Limited patient populations causing delays in enrollment and trial completion",
+        "Potential duplication of studies and competition for scarce patients without global collaboration"
+      ],
+      "key_positives": [
+        "FDARA shifts pediatric investigation requirements to molecular target basis, closing previous regulatory gaps",
+        "Early pediatric study plans and guidance documents facilitate proactive development planning",
+        "International collaboration and regulatory alignment (e.g., with EMA) improve efficiency",
+        "Innovative trial designs, adolescent inclusion, and master protocols are encouraged to accelerate pediatric access"
+      ],
+      "overall_sentiment": 5,
+      "questions_framing": {
+        "description": "The meeting aims to gather perspectives on FDARA implementation and impact, with open-ended discussion rather than a vote on a specific regulatory action.",
+        "polarity": "neutral"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:47:45.374156+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "6e0a2e5690819926",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-22-2024-meeting-pediatric-oncology-subcommittee-oncologic-drugs-advisory-committee-meeting",
+    "title": "May 22, 2024 Meeting of the Pediatric Oncology Subcommittee of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/178681/download"
+  },
+  "page_count": 37,
+  "pdf_path": "data/raw_pdfs/6e0a2e5690819926_May_22_2024_Meeting_of_the_Pediatric_Oncology_Subcommittee_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Docum.pdf",
+  "sections_found": [
+    "executive_summary"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 70,
+    "label": "STRONG_POSITIVE",
+    "probability": 75,
+    "rationale": [
+      "Concerns: Historical reluctance and low financial incentives to study drugs in children with cancer; Limited patient populations causing delays in enrollment and trial completion; Potential duplication of studies and competition for scarce patients without global collaboration",
+      "Positives: FDARA shifts pediatric investigation requirements to molecular target basis, closing previous regulatory gaps; Early pediatric study plans and guidance documents facilitate proactive development planning; International collaboration and regulatory alignment (e.g., with EMA) improve efficiency; Innovative trial designs, adolescent inclusion, and master protocols are encouraged to accelerate pediatric access"
+    ]
+  }
+}

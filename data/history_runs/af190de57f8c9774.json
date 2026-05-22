@@ -1,0 +1,111 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 75,
+    "confidence": 65,
+    "key_concerns": [
+      "Uncertain efficacy in vaccinated or previously infected individuals",
+      "Efficacy against Omicron variant not directly studied",
+      "Limited data in immunocompromised patients",
+      "COVID-19 rebound incidence and mechanism unclear",
+      "Risk of serious adverse reactions due to drug-drug interactions"
+    ],
+    "key_positives": [
+      "Significant reduction in hospitalization/death in unvaccinated high-risk adults (EPIC-HR)",
+      "Oral administration provides an accessible treatment option",
+      "Acceptable safety profile with mostly mild adverse events",
+      "Already authorized under EUA, suggesting prior positive benefit-risk assessment"
+    ],
+    "overall_sentiment": 2,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 75,
+      "confidence": 65,
+      "evidence_notes": [
+        "EPIC-HR demonstrated a 5.6% absolute reduction... 86% relative reduction — strong efficacy signal in original trial population",
+        "EPIC-SR failed to demonstrate any meaningful difference for the primary efficacy endpoint — lack of symptom alleviation benefit in broader population",
+        "included very few immunocompromised subjects — insufficient evidence in immunocompromised",
+        "excluded individuals with current or expected use of any medications that have DDIs — safety data limited due to DDI exclusions",
+        "a numerically lower rate of COVID-19-related hospitalizations or deaths... in the subgroup of vaccinated high-risk subjects — suggestive but non-significant benefit in vaccinated high-risk"
+      ],
+      "key_concerns": [
+        "Uncertain efficacy in vaccinated or previously infected individuals",
+        "Efficacy against Omicron variant not directly studied",
+        "Limited data in immunocompromised patients",
+        "COVID-19 rebound incidence and mechanism unclear",
+        "Risk of serious adverse reactions due to drug-drug interactions"
+      ],
+      "key_positives": [
+        "Significant reduction in hospitalization/death in unvaccinated high-risk adults (EPIC-HR)",
+        "Oral administration provides an accessible treatment option",
+        "Acceptable safety profile with mostly mild adverse events",
+        "Already authorized under EUA, suggesting prior positive benefit-risk assessment"
+      ],
+      "overall_sentiment": 2,
+      "questions_framing": {
+        "focus_areas": [
+          "vaccinated/prior infection",
+          "Omicron",
+          "immunocompromised",
+          "rebound"
+        ],
+        "intent": "assess strength of evidence",
+        "polarity": "neutral-to-skeptical"
+      }
+    }
+  },
+  "created_at": "2026-05-21T14:03:38.765664+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "af190de57f8c9774",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+    "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/166197/download"
+  },
+  "history_rank": {
+    "document_id": "af190de57f8c9774",
+    "file": "data/history_runs/af190de57f8c9774.json",
+    "has_ai_analysis": false,
+    "meeting_date": "2023-03-16",
+    "page_count": 54,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "questions available",
+      "efficacy and safety sections",
+      "substantial PDF length"
+    ],
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+    "sponsor": null,
+    "ticker": null,
+    "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/166197/download",
+    "value_score": 78
+  },
+  "page_count": 54,
+  "pdf_path": "data/history_pdfs/af190de57f8c9774_March_16_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 65,
+    "label": "STRONG_POSITIVE",
+    "probability": 75,
+    "rationale": [
+      "Concerns: Uncertain efficacy in vaccinated or previously infected individuals; Efficacy against Omicron variant not directly studied; Limited data in immunocompromised patients; COVID-19 rebound incidence and mechanism unclear; Risk of serious adverse reactions due to drug-drug interactions",
+      "Positives: Significant reduction in hospitalization/death in unvaccinated high-risk adults (EPIC-HR); Oral administration provides an accessible treatment option; Acceptable safety profile with mostly mild adverse events; Already authorized under EUA, suggesting prior positive benefit-risk assessment"
+    ]
+  }
+}

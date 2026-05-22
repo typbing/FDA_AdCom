@@ -1,0 +1,454 @@
+[
+  {
+    "document": {
+      "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/164338/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "6df8a6a4aa29769e"
+    },
+    "pdf_path": "data/history_pdfs/6df8a6a4aa29769e_January_9_2023_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 64,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": -8,
+      "approval_probability_estimate": 15,
+      "confidence": 90,
+      "key_concerns": [
+        "Primary non-inferiority endpoint not met in either pivotal study",
+        "High rate of important protocol deviations in Butterfleye (40% in aflibercept arm)",
+        "Potential systemic safety risks in preterm infants (higher systemic exposure than adults, nonclinical nasal turbinate erosions)",
+        "Safety database for pediatric ROP limited; long-term effects unknown"
+      ],
+      "key_positives": [
+        "Orphan drug designation shows recognition of unmet need",
+        "Avoids retinal laser scarring, potentially preserving peripheral vision",
+        "Single injection may reduce treatment burden compared to multiple laser sessions"
+      ],
+      "raw": {
+        "overall_sentiment": -8,
+        "approval_probability_estimate": 15,
+        "confidence": 90,
+        "key_concerns": [
+          "Primary non-inferiority endpoint not met in either pivotal study",
+          "High rate of important protocol deviations in Butterfleye (40% in aflibercept arm)",
+          "Potential systemic safety risks in preterm infants (higher systemic exposure than adults, nonclinical nasal turbinate erosions)",
+          "Safety database for pediatric ROP limited; long-term effects unknown"
+        ],
+        "key_positives": [
+          "Orphan drug designation shows recognition of unmet need",
+          "Avoids retinal laser scarring, potentially preserving peripheral vision",
+          "Single injection may reduce treatment burden compared to multiple laser sessions"
+        ],
+        "evidence_notes": [
+          "\"the primary endpoint (non-inferiority to the control) was not met in either study\"",
+          "\"Failure of the Primary Endpoint precludes testing of the secondary or other endpoints\"",
+          "\"BUTTERFLEYE: Any Important Protocol Deviation ... 40%\" in aflibercept arm",
+          "\"concentrations of free aflibercept in plasma ... 0.583 mcg/mL at Day 1\" — exceeding adult levels",
+          "\"Erosions and ulcerations of the respiratory epithelium in nasal turbinates in monkeys\" — at exposures only 2-fold higher than infant Cmax"
+        ],
+        "questions_framing": {
+          "primary_question": "Should the benefit-risk profile of aflibercept for ROP be considered favorable despite failure to demonstrate non-inferiority?",
+          "polarity": "negative",
+          "focus": "Insufficient efficacy evidence and potential safety concerns in preterm infants"
+        }
+      }
+    },
+    "signal": {
+      "label": "STRONG_NEGATIVE",
+      "probability": 15,
+      "confidence": 90,
+      "action": "REVIEW_PUT_OR_BEARISH_HEDGE",
+      "rationale": [
+        "Concerns: Primary non-inferiority endpoint not met in either pivotal study; High rate of important protocol deviations in Butterfleye (40% in aflibercept arm); Potential systemic safety risks in preterm infants (higher systemic exposure than adults, nonclinical nasal turbinate erosions); Safety database for pediatric ROP limited; long-term effects unknown",
+        "Positives: Orphan drug designation shows recognition of unmet need; Avoids retinal laser scarring, potentially preserving peripheral vision; Single injection may reduce treatment burden compared to multiple laser sessions"
+      ]
+    },
+    "created_at": "2026-05-21T13:56:12.138823+00:00",
+    "history_rank": {
+      "file": "data/history_runs/6df8a6a4aa29769e.json",
+      "document_id": "6df8a6a4aa29769e",
+      "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/164338/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+      "meeting_date": "2023-01-09",
+      "sponsor": "Regeneron",
+      "ticker": "REGN",
+      "page_count": 64,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 79,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "efficacy and safety sections",
+        "substantial PDF length",
+        "ticker inferred from same meeting page: REGN"
+      ]
+    },
+    "result_path": "data/history_runs/6df8a6a4aa29769e.json"
+  },
+  {
+    "document": {
+      "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+      "url": "https://www.fda.gov/media/133429/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "f8bbf578a35e0569"
+    },
+    "pdf_path": "data/history_pdfs/f8bbf578a35e0569_FDA_Briefing_Information_for_the_December_13_2019_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee.pdf",
+    "page_count": 50,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": 3,
+      "approval_probability_estimate": 85,
+      "confidence": 80,
+      "key_concerns": [
+        "Small safety database (<90 subjects), limiting detection of rare adverse events",
+        "Hyperglycemia risk, especially in diabetics, requiring glucose monitoring",
+        "Hearing impairment (hypoacusis, tinnitus) with unknown mechanism",
+        "Higher infection rate vs placebo without clear cause",
+        "Undefined 'Active' Thyroid Eye Disease criteria for indication",
+        "Unknown long-term efficacy and safety of repeat treatment courses"
+      ],
+      "key_positives": [
+        "Significant proptosis reduction: 82% vs 16% placebo (2 mm threshold)",
+        "No approved drug therapies for Thyroid Eye Disease",
+        "Clinically meaningful improvement in diplopia and corneal coverage",
+        "Favorable effect on non-study eye (68% reduction)",
+        "Inclusion of patient-reported outcomes and clinician-reported outcomes"
+      ],
+      "raw": {
+        "overall_sentiment": 3,
+        "approval_probability_estimate": 85,
+        "confidence": 80,
+        "key_concerns": [
+          "Small safety database (<90 subjects), limiting detection of rare adverse events",
+          "Hyperglycemia risk, especially in diabetics, requiring glucose monitoring",
+          "Hearing impairment (hypoacusis, tinnitus) with unknown mechanism",
+          "Higher infection rate vs placebo without clear cause",
+          "Undefined 'Active' Thyroid Eye Disease criteria for indication",
+          "Unknown long-term efficacy and safety of repeat treatment courses"
+        ],
+        "key_positives": [
+          "Significant proptosis reduction: 82% vs 16% placebo (2 mm threshold)",
+          "No approved drug therapies for Thyroid Eye Disease",
+          "Clinically meaningful improvement in diplopia and corneal coverage",
+          "Favorable effect on non-study eye (68% reduction)",
+          "Inclusion of patient-reported outcomes and clinician-reported outcomes"
+        ],
+        "evidence_notes": [
+          "Efficacy claim: 'Eighty-two percent (82%) of patients... had at least a two-millimeter reduction in ptosis [likely proptosis] compared to only 16 percent' (Section: Efficacy)",
+          "Clinical significance: 'A two-millimeter reduction is considered clinically significant because it is expected to reduce the incidence of diplopia and improve the lid coverage over the cornea' (Section: Efficacy)",
+          "Limited database: 'Less than 90 subjects treated with infusions of teprotumumab have been enrolled in controlled clinical trials' (Section: Efficacy C)",
+          "Safety signal: 'Based on the rule of 3’s, with a safety database of 90 subjects, adverse events may be expected to occur at rates of 3% without the event being observed' (Section: Efficacy C)",
+          "Hyperglycemia: 'Three teprotumumab subjects with normal fasting glucose values at Baseline demonstrated elevated fasting glucose values for at least 1 visit' (Section: Efficacy E)",
+          "Infection rate: 'The reported infection rate associated with teprotumumab was 33%, and higher than that of the placebo control in both studies' (Section: Safety I)",
+          "Hearing impairment: 'At least five patients reported hypoacusis/loss of hearing... The mechanism of action for hypoacusis remains unknown' (Section: Safety G)"
+        ],
+        "questions_framing": {
+          "description": "FDA briefing poses neutral benefit-risk question ('Do the potential benefits... outweigh the potential risks?') and requests labeling recommendations, indicating standard advisory committee framing focused on approval conditions rather than outright rejection."
+        }
+      }
+    },
+    "signal": {
+      "label": "STRONG_POSITIVE",
+      "probability": 85,
+      "confidence": 80,
+      "action": "REVIEW_CALL_OR_EQUITY_LONG",
+      "rationale": [
+        "Concerns: Small safety database (<90 subjects), limiting detection of rare adverse events; Hyperglycemia risk, especially in diabetics, requiring glucose monitoring; Hearing impairment (hypoacusis, tinnitus) with unknown mechanism; Higher infection rate vs placebo without clear cause; Undefined 'Active' Thyroid Eye Disease criteria for indication",
+        "Positives: Significant proptosis reduction: 82% vs 16% placebo (2 mm threshold); No approved drug therapies for Thyroid Eye Disease; Clinically meaningful improvement in diplopia and corneal coverage; Favorable effect on non-study eye (68% reduction); Inclusion of patient-reported outcomes and clinician-reported outcomes"
+      ]
+    },
+    "created_at": "2026-05-21T13:57:11.248573+00:00",
+    "history_rank": {
+      "file": "data/history_runs/f8bbf578a35e0569.json",
+      "document_id": "f8bbf578a35e0569",
+      "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+      "url": "https://www.fda.gov/media/133429/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+      "meeting_date": "2019-12-13",
+      "sponsor": "Horizon",
+      "ticker": "HZNP",
+      "page_count": 50,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 79,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "efficacy and safety sections",
+        "substantial PDF length",
+        "ticker inferred from same meeting page: HZNP"
+      ]
+    },
+    "result_path": "data/history_runs/f8bbf578a35e0569.json"
+  },
+  {
+    "document": {
+      "title": "May 9-10, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Obstetrics, Reproductive and Urologic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167892/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-9-10-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-obstetrics-reproductive-and",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "2252b7c3b1118d54"
+    },
+    "pdf_path": "data/history_pdfs/2252b7c3b1118d54_May_9-10_2023_Joint_Meeting_of_the_Nonprescription_Drugs_Advisory_Committee_and_the_Obstetrics_Reproductive_and_Urologic.pdf",
+    "page_count": 130,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": -7,
+      "approval_probability_estimate": 30,
+      "confidence": 90,
+      "key_concerns": [
+        "Improbable dosing data undermines adherence reliability",
+        "Inadequate deselection by breast cancer patients",
+        "Low comprehension of abnormal bleeding warning",
+        "Concomitant hormonal contraceptive use despite warnings",
+        "Adolescent comprehension gaps",
+        "Limited literacy underrepresentation",
+        "Unknown efficacy in overweight/obese population"
+      ],
+      "key_positives": [
+        "Potential to increase access to more effective contraception",
+        "Nonprescription availability may reduce unintended pregnancies"
+      ],
+      "raw": {
+        "overall_sentiment": -7,
+        "approval_probability_estimate": 30,
+        "confidence": 90,
+        "key_concerns": [
+          "Improbable dosing data undermines adherence reliability",
+          "Inadequate deselection by breast cancer patients",
+          "Low comprehension of abnormal bleeding warning",
+          "Concomitant hormonal contraceptive use despite warnings",
+          "Adolescent comprehension gaps",
+          "Limited literacy underrepresentation",
+          "Unknown efficacy in overweight/obese population"
+        ],
+        "key_positives": [
+          "Potential to increase access to more effective contraception",
+          "Nonprescription availability may reduce unintended pregnancies"
+        ],
+        "evidence_notes": [
+          "'Approximately 1/3 of participants had improbable dosing results' - calls into question reliability of actual use data.",
+          "'Comprehension of this contraindication did not approach the prespecified target threshold' - for breast cancer deselection.",
+          "'More than half of participants with unexplained vaginal bleeding incorrectly indicated norgestrel would be appropriate' - deselection failure.",
+          "'11 participants reported using a hormone-containing birth control product while using norgestrel' - safety concern.",
+          "'Younger adolescents (11-14) demonstrated low comprehension of important labeling messages' - adolescent risk.",
+          "'Limited literacy participation was only 5% in targeted breast cancer self-selection study' - representation concern.",
+          "'The degree to which efficacy is diminished in overweight or obese individuals remains unknown' - efficacy gap."
+        ],
+        "questions_framing": {
+          "polarity": "Skeptical",
+          "focus": "FDA questions probe adequacy of consumer behavior evidence, emphasizing risks of self-selection errors and non-adherence, suggesting current data insufficient to support switch."
+        }
+      }
+    },
+    "signal": {
+      "label": "STRONG_NEGATIVE",
+      "probability": 30,
+      "confidence": 90,
+      "action": "REVIEW_PUT_OR_BEARISH_HEDGE",
+      "rationale": [
+        "Concerns: Improbable dosing data undermines adherence reliability; Inadequate deselection by breast cancer patients; Low comprehension of abnormal bleeding warning; Concomitant hormonal contraceptive use despite warnings; Adolescent comprehension gaps",
+        "Positives: Potential to increase access to more effective contraception; Nonprescription availability may reduce unintended pregnancies"
+      ]
+    },
+    "created_at": "2026-05-21T13:58:04.533289+00:00",
+    "history_rank": {
+      "file": "data/history_runs/2252b7c3b1118d54.json",
+      "document_id": "2252b7c3b1118d54",
+      "title": "May 9-10, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Obstetrics, Reproductive and Urologic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167892/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-9-10-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-obstetrics-reproductive-and",
+      "meeting_date": "2023-05-09",
+      "sponsor": null,
+      "ticker": null,
+      "page_count": 130,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "questions",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 78,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "questions available",
+        "efficacy and safety sections",
+        "substantial PDF length"
+      ]
+    },
+    "result_path": "data/history_runs/2252b7c3b1118d54.json"
+  },
+  {
+    "history_rank": {
+      "file": "data/history_runs/44ec7ad56d1a47b2.json",
+      "document_id": "44ec7ad56d1a47b2",
+      "title": "February 15, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/165338/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/february-15-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-anesthetic-and-analgesic",
+      "meeting_date": "2023-02-15",
+      "sponsor": null,
+      "ticker": null,
+      "page_count": 85,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "questions",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 78,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "questions available",
+        "efficacy and safety sections",
+        "substantial PDF length"
+      ]
+    },
+    "error": "Model did not return JSON",
+    "created_at": "2026-05-21T13:59:23.007160+00:00",
+    "result_path": "data/history_runs/44ec7ad56d1a47b2.json"
+  },
+  {
+    "document": {
+      "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/169226/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "1b07cb209a078f7d"
+    },
+    "pdf_path": "data/history_pdfs/1b07cb209a078f7d_June_8_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 55,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": 7,
+      "approval_probability_estimate": 85,
+      "confidence": 70,
+      "key_concerns": [
+        "Imbalance in deaths between treatment groups (details not provided in excerpt)",
+        "Efficacy in second RSV season limited due to low RSV circulation during COVID-19 pandemic",
+        "Hospitalization reduction in Trial 04 not statistically significant (p=0.09)"
+      ],
+      "key_positives": [
+        "High efficacy in reducing medically attended RSV LRTI in both preterm and term infants",
+        "Single-dose regimen offers convenience over monthly palivizumab",
+        "Favorable safety profile with mostly mild adverse events"
+      ],
+      "raw": {
+        "overall_sentiment": 7,
+        "approval_probability_estimate": 85,
+        "confidence": 70,
+        "key_concerns": [
+          "Imbalance in deaths between treatment groups (details not provided in excerpt)",
+          "Efficacy in second RSV season limited due to low RSV circulation during COVID-19 pandemic",
+          "Hospitalization reduction in Trial 04 not statistically significant (p=0.09)"
+        ],
+        "key_positives": [
+          "High efficacy in reducing medically attended RSV LRTI in both preterm and term infants",
+          "Single-dose regimen offers convenience over monthly palivizumab",
+          "Favorable safety profile with mostly mild adverse events"
+        ],
+        "evidence_notes": [
+          "Nirsevimab showed 70.1% relative risk reduction of MA RSV LRTI in preterm infants ('relative risk reduction of 70.1%...p <0.0001')",
+          "Nirsevimab showed 74.9% relative risk reduction of MA RSV LRTI in term infants ('relative risk reduction of 74.9%...p <0.0001')",
+          "Hospitalization reduction was 78.4% in Trial 03 ('relative risk reduction of 78.4%...p=.0002') but 60.2% in Trial 04 with wide confidence interval crossing zero ('relative risk reduction of 60.2% (95% CI: -14.6% to 86.2%; p=0.09)')",
+          "Safety data pooled from 3 trials showed most common adverse reactions were rash and injection site reactions ('most common adverse reactions...rash (0.7%) and injection site reactions (0.4%)')",
+          "Second season efficacy data from Trial 05 showed no cases, but RSV circulation was low during pandemic ('There were no cases of MA RSV LRTI in the second RSV season, which was conducted in 2020 during the COVID-19 pandemic')",
+          "The document notes an imbalance in deaths as a safety consideration without further detail ('Safety Considerations: • Hypersensitivity reactions, including anaphylaxis and rash • Imbalance in deaths')"
+        ],
+        "questions_framing": {
+          "polarity": "neutral",
+          "remarks": "Questions focus on benefit-risk, subpopulation appropriateness, and post-marketing considerations; they do not appear leading or negative."
+        }
+      }
+    },
+    "signal": {
+      "label": "STRONG_POSITIVE",
+      "probability": 85,
+      "confidence": 70,
+      "action": "REVIEW_CALL_OR_EQUITY_LONG",
+      "rationale": [
+        "Concerns: Imbalance in deaths between treatment groups (details not provided in excerpt); Efficacy in second RSV season limited due to low RSV circulation during COVID-19 pandemic; Hospitalization reduction in Trial 04 not statistically significant (p=0.09)",
+        "Positives: High efficacy in reducing medically attended RSV LRTI in both preterm and term infants; Single-dose regimen offers convenience over monthly palivizumab; Favorable safety profile with mostly mild adverse events"
+      ]
+    },
+    "created_at": "2026-05-21T14:00:35.144777+00:00",
+    "history_rank": {
+      "file": "data/history_runs/1b07cb209a078f7d.json",
+      "document_id": "1b07cb209a078f7d",
+      "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/169226/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+      "meeting_date": "2023-06-08",
+      "sponsor": null,
+      "ticker": null,
+      "page_count": 55,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "questions",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 78,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "questions available",
+        "efficacy and safety sections",
+        "substantial PDF length"
+      ]
+    },
+    "result_path": "data/history_runs/1b07cb209a078f7d.json"
+  }
+]

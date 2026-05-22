@@ -1,0 +1,302 @@
+[
+  {
+    "file": "data/history_runs/08d7a4cf68c80338.json",
+    "document_id": "08d7a4cf68c80338",
+    "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document-Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023",
+    "meeting_date": "2023-03-09",
+    "sponsor": "Genentech",
+    "ticker": "RHHBY",
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/0b99a891dd01a3b2.json",
+    "document_id": "0b99a891dd01a3b2",
+    "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023",
+    "meeting_date": "2023-03-09",
+    "sponsor": "Genentech",
+    "ticker": "RHHBY",
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/07d0a87f7ff02db9.json",
+    "document_id": "07d0a87f7ff02db9",
+    "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- Cidara Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+    "meeting_date": "2023-01-24",
+    "sponsor": "Cidara",
+    "ticker": "CDTX",
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/2b2013a2acf6a3ce.json",
+    "document_id": "2b2013a2acf6a3ce",
+    "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+    "meeting_date": "2023-01-24",
+    "sponsor": "Cidara",
+    "ticker": "CDTX",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/66e326fd862af572.json",
+    "document_id": "66e326fd862af572",
+    "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document- Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+    "meeting_date": "2023-01-24",
+    "sponsor": "Cidara",
+    "ticker": "CDTX",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/fd90bab1d0efa617.json",
+    "document_id": "fd90bab1d0efa617",
+    "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- Final Questions",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+    "meeting_date": "2023-01-24",
+    "sponsor": "Cidara",
+    "ticker": "CDTX",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/3ea9b6d3e184b0d5.json",
+    "document_id": "3ea9b6d3e184b0d5",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- Regeneron Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "meeting_date": "2023-01-09",
+    "sponsor": "Regeneron",
+    "ticker": "REGN",
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/6df8a6a4aa29769e.json",
+    "document_id": "6df8a6a4aa29769e",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "meeting_date": "2023-01-09",
+    "sponsor": "Regeneron",
+    "ticker": "REGN",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/74f2619b703a09c2.json",
+    "document_id": "74f2619b703a09c2",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- Final Questions",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "meeting_date": "2023-01-09",
+    "sponsor": "Regeneron",
+    "ticker": "REGN",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/07ae88dc3a7a1552.json",
+    "document_id": "07ae88dc3a7a1552",
+    "title": "Horizon Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "meeting_date": "2019-12-13",
+    "sponsor": "Horizon",
+    "ticker": "HZNP",
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/765741af520c206b.json",
+    "document_id": "765741af520c206b",
+    "title": "Final Questions for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee (DODAC)",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "meeting_date": "2019-12-13",
+    "sponsor": "Horizon",
+    "ticker": "HZNP",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/dd15c80512cccec8.json",
+    "document_id": "dd15c80512cccec8",
+    "title": "Errata to the FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "meeting_date": "2019-12-13",
+    "sponsor": "Horizon",
+    "ticker": "HZNP",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/f8bbf578a35e0569.json",
+    "document_id": "f8bbf578a35e0569",
+    "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+    "meeting_date": "2019-12-13",
+    "sponsor": "Horizon",
+    "ticker": "HZNP",
+    "inferred_from_page": true
+  },
+  {
+    "file": "data/history_runs/f04f40cfe4351a27.json",
+    "document_id": "f04f40cfe4351a27",
+    "title": "June 16, 2023 Meeting of the Pediatric Oncology Subcommittee of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-16-2023-pediatric-oncology-subcommittee-oncologic-drugs-advisory-committee-meeting-announcement",
+    "meeting_date": "2023-06-16",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/1b07cb209a078f7d.json",
+    "document_id": "1b07cb209a078f7d",
+    "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+    "meeting_date": "2023-06-08",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/74db73c2a563cd0a.json",
+    "document_id": "74db73c2a563cd0a",
+    "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document-First Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+    "meeting_date": "2023-06-08",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/a49fd6fa786cde92.json",
+    "document_id": "a49fd6fa786cde92",
+    "title": "June 8, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document-Second Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-8-2023-meeting-antimicrobial-drugs-advisory-committee-meeting-announcement-06082023",
+    "meeting_date": "2023-06-08",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/3a4dcb0e38851c6c.json",
+    "document_id": "3a4dcb0e38851c6c",
+    "title": "May 19, 2023 Meeting of the Gastrointestinal Drugs Advisory Committee- FDA Briefing Document- Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/committees-and-meeting-materials/may-19-2023-meeting-gastrointestinal-drugs-advisory-committee-meeting-announcement-05192023",
+    "meeting_date": "2023-05-19",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/3b3b8e54170847af.json",
+    "document_id": "3b3b8e54170847af",
+    "title": "May 19, 2023 Meeting of the Gastrointestinal Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/committees-and-meeting-materials/may-19-2023-meeting-gastrointestinal-drugs-advisory-committee-meeting-announcement-05192023",
+    "meeting_date": "2023-05-19",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/2252b7c3b1118d54.json",
+    "document_id": "2252b7c3b1118d54",
+    "title": "May 9-10, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Obstetrics, Reproductive and Urologic Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-9-10-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-obstetrics-reproductive-and",
+    "meeting_date": "2023-05-09",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/25ffbfbe22b73aa6.json",
+    "document_id": "25ffbfbe22b73aa6",
+    "title": "April 28, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-28-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04282023",
+    "meeting_date": "2023-04-28",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/9d2b630fa2e57570.json",
+    "document_id": "9d2b630fa2e57570",
+    "title": "April 28, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document- Addendum",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-28-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04282023",
+    "meeting_date": "2023-04-28",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/40b964bf5edaa2cb.json",
+    "document_id": "40b964bf5edaa2cb",
+    "title": "April 19, 2023 Meeting of the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-19-2023-meeting-anesthetic-and-analgesic-drug-products-advisory-committee-meeting-announcement",
+    "meeting_date": "2023-04-19",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/4673ede6596e5988.json",
+    "document_id": "4673ede6596e5988",
+    "title": "April 19, 2023 Meeting of the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document- Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-19-2023-meeting-anesthetic-and-analgesic-drug-products-advisory-committee-meeting-announcement",
+    "meeting_date": "2023-04-19",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/dd6f0d626e63c30c.json",
+    "document_id": "dd6f0d626e63c30c",
+    "title": "April 17, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-april-17-2023-meeting-antimicrobial-drugs-advisory-committee-meeting",
+    "meeting_date": "2023-04-17",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/af190de57f8c9774.json",
+    "document_id": "af190de57f8c9774",
+    "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+    "meeting_date": "2023-03-16",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/c5dd231a971d4725.json",
+    "document_id": "c5dd231a971d4725",
+    "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document- Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+    "meeting_date": "2023-03-16",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/44ec7ad56d1a47b2.json",
+    "document_id": "44ec7ad56d1a47b2",
+    "title": "February 15, 2023 Joint Meeting of the Nonprescription Drugs Advisory Committee and the Anesthetic and Analgesic Drug Products Advisory Committee- FDA Briefing Document",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/february-15-2023-joint-meeting-nonprescription-drugs-advisory-committee-and-anesthetic-and-analgesic",
+    "meeting_date": "2023-02-15",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/2b7ff1a06c480c90.json",
+    "document_id": "2b7ff1a06c480c90",
+    "title": "February 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Information",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-february-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement",
+    "meeting_date": "2023-02-09",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  },
+  {
+    "file": "data/history_runs/53b122bb42436799.json",
+    "document_id": "53b122bb42436799",
+    "title": "February 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Information-Errata",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-february-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement",
+    "meeting_date": "2023-02-09",
+    "sponsor": null,
+    "ticker": null,
+    "inferred_from_page": false
+  }
+]

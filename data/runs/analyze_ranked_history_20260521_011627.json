@@ -1,0 +1,108 @@
+[
+  {
+    "document": {
+      "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/164666/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "2b2013a2acf6a3ce"
+    },
+    "pdf_path": "data/history_pdfs/2b2013a2acf6a3ce_January_24_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 75,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": -3,
+      "approval_probability_estimate": 55,
+      "confidence": 70,
+      "key_concerns": [
+        "Single phase 3 study with wide 20% noninferiority margin; did not meet 10% margin.",
+        "Neurotoxicity signal in nonhuman primates (tremors, Schwann cell hyperplasia, axonal degeneration).",
+        "Limited safety database of 151 patients, insufficient to detect rare adverse events.",
+        "Tremor imbalance in clinical data (2.6% vs 0% in comparator).",
+        "FDA disagrees with pooling phase 2 data to narrow the NI margin.",
+        "Unclear if rezafungin provides meaningful advantages beyond once-weekly dosing."
+      ],
+      "key_positives": [
+        "Phase 3 study met primary endpoint of Day-30 ACM noninferiority with 20% margin.",
+        "Once-weekly dosing offers convenience over daily IV echinocandins.",
+        "Potential for lower DDI potential than azoles and possibly caspofungin.",
+        "In vitro activity against some echinocandin-resistant isolates (claimed by applicant)."
+      ],
+      "raw": {
+        "overall_sentiment": -3,
+        "approval_probability_estimate": 55,
+        "confidence": 70,
+        "key_concerns": [
+          "Single phase 3 study with wide 20% noninferiority margin; did not meet 10% margin.",
+          "Neurotoxicity signal in nonhuman primates (tremors, Schwann cell hyperplasia, axonal degeneration).",
+          "Limited safety database of 151 patients, insufficient to detect rare adverse events.",
+          "Tremor imbalance in clinical data (2.6% vs 0% in comparator).",
+          "FDA disagrees with pooling phase 2 data to narrow the NI margin.",
+          "Unclear if rezafungin provides meaningful advantages beyond once-weekly dosing."
+        ],
+        "key_positives": [
+          "Phase 3 study met primary endpoint of Day-30 ACM noninferiority with 20% margin.",
+          "Once-weekly dosing offers convenience over daily IV echinocandins.",
+          "Potential for lower DDI potential than azoles and possibly caspofungin.",
+          "In vitro activity against some echinocandin-resistant isolates (claimed by applicant)."
+        ],
+        "evidence_notes": [
+          "Phase 3 study: 'Day 30 ACM rate of 23.7% in rezafungin and 21.3% in caspofungin, difference 2.4% (95% CI -9.7%, 14.4%).'",
+          "FDA: 'does not agree with the Applicant’s proposal... to pool the efficacy data from phase 2 and phase 3 studies.'",
+          "Tremor imbalance: 'Tremor was observed in four (2.6%) subjects receiving... rezafungin... and in none... receiving the caspofungin comparator.'",
+          "Nonclinical: 'intention tremors... axonal degeneration... Schwann cell hyperplasia persisted through recovery.'",
+          "Review team: 'Applicant has not provided sufficient data to support... improved activity against Candida spp. with reduced susceptibility... or improved tissue penetration.'"
+        ],
+        "questions_framing": "FDA asks if benefit-risk is favorable for patients with limited/no alternative options, seeking committee input on a potential limited use indication given the single trial and safety concerns."
+      }
+    },
+    "signal": {
+      "label": "MIXED",
+      "probability": 55,
+      "confidence": 70,
+      "action": "NO_TRADE_REVIEW_MANUALLY",
+      "rationale": [
+        "Concerns: Single phase 3 study with wide 20% noninferiority margin; did not meet 10% margin.; Neurotoxicity signal in nonhuman primates (tremors, Schwann cell hyperplasia, axonal degeneration).; Limited safety database of 151 patients, insufficient to detect rare adverse events.; Tremor imbalance in clinical data (2.6% vs 0% in comparator).; FDA disagrees with pooling phase 2 data to narrow the NI margin.",
+        "Positives: Phase 3 study met primary endpoint of Day-30 ACM noninferiority with 20% margin.; Once-weekly dosing offers convenience over daily IV echinocandins.; Potential for lower DDI potential than azoles and possibly caspofungin.; In vitro activity against some echinocandin-resistant isolates (claimed by applicant)."
+      ]
+    },
+    "created_at": "2026-05-21T07:17:54.975409+00:00",
+    "history_rank": {
+      "file": "data/history_runs/2b2013a2acf6a3ce.json",
+      "document_id": "2b2013a2acf6a3ce",
+      "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/164666/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+      "meeting_date": "2023-01-24",
+      "sponsor": "Cidara",
+      "ticker": "CDTX",
+      "page_count": 75,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "questions",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 98,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "questions available",
+        "efficacy and safety sections",
+        "substantial PDF length",
+        "ticker inferred from same meeting page: CDTX"
+      ]
+    },
+    "result_path": "data/history_runs/2b2013a2acf6a3ce.json"
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:49:47.337095+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "1034b51dfc26ba97",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-december-17-2020-meeting-announcement",
+    "title": "Vaccines and Related Biological Products Advisory Committee December 17, 2020 Meeting Briefing Document- Sponsor",
+    "url": "https://www.fda.gov/media/144452/download"
+  },
+  "page_count": 84,
+  "pdf_path": "data/history_pdfs/1034b51dfc26ba97_Vaccines_and_Related_Biological_Products_Advisory_Committee_December_17_2020_Meeting_Briefing_Document-_Sponsor.pdf",
+  "section_lengths": {
+    "background": 24,
+    "efficacy": 5758,
+    "executive_summary": 954,
+    "safety": 166
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

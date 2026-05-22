@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T07:15:13.288044+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+    "id": "e000494cea489c32",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-february-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement",
+    "title": "February 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Final Questions",
+    "url": "https://www.fda.gov/media/165280/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/history_pdfs/e000494cea489c32_February_9_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Final_Questions.pdf",
+  "section_lengths": {
+    "executive_summary": 1443
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

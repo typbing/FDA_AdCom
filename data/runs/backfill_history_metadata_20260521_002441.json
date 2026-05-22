@@ -1,0 +1,124 @@
+[
+  {
+    "document": {
+      "title": "FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+      "url": "https://www.fda.gov/media/133429/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "f8bbf578a35e0569"
+    },
+    "pdf_path": "data/history_pdfs/f8bbf578a35e0569_FDA_Briefing_Information_for_the_December_13_2019_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee.pdf",
+    "page_count": 50,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "efficacy": 8717,
+      "executive_summary": 983,
+      "background": 595,
+      "safety": 1826
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:25:18.807548+00:00",
+    "result_path": "data/history_runs/f8bbf578a35e0569.json"
+  },
+  {
+    "document": {
+      "title": "Errata to the FDA Briefing Information for the December 13, 2019 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee",
+      "url": "https://www.fda.gov/media/133430/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-december-13-2019-meeting-dermatologic-and-ophthalmic-drugs",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "dd15c80512cccec8"
+    },
+    "pdf_path": "data/history_pdfs/dd15c80512cccec8_Errata_to_the_FDA_Briefing_Information_for_the_December_13_2019_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisor.pdf",
+    "page_count": 2,
+    "sections_found": [
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "safety": 815,
+      "executive_summary": 2169
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:25:19.520564+00:00",
+    "result_path": "data/history_runs/dd15c80512cccec8.json"
+  },
+  {
+    "document": {
+      "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/164338/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "6df8a6a4aa29769e"
+    },
+    "pdf_path": "data/history_pdfs/6df8a6a4aa29769e_January_9_2023_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 64,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "section_lengths": {
+      "background": 534,
+      "executive_summary": 54137,
+      "safety": 16618,
+      "efficacy": 15929
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:25:27.990645+00:00",
+    "result_path": "data/history_runs/6df8a6a4aa29769e.json"
+  },
+  {
+    "document": {
+      "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/164666/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "2b2013a2acf6a3ce"
+    },
+    "pdf_path": "data/history_pdfs/2b2013a2acf6a3ce_January_24_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 75,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "section_lengths": {
+      "executive_summary": 7572,
+      "questions": 401,
+      "background": 10839,
+      "efficacy": 53140,
+      "safety": 35396
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:25:35.239663+00:00",
+    "result_path": "data/history_runs/2b2013a2acf6a3ce.json"
+  },
+  {
+    "document": {
+      "title": "January 24, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document- Errata",
+      "url": "https://www.fda.gov/media/164667/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-public-participation-information-january-24-2023-antimicrobial-drugs-advisory-committee",
+      "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+      "id": "66e326fd862af572"
+    },
+    "pdf_path": "data/history_pdfs/66e326fd862af572_January_24_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document-_Errata.pdf",
+    "page_count": 1,
+    "sections_found": [
+      "executive_summary"
+    ],
+    "section_lengths": {
+      "executive_summary": 878
+    },
+    "analysis_status": "metadata_only",
+    "created_at": "2026-05-21T06:25:35.601542+00:00",
+    "result_path": "data/history_runs/66e326fd862af572.json"
+  }
+]

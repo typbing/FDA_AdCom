@@ -1,0 +1,23 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T06:56:23.172063+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "f04f40cfe4351a27",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/june-16-2023-pediatric-oncology-subcommittee-oncologic-drugs-advisory-committee-meeting-announcement",
+    "title": "June 16, 2023 Meeting of the Pediatric Oncology Subcommittee of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/169486/download"
+  },
+  "page_count": 65,
+  "pdf_path": "data/history_pdfs/f04f40cfe4351a27_June_16_2023_Meeting_of_the_Pediatric_Oncology_Subcommittee_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Docu.pdf",
+  "section_lengths": {
+    "efficacy": 97329,
+    "executive_summary": 29998,
+    "safety": 36218
+  },
+  "sections_found": [
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

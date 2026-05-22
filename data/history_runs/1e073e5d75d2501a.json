@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:48:18.540841+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "1e073e5d75d2501a",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-march-4-2020-meeting-announcement",
+    "title": "Vaccines and Related Biological Products Advisory Committee March 4, 2020 Meeting Briefing Materials- Committee Questions for Topic 1",
+    "url": "https://www.fda.gov/media/135765/download"
+  },
+  "page_count": 1,
+  "pdf_path": "data/history_pdfs/1e073e5d75d2501a_Vaccines_and_Related_Biological_Products_Advisory_Committee_March_4_2020_Meeting_Briefing_Materials-_Committee_Questions.pdf",
+  "section_lengths": {
+    "executive_summary": 1032
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

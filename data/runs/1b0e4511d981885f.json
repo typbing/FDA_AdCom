@@ -1,0 +1,80 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 25,
+    "confidence": 85,
+    "key_concerns": [
+      "Uncertain clinical meaningfulness of 8-week RBC-TI endpoint",
+      "Low durability of transfusion independence (1-year RBC-TI only 13.6%)",
+      "No improvement in overall survival, CR/PR, or patient-reported outcomes",
+      "High rates of grade 3-4 neutropenia (71%) and thrombocytopenia (65%)",
+      "Increased infections, bleeding events, and fractures",
+      "Excessive dose modifications and unclear optimal dosing",
+      "Limited applicability to US population due to geographical imbalance"
+    ],
+    "key_positives": [
+      "Statistically significant improvement in 8-week and 24-week RBC-TI",
+      "Durable responses in a subset of patients (median duration 51.6 weeks in responders)",
+      "Reduction in SF3B1 variant allele frequency"
+    ],
+    "overall_sentiment": -6,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 25,
+      "confidence": 85,
+      "evidence_notes": [
+        "Durability concern: 'the point estimate of the response rate decreased as the target duration of RBC-TI increased, being only 13.6% for 1-year RBC-TI'",
+        "No OS benefit: 'The hazard ratio between the imetelstat and placebo arms was 0.98 (95% CI: 0.53, 1.82)'",
+        "Cytopenia risk: 'Grade 3-4 neutropenia occurred in 71% imetelstat vs 7% placebo'",
+        "Fracture signal: 'Fractures were documented in 61 patients (8%) who received imetelstat as monotherapy... across a variety of studies'",
+        "PRO lack of benefit: 'FDA found no compelling evidence to support improvement in fatigue or other anemia related symptoms'",
+        "US applicability uncertainty: 'the 8-week RBC-TI rate with imetelstat was much lower in the subgroup of patients enrolled at sites within the US compared to non-US sites'"
+      ],
+      "key_concerns": [
+        "Uncertain clinical meaningfulness of 8-week RBC-TI endpoint",
+        "Low durability of transfusion independence (1-year RBC-TI only 13.6%)",
+        "No improvement in overall survival, CR/PR, or patient-reported outcomes",
+        "High rates of grade 3-4 neutropenia (71%) and thrombocytopenia (65%)",
+        "Increased infections, bleeding events, and fractures",
+        "Excessive dose modifications and unclear optimal dosing",
+        "Limited applicability to US population due to geographical imbalance"
+      ],
+      "key_positives": [
+        "Statistically significant improvement in 8-week and 24-week RBC-TI",
+        "Durable responses in a subset of patients (median duration 51.6 weeks in responders)",
+        "Reduction in SF3B1 variant allele frequency"
+      ],
+      "overall_sentiment": -6,
+      "questions_framing": {
+        "description": "FDA asks whether benefits outweigh risks, highlighting unresolved concerns with efficacy magnitude, durability, and safety.",
+        "polarity": "skeptical"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:34:12.746179+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "1b0e4511d981885f",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-14-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03142024",
+    "title": "March 14, 2024 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/176966/download"
+  },
+  "page_count": 42,
+  "pdf_path": "data/raw_pdfs/1b0e4511d981885f_March_14_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_PUT_OR_BEARISH_HEDGE",
+    "confidence": 85,
+    "label": "STRONG_NEGATIVE",
+    "probability": 25,
+    "rationale": [
+      "Concerns: Uncertain clinical meaningfulness of 8-week RBC-TI endpoint; Low durability of transfusion independence (1-year RBC-TI only 13.6%); No improvement in overall survival, CR/PR, or patient-reported outcomes; High rates of grade 3-4 neutropenia (71%) and thrombocytopenia (65%); Increased infections, bleeding events, and fractures",
+      "Positives: Statistically significant improvement in 8-week and 24-week RBC-TI; Durable responses in a subset of patients (median duration 51.6 weeks in responders); Reduction in SF3B1 variant allele frequency"
+    ]
+  }
+}

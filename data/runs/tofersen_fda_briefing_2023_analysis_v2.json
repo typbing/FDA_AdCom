@@ -1,0 +1,83 @@
+{
+  "document": {
+    "id": "tofersen_fda_briefing_2023",
+    "title": "tofersen_fda_briefing_2023.pdf",
+    "url": "data/sample_pdfs/tofersen_fda_briefing_2023.pdf",
+    "source_page": "local",
+    "discovered_at": "2026-05-21T05:29:36.163971+00:00"
+  },
+  "pdf_path": "data/sample_pdfs/tofersen_fda_briefing_2023.pdf",
+  "page_count": 68,
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ],
+  "analysis": {
+    "provider": "deepseek",
+    "overall_sentiment": -2,
+    "approval_probability_estimate": 40,
+    "confidence": 85,
+    "key_concerns": [
+      "Primary endpoint not met in pivotal study (p=0.97)",
+      "Reliance on post-hoc analyses after unblinding",
+      "Study underpowered due to slower than expected decline",
+      "Safety signals: myelitis, radiculitis, aseptic meningitis, papilledema, elevated intracranial pressure",
+      "Uncertainty whether NfL reduction is reasonably likely to predict clinical benefit",
+      "OLE analyses limited by exploratory nature, multiplicity, and incomplete follow-up"
+    ],
+    "key_positives": [
+      "Large and consistent reduction in plasma NfL (55% vs. 12% increase in placebo)",
+      "Clear target engagement shown by CSF SOD1 reduction (38% difference)",
+      "Severe unmet need in rapidly fatal SOD1-ALS with no targeted therapies",
+      "Extremely rare disease makes additional trials challenging",
+      "OLE data suggestive of clinical benefit with longer treatment duration",
+      "Regulatory flexibility permitted for serious diseases with unmet need"
+    ],
+    "raw": {
+      "overall_sentiment": -2,
+      "approval_probability_estimate": 40,
+      "confidence": 85,
+      "key_concerns": [
+        "Primary endpoint not met in pivotal study (p=0.97)",
+        "Reliance on post-hoc analyses after unblinding",
+        "Study underpowered due to slower than expected decline",
+        "Safety signals: myelitis, radiculitis, aseptic meningitis, papilledema, elevated intracranial pressure",
+        "Uncertainty whether NfL reduction is reasonably likely to predict clinical benefit",
+        "OLE analyses limited by exploratory nature, multiplicity, and incomplete follow-up"
+      ],
+      "key_positives": [
+        "Large and consistent reduction in plasma NfL (55% vs. 12% increase in placebo)",
+        "Clear target engagement shown by CSF SOD1 reduction (38% difference)",
+        "Severe unmet need in rapidly fatal SOD1-ALS with no targeted therapies",
+        "Extremely rare disease makes additional trials challenging",
+        "OLE data suggestive of clinical benefit with longer treatment duration",
+        "Regulatory flexibility permitted for serious diseases with unmet need"
+      ],
+      "evidence_notes": [
+        "\"This study failed to show a statistically significant difference between the tofersen and placebo groups for the primary or secondary endpoints.\"",
+        "\"A 55% reduction in plasma NfL was observed at Week 28 in the tofersen group compared to a mean 12% increase in NfL observed in the placebo group (nominal p < 0.0001).\"",
+        "\"These OLE analyses have limitations (e.g., post hoc choice of covariate and time points, multiplicity issues) that make interpretation of the results challenging.\"",
+        "\"The study, as designed, was markedly underpowered and thus limited in its ability to detect a difference if there was a drug effect.\"",
+        "\"The risk of myelitis has been described in 5 patients receiving tofersen... three of whom discontinued treatment secondary to the adverse event.\""
+      ],
+      "questions_framing": {
+        "description": "The FDA questions ask whether NfL reduction is 'reasonably likely to predict clinical benefit' and whether existing data provide 'convincing evidence of effectiveness.' The framing suggests skepticism rather than endorsement, consistent with a failed primary endpoint and reliance on post-hoc analyses.",
+        "polarity": "slightly negative"
+      }
+    }
+  },
+  "signal": {
+    "label": "NEGATIVE",
+    "probability": 40,
+    "confidence": 85,
+    "action": "REVIEW_SMALL_BEARISH_OR_NO_TRADE",
+    "rationale": [
+      "Concerns: Primary endpoint not met in pivotal study (p=0.97); Reliance on post-hoc analyses after unblinding; Study underpowered due to slower than expected decline; Safety signals: myelitis, radiculitis, aseptic meningitis, papilledema, elevated intracranial pressure; Uncertainty whether NfL reduction is reasonably likely to predict clinical benefit",
+      "Positives: Large and consistent reduction in plasma NfL (55% vs. 12% increase in placebo); Clear target engagement shown by CSF SOD1 reduction (38% difference); Severe unmet need in rapidly fatal SOD1-ALS with no targeted therapies; Extremely rare disease makes additional trials challenging; OLE data suggestive of clinical benefit with longer treatment duration"
+    ]
+  },
+  "created_at": "2026-05-21T05:29:36.164026+00:00"
+}

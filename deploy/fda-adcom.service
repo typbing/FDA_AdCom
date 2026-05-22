@@ -1,0 +1,15 @@
+[Unit]
+Description=FDA AdCom Briefing Monitor
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/home/typbing/Project/FDA_AdCom
+EnvironmentFile=/home/typbing/Project/FDA_AdCom/.env
+ExecStart=/home/typbing/Project/FDA_AdCom/.venv-codex/bin/fda-adcom watch
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

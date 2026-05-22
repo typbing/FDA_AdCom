@@ -1,0 +1,19 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:48:17.457008+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "2dcd82ca6df64ddf",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/may-7-2019-meeting-pharmaceutical-science-and-clinical-pharmacology-advisory-committee-meeting",
+    "title": "Final Questions for the May 07, 2019 Meeting of the Pharmaceutical Science and Clinical Pharmacology (PSCP) Drugs Advisory Committee",
+    "url": "https://www.fda.gov/media/125302/download"
+  },
+  "page_count": 2,
+  "pdf_path": "data/history_pdfs/2dcd82ca6df64ddf_Final_Questions_for_the_May_07_2019_Meeting_of_the_Pharmaceutical_Science_and_Clinical_Pharmacology_PSCP_Drugs_Advisory_.pdf",
+  "section_lengths": {
+    "executive_summary": 6358
+  },
+  "sections_found": [
+    "executive_summary"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 45,
+    "confidence": 65,
+    "key_concerns": [
+      "Trial-level surrogacy did not meet pre-specified criteria (i2TEAMM primary R² ~0.4, wide CI).",
+      "Limited number of trials with sufficient MRD data, especially in transplant-eligible setting.",
+      "Heterogeneity in MRD assays and sensitivity levels across trials.",
+      "High missing MRD data rates in many studies.",
+      "No trials included CAR-T or novel therapies; uncertain generalizability.",
+      "MRD was often an exploratory endpoint, not a pre-specified key secondary endpoint.",
+      "OS data immature and confounded by subsequent therapies.",
+      "Pooling different sensitivity levels may underestimate predictive ability."
+    ],
+    "key_positives": [
+      "Strong individual-level association between MRD negativity and PFS (OR >5, significant).",
+      "R² for OS in transplant-ineligible subgroup was promising (0.79–0.85).",
+      "FDA agrees methodology is reasonable and uses similar approach.",
+      "Consistent direction of treatment effect on MRD and PFS across trials.",
+      "Supportive sensitivity analyses and FDA's own pooled analysis may strengthen findings."
+    ],
+    "overall_sentiment": 3,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 45,
+      "confidence": 65,
+      "evidence_notes": [
+        "i2TEAMM primary analysis: 'R2WLS of 0.40 (95% CI, 0.01 to 0.79) and R2Copula of 0.44 (95% CI, 0.01 to 0.88).'",
+        "Individual-level: 'global OR was generally very large, i.e. > 5.0 ... with lower bound of 95% CI >> 1.0.'",
+        "U. Miami analysis: 'R2WLS (inverse variance)=0.67 (95% CI: 0.43, 0.91)' for all NDMM PFS.",
+        "FDA: 'generally agrees with the meta-analyses conducted by both Applicants.'",
+        "i2TEAMM pre-specified threshold: 'R2WLS or R2Copula is at least 0.8 with lower bound of the 95% CI >0.6.'",
+        "FDA limitation: 'None of the trials contained in these meta-analyses include evaluation of a CAR T cell therapy.'",
+        "FDA limitation: 'The majority of the trials included did not assess 9-month or 12-month MRD rate as a key secondary endpoint.'"
+      ],
+      "key_concerns": [
+        "Trial-level surrogacy did not meet pre-specified criteria (i2TEAMM primary R² ~0.4, wide CI).",
+        "Limited number of trials with sufficient MRD data, especially in transplant-eligible setting.",
+        "Heterogeneity in MRD assays and sensitivity levels across trials.",
+        "High missing MRD data rates in many studies.",
+        "No trials included CAR-T or novel therapies; uncertain generalizability.",
+        "MRD was often an exploratory endpoint, not a pre-specified key secondary endpoint.",
+        "OS data immature and confounded by subsequent therapies.",
+        "Pooling different sensitivity levels may underestimate predictive ability."
+      ],
+      "key_positives": [
+        "Strong individual-level association between MRD negativity and PFS (OR >5, significant).",
+        "R² for OS in transplant-ineligible subgroup was promising (0.79–0.85).",
+        "FDA agrees methodology is reasonable and uses similar approach.",
+        "Consistent direction of treatment effect on MRD and PFS across trials.",
+        "Supportive sensitivity analyses and FDA's own pooled analysis may strengthen findings."
+      ],
+      "overall_sentiment": 3,
+      "questions_framing": {
+        "focus": "adequacy of MRD negativity as a surrogate endpoint reasonably likely to predict clinical benefit for accelerated approval",
+        "polarity": "neutral-skeptical"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:46:00.596628+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "9914fd3ade3ed2dc",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-12-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04122024",
+    "title": "April 12, 2024 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Applicants Briefing Document",
+    "url": "https://www.fda.gov/media/177652/download"
+  },
+  "page_count": 130,
+  "pdf_path": "data/raw_pdfs/9914fd3ade3ed2dc_April_12_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Combined_FDA_and_Applicants_Briefing_Document.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ],
+  "signal": {
+    "action": "NO_TRADE_REVIEW_MANUALLY",
+    "confidence": 65,
+    "label": "MIXED",
+    "probability": 45,
+    "rationale": [
+      "Concerns: Trial-level surrogacy did not meet pre-specified criteria (i2TEAMM primary R² ~0.4, wide CI).; Limited number of trials with sufficient MRD data, especially in transplant-eligible setting.; Heterogeneity in MRD assays and sensitivity levels across trials.; High missing MRD data rates in many studies.; No trials included CAR-T or novel therapies; uncertain generalizability.",
+      "Positives: Strong individual-level association between MRD negativity and PFS (OR >5, significant).; R² for OS in transplant-ineligible subgroup was promising (0.79–0.85).; FDA agrees methodology is reasonable and uses similar approach.; Consistent direction of treatment effect on MRD and PFS across trials.; Supportive sensitivity analyses and FDA's own pooled analysis may strengthen findings."
+    ]
+  }
+}

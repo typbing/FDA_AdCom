@@ -1,0 +1,230 @@
+[
+  {
+    "document": {
+      "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/166197/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "af190de57f8c9774"
+    },
+    "pdf_path": "data/history_pdfs/af190de57f8c9774_March_16_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 54,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": 2,
+      "approval_probability_estimate": 75,
+      "confidence": 65,
+      "key_concerns": [
+        "Uncertain efficacy in vaccinated or previously infected individuals",
+        "Efficacy against Omicron variant not directly studied",
+        "Limited data in immunocompromised patients",
+        "COVID-19 rebound incidence and mechanism unclear",
+        "Risk of serious adverse reactions due to drug-drug interactions"
+      ],
+      "key_positives": [
+        "Significant reduction in hospitalization/death in unvaccinated high-risk adults (EPIC-HR)",
+        "Oral administration provides an accessible treatment option",
+        "Acceptable safety profile with mostly mild adverse events",
+        "Already authorized under EUA, suggesting prior positive benefit-risk assessment"
+      ],
+      "raw": {
+        "overall_sentiment": 2,
+        "approval_probability_estimate": 75,
+        "confidence": 65,
+        "key_concerns": [
+          "Uncertain efficacy in vaccinated or previously infected individuals",
+          "Efficacy against Omicron variant not directly studied",
+          "Limited data in immunocompromised patients",
+          "COVID-19 rebound incidence and mechanism unclear",
+          "Risk of serious adverse reactions due to drug-drug interactions"
+        ],
+        "key_positives": [
+          "Significant reduction in hospitalization/death in unvaccinated high-risk adults (EPIC-HR)",
+          "Oral administration provides an accessible treatment option",
+          "Acceptable safety profile with mostly mild adverse events",
+          "Already authorized under EUA, suggesting prior positive benefit-risk assessment"
+        ],
+        "evidence_notes": [
+          "EPIC-HR demonstrated a 5.6% absolute reduction... 86% relative reduction — strong efficacy signal in original trial population",
+          "EPIC-SR failed to demonstrate any meaningful difference for the primary efficacy endpoint — lack of symptom alleviation benefit in broader population",
+          "included very few immunocompromised subjects — insufficient evidence in immunocompromised",
+          "excluded individuals with current or expected use of any medications that have DDIs — safety data limited due to DDI exclusions",
+          "a numerically lower rate of COVID-19-related hospitalizations or deaths... in the subgroup of vaccinated high-risk subjects — suggestive but non-significant benefit in vaccinated high-risk"
+        ],
+        "questions_framing": {
+          "intent": "assess strength of evidence",
+          "polarity": "neutral-to-skeptical",
+          "focus_areas": [
+            "vaccinated/prior infection",
+            "Omicron",
+            "immunocompromised",
+            "rebound"
+          ]
+        }
+      }
+    },
+    "signal": {
+      "label": "STRONG_POSITIVE",
+      "probability": 75,
+      "confidence": 65,
+      "action": "REVIEW_CALL_OR_EQUITY_LONG",
+      "rationale": [
+        "Concerns: Uncertain efficacy in vaccinated or previously infected individuals; Efficacy against Omicron variant not directly studied; Limited data in immunocompromised patients; COVID-19 rebound incidence and mechanism unclear; Risk of serious adverse reactions due to drug-drug interactions",
+        "Positives: Significant reduction in hospitalization/death in unvaccinated high-risk adults (EPIC-HR); Oral administration provides an accessible treatment option; Acceptable safety profile with mostly mild adverse events; Already authorized under EUA, suggesting prior positive benefit-risk assessment"
+      ]
+    },
+    "created_at": "2026-05-21T14:03:38.765664+00:00",
+    "history_rank": {
+      "file": "data/history_runs/af190de57f8c9774.json",
+      "document_id": "af190de57f8c9774",
+      "title": "March 16, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/166197/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-march-16-2023-antimicrobial-drugs-advisory-committee-meeting-announcement",
+      "meeting_date": "2023-03-16",
+      "sponsor": null,
+      "ticker": null,
+      "page_count": 54,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "questions",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 78,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "questions available",
+        "efficacy and safety sections",
+        "substantial PDF length"
+      ]
+    },
+    "result_path": "data/history_runs/af190de57f8c9774.json"
+  },
+  {
+    "document": {
+      "title": "April 17, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167096/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-april-17-2023-meeting-antimicrobial-drugs-advisory-committee-meeting",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "dd6f0d626e63c30c"
+    },
+    "pdf_path": "data/history_pdfs/dd6f0d626e63c30c_April_17_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+    "page_count": 47,
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": 5,
+      "approval_probability_estimate": 80,
+      "confidence": 75,
+      "key_concerns": [
+        "Small safety database (N=158 SUL-DUR exposed)",
+        "Single pivotal trial with 125 subjects in primary analysis",
+        "Wide non-inferiority margin of 20%",
+        "Imbalances in baseline characteristics (age, race, region) raising potential confounding",
+        "Limited U.S. enrollment (1 subject) affecting generalizability",
+        "No multiplicity adjustment for secondary efficacy endpoints",
+        "No independent adjudication committee for endpoints",
+        "Potential impact of COVID-19 on enrollment and trial conduct"
+      ],
+      "key_positives": [
+        "Primary endpoint met: SUL-DUR noninferior to colistin for 28-day mortality",
+        "Upper bound of 95% CI (3.5%) well below 20% margin, would satisfy a 10% margin",
+        "Numerically lower mortality (19% vs 32.3%) and favorable secondary endpoints",
+        "High unmet medical need for CRABC with limited treatment options",
+        "No unexpected safety signals identified in development program",
+        "Consistent efficacy across analysis populations and supportive nonclinical data"
+      ],
+      "raw": {
+        "overall_sentiment": 5,
+        "approval_probability_estimate": 80,
+        "confidence": 75,
+        "key_concerns": [
+          "Small safety database (N=158 SUL-DUR exposed)",
+          "Single pivotal trial with 125 subjects in primary analysis",
+          "Wide non-inferiority margin of 20%",
+          "Imbalances in baseline characteristics (age, race, region) raising potential confounding",
+          "Limited U.S. enrollment (1 subject) affecting generalizability",
+          "No multiplicity adjustment for secondary efficacy endpoints",
+          "No independent adjudication committee for endpoints",
+          "Potential impact of COVID-19 on enrollment and trial conduct"
+        ],
+        "key_positives": [
+          "Primary endpoint met: SUL-DUR noninferior to colistin for 28-day mortality",
+          "Upper bound of 95% CI (3.5%) well below 20% margin, would satisfy a 10% margin",
+          "Numerically lower mortality (19% vs 32.3%) and favorable secondary endpoints",
+          "High unmet medical need for CRABC with limited treatment options",
+          "No unexpected safety signals identified in development program",
+          "Consistent efficacy across analysis populations and supportive nonclinical data"
+        ],
+        "evidence_notes": [
+          "Primary analysis: 'SUL-DUR was noninferior to colistin using a 20% NI margin' — upper 95% CI 3.5%.",
+          "Safety limitation: 'the limited size of the current safety database for SUL-DUR' — only 158 subjects exposed.",
+          "Subgroup robustness: 'The sample sizes for many subgroups were small, which limits the ability to identify trends with certainty.'",
+          "Multiplicity concern: 'The Applicant did not specify how to control multiplicity for testing the secondary efficacy endpoints.'",
+          "Baseline imbalance noted: '10% differences in ... age, race, enrollment area and infection type' between arms.",
+          "US representativeness: 'Only one (0.8%) subject was enrolled in the United States.'"
+        ],
+        "questions_framing": {
+          "polarity": "neutral to slightly positive",
+          "description": "FDA asks committee to assess benefit-risk given unmet need and limited data, with conditional framing ('If yes... If no...') that does not telegraph a negative recommendation."
+        }
+      }
+    },
+    "signal": {
+      "label": "STRONG_POSITIVE",
+      "probability": 80,
+      "confidence": 75,
+      "action": "REVIEW_CALL_OR_EQUITY_LONG",
+      "rationale": [
+        "Concerns: Small safety database (N=158 SUL-DUR exposed); Single pivotal trial with 125 subjects in primary analysis; Wide non-inferiority margin of 20%; Imbalances in baseline characteristics (age, race, region) raising potential confounding; Limited U.S. enrollment (1 subject) affecting generalizability",
+        "Positives: Primary endpoint met: SUL-DUR noninferior to colistin for 28-day mortality; Upper bound of 95% CI (3.5%) well below 20% margin, would satisfy a 10% margin; Numerically lower mortality (19% vs 32.3%) and favorable secondary endpoints; High unmet medical need for CRABC with limited treatment options; No unexpected safety signals identified in development program"
+      ]
+    },
+    "created_at": "2026-05-21T14:04:47.293732+00:00",
+    "history_rank": {
+      "file": "data/history_runs/dd6f0d626e63c30c.json",
+      "document_id": "dd6f0d626e63c30c",
+      "title": "April 17, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+      "url": "https://www.fda.gov/media/167096/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-april-17-2023-meeting-antimicrobial-drugs-advisory-committee-meeting",
+      "meeting_date": "2023-04-17",
+      "sponsor": null,
+      "ticker": null,
+      "page_count": 47,
+      "sections_found": [
+        "background",
+        "efficacy",
+        "executive_summary",
+        "questions",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 75,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "meeting date inferred",
+        "questions available",
+        "efficacy and safety sections"
+      ]
+    },
+    "result_path": "data/history_runs/dd6f0d626e63c30c.json"
+  }
+]

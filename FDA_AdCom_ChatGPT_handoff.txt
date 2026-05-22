@@ -1,0 +1,382 @@
+FDA AdCom 项目交接说明
+生成日期：2026-05-21
+
+一、我们的目标是什么
+
+这个项目的目标是做一个 FDA Advisory Committee briefing document 的监控、解析、AI/规则分析和纸面交易跟踪系统。
+
+核心用途：
+1. 自动发现 FDA 官网新发布的 advisory committee briefing / background / voting questions 等关键 PDF。
+2. 下载并解析 PDF，提取 executive summary、efficacy、safety、questions 等关键段落。
+3. 用 AI 或本地关键词启发式规则判断 FDA 文件的监管语气、主要风险、主要利好、审批概率和置信度。
+4. 生成信号：STRONG_NEGATIVE、NEGATIVE、MIXED、POSITIVE、STRONG_POSITIVE。
+5. 先做 1-3 个月纸面预测和回测，不自动交易。
+6. 积累历史样本、标签、市场反应和模型表现，确认稳定后再考虑 broker 接入。
+
+重要原则：
+- 这个仓库默认不自动下单。
+- AI 输出只作为研究和人工复核输入，不能直接等同于审批概率或交易建议。
+- 需要先完成足够历史回测和实时纸面跟踪。
+- 特别避免裸空 biotech；负面信号也应该优先设计有限风险策略。
+
+
+二、项目流程 / 结构是什么
+
+项目入口：
+- CLI 命令：fda-adcom
+- 入口文件：src/fda_adcom/cli.py
+
+主要模块：
+
+1. 配置层
+- 文件：src/fda_adcom/config.py
+- 从 .env / 环境变量读取 FDA URL、爬取页数、轮询间隔、AI provider、模型、Telegram 配置等。
+- 默认数据目录是 ./data。
+- .env.example 里有配置模板。
+
+2. FDA 页面发现与 PDF 下载
+- 文件：src/fda_adcom/fda_monitor.py
+- 作用：
+  - 从 FDA Advisory Committee Calendar、Recently Updated Advisory Committee Materials、Committees and Meeting Materials 等入口递归发现相关页面。
+  - 过滤只保留 briefing、background、questions 类 PDF。
+  - 排除 agenda、roster、transcript、minutes、presentation 等噪声文件。
+  - 以 PDF URL 的 hash 作为 document id。
+  - 下载 PDF 到 data/raw_pdfs/ 或 data/history_pdfs/。
+  - 用 data/state.json 做已见 URL 去重。
+
+3. PDF 解析
+- 文件：src/fda_adcom/pdf_parser.py
+- 作用：
+  - 用 pypdf 提取全文。
+  - 按标题切分 executive_summary、background、efficacy、safety、questions。
+  - 如果没有找到 executive summary，则默认取前 30000 字作为 summary。
+
+4. 分析层
+- 文件：src/fda_adcom/analyzer.py
+- 作用：
+  - 支持 heuristic / OpenAI / Anthropic / DeepSeek。
+  - heuristic 模式不需要 API key，靠关键词给出保守分数。
+  - AI 模式要求模型返回结构化 JSON，包括 overall_sentiment、approval_probability_estimate、confidence、key_concerns、key_positives、evidence_notes、questions_framing。
+  - 当前 OpenAI 默认模型示例是 gpt-4.1；DeepSeek 默认 deepseek-chat；Anthropic 默认 claude-3-5-sonnet-latest。
+
+5. 信号生成
+- 文件：src/fda_adcom/signals.py
+- 规则：
+  - confidence < 60：MIXED，人工复核，不交易。
+  - probability <= 30：STRONG_NEGATIVE。
+  - probability < 45：NEGATIVE。
+  - probability >= 75：STRONG_POSITIVE。
+  - probability > 60：POSITIVE。
+  - 其他：MIXED。
+
+6. Pipeline 编排
+- 文件：src/fda_adcom/pipeline.py
+- 主要流程：
+  - discover documents
+  - 用 state.json 找 unseen
+  - dry-run 时只输出新文档
+  - 非 dry-run 时下载 PDF、解析、分析、生成 signal、写入 data/runs/
+  - 可选 Telegram 通知
+  - watch 模式按 FDA_POLL_SECONDS 持续运行
+
+7. 历史样本、ticker、市场反应、回测
+- 文件：src/fda_adcom/history.py
+- 作用：
+  - backfill 历史 FDA briefing/background 样本。
+  - rank-history：按文件质量、委员会、ticker、meeting date、sections、页数等打 value_score。
+  - map-tickers：根据 sponsor_tickers.csv 和同 meeting page 关系推断 sponsor/ticker。
+  - enrich-market：从 Yahoo Finance 补充会前/会后价格反应。
+  - init-outcomes：初始化 outcome_labels.csv。
+  - mini-backtest：基于已标注结果统计模型信号准确率。
+
+8. 通知
+- 文件：src/fda_adcom/notify.py
+- 支持控制台输出和 Telegram sendMessage。
+
+9. 部署
+- Dockerfile、docker-compose.yml
+- systemd 模板：deploy/fda-adcom.service
+
+10. 纸面交易规则
+- 文件：docs/paper_trading_playbook.md
+- 要求每日检查 watch、logs、runs、paper_trades.csv。
+- MIXED 或 confidence 低于 70 默认不做纸面交易。
+- STRONG_NEGATIVE 只能考虑有限风险 bearish options strategy，不能裸空。
+- STRONG_POSITIVE 也要检查 IV 后再考虑 equity/call。
+
+
+三、当前已经完成了什么
+
+从当前仓库看，已经完成：
+
+1. MVP 代码骨架已经存在并能运行。
+- pyproject.toml 已定义包名 fda-adcom 和 CLI entry point。
+- 依赖包括 beautifulsoup4、pypdf、requests；可选 AI 依赖包括 openai、anthropic；dev 依赖包括 pytest、ruff。
+
+2. FDA 页面发现和 PDF 候选过滤已经实现。
+- 可以发现 advisory committee 页面。
+- 可以过滤出 briefing/background/questions 类 PDF。
+- 已有测试覆盖基本过滤逻辑。
+
+3. PDF 下载、文本提取、section 切分已经实现。
+- 能保存原始 PDF。
+- 能提取全文并尝试切分关键部分。
+
+4. 分析链路已经实现。
+- 有 API key 时可走 OpenAI / Anthropic / DeepSeek。
+- 没有 API key 时可走 heuristic，本地干跑也能工作。
+
+5. 信号生成已经实现。
+- 已有 STRONG_NEGATIVE / NEGATIVE / MIXED / POSITIVE / STRONG_POSITIVE 规则。
+- 已有测试覆盖低置信度、强负面、强正面场景。
+
+6. 历史样本处理已经做了一轮。
+- data/history_runs/ 当前有 57 个历史 JSON 样本。
+- data/runs/ 当前有 36 个运行 / 分析 / 排名 / 回测相关 JSON。
+- data/history_pdfs 和 data/raw_pdfs 等目录中合计已有 72 个 PDF/样本文件。
+
+7. outcome 标签表已经启动。
+- data/outcome_labels.csv 当前有 58 行，包括表头。
+- 其中一部分已人工补充 drug、indication、adcom_vote、adcom_outcome、fda_final_decision、source、notes。
+- 还有不少行留空，需要继续补标签。
+
+8. paper trade 表已经建立。
+- data/paper_trades.csv 当前有表头和 2 条 tofersen 样例记录。
+- 目前更像是记录模板 / 初始样例，还没有形成稳定纸面交易日志。
+
+9. 小样本 mini-backtest 已经跑过。
+- 最新文件：data/runs/mini_backtest_v2.json
+- 结果：
+  - labeled_analyzed_count: 8
+  - actionable_count: 7
+  - correct_count: 5
+  - accuracy: 0.7143
+- 这个结果样本太小，只能说明链路可跑，不能说明模型可靠。
+
+10. 当前测试通过。
+- 运行 pytest -q 的结果是 7 passed。
+
+
+四、当前已观察到的关键样本 / 初步表现
+
+mini_backtest_v2.json 中的 8 个已标注已分析样本包括：
+
+1. CDTX / rezafungin
+- 信号：MIXED
+- 真实结果：positive / approved
+- 不计入 actionable correct。
+
+2. RHHBY / Genentech / POLIVY
+- 信号：POSITIVE
+- 真实结果：positive / approved
+- 判断正确。
+
+3. REGN / EYLEA ROP
+- 信号：STRONG_NEGATIVE
+- 真实结果：positive / approved
+- 判断错误。
+
+4. HZNP / TEPEZZA
+- 信号：STRONG_POSITIVE
+- 真实结果：positive / approved
+- 判断正确。
+
+5. PRGO / Opill
+- 信号：STRONG_NEGATIVE
+- 真实结果：positive / approved
+- 判断错误。
+
+6. SNY/AZN / BEYFORTUS
+- 信号：STRONG_POSITIVE
+- 真实结果：positive / approved
+- 判断正确。
+
+7. PFE / PAXLOVID
+- 信号：STRONG_POSITIVE
+- 真实结果：positive / approved
+- 判断正确。
+
+8. INVA / XACDURO
+- 信号：STRONG_POSITIVE
+- 真实结果：positive / approved
+- 判断正确。
+
+明显问题：
+- 当前标注样本偏正面，负面/失败样本太少。
+- REGN 和 Opill 这类“FDA 文件里有明显疑虑但监管弹性/公共健康需求/OTC 风险收益仍支持批准”的案例，模型容易误判为强负面。
+- 需要让模型更好地区分“FDA 提出严厉问题”与“最终会否被批准/委员会是否会支持”。
+
+
+五、还差什么 / 下一步建议
+
+优先级 A：把回测样本做扎实
+
+1. 补 outcome_labels.csv
+- 对当前 57 个 history_runs 样本继续补：
+  - drug
+  - indication
+  - adcom_vote
+  - adcom_outcome
+  - fda_final_decision
+  - fda_decision_date
+  - outcome_source
+  - notes
+- 特别要补负面、CRL、vote negative、withdrawn、narrow vote、mixed vote 的案例。
+
+2. 扩充历史样本
+- 继续 backfill-history。
+- 不只看 2023，也应覆盖 2018-2025。
+- 需要主动找 negative / controversial AdCom：
+  - oncology failed / split votes
+  - neurodegenerative controversial approvals
+  - safety-driven rejections
+  - surrogate endpoint disputes
+  - non-inferiority / single trial / subgroup reliance
+
+3. 重新跑 analyze-ranked-history 和 mini-backtest
+- 每补一批标签后重新跑 mini-backtest。
+- 目标不是追求短期 accuracy，而是找系统性误判类型。
+
+
+优先级 B：改进分析 prompt 和评分逻辑
+
+1. 当前 prompt 还比较通用。
+- 建议强制模型输出：
+  - evidence_strength
+  - safety_severity
+  - unmet_need
+  - regulatory_flexibility
+  - endpoint_met_status
+  - advisory_question_polarity
+  - likely_panel_vote_direction
+  - final_approval_vs_adcom distinction
+
+2. 当前 signal 只按 approval_probability_estimate + confidence 切档。
+- 建议加入：
+  - 是否 FDA briefing 还是 sponsor briefing
+  - questions framing 是否偏批准/偏拒绝/偏讨论不确定性
+  - unmet need / rare disease / no alternatives 的正向修正
+  - safety issue 是否可用 label / REMS 管控
+  - primary endpoint 是否明确失败
+  - 是否仅凭 post-hoc / subgroup / surrogate endpoint
+
+3. 对误判案例做 case study。
+- REGN EYLEA ROP：为什么文件疑虑没有阻止批准？
+- Opill：为什么 FDA 疑虑强但委员会/FDA仍支持？
+- tofersen：加速批准逻辑、NfL surrogate 和罕见病弹性如何影响判断？
+
+
+优先级 C：数据质量和 ticker/市场反应
+
+1. sponsor_tickers.csv 需要继续维护。
+- 一些样本的 ticker 仍为空或没有正确继承。
+- 私有公司、收购前公司、合作开发公司要单独处理。
+
+2. enrich-market 需要更精细。
+- 现在只用 Yahoo Finance 日线 close，可能不足以捕捉 AdCom 当日盘中/盘后反应。
+- 需要记录 briefing document release date，而不只是 meeting date。
+- 真正交易相关的是文件发布后的价格反应，不一定是 meeting date 后的价格。
+
+3. paper_trades.csv 还只是起步。
+- 需要形成固定字段填写习惯。
+- 每个 actionable signal 都要记录：
+  - entry thesis
+  - reject conditions
+  - IV / liquidity
+  - planned exit
+  - actual reaction 1d / 5d
+  - model miss reason
+
+
+优先级 D：监控运行可靠性
+
+1. watch 模式已有，但需要确认生产运行状态。
+- data/watch.pid 存在，但需要 daily-report 或系统进程检查确认 watch 是否真的在跑。
+- data/logs/watch.log 应纳入每日检查。
+
+2. FDA 网站结构变化要有防护。
+- 当前 discovery 依赖 FDA HTML 链接和标题关键词。
+- 如果 FDA 改版，可能漏掉文件。
+- 建议增加定期 discover --pages 和 discover 对比检查。
+
+3. 状态管理目前比较简单。
+- data/state.json 用 seen_urls 去重。
+- 如果 PDF 发生 errata / replacement / same URL content changed，当前逻辑可能不会重新分析。
+- 建议加入 content hash 或 Last-Modified / ETag。
+
+
+优先级 E：测试和工程化
+
+1. 当前测试只有 7 个，覆盖较少。
+- 建议补：
+  - PDF section splitter fixture
+  - StateStore 去重
+  - backfill skip_existing
+  - rank_history scoring
+  - mini_backtest normalization
+  - AI JSON parse failure fallback
+  - Telegram disabled no-op
+
+2. Git 状态异常。
+- 项目目录里有 .git 文件夹，但当前 git status 报错：fatal: not a git repository。
+- .git 文件夹似乎是空的。
+- 如果需要版本管理，要重新初始化或修复 Git 仓库。
+
+3. 部署还需要实测。
+- Docker / systemd 文件存在，但需要确认路径、环境变量、日志、自动重启是否可用。
+
+
+六、建议让 ChatGPT 继续分析的问题
+
+可以把这份交接给 ChatGPT，然后让它重点分析：
+
+1. 这个 pipeline 的最大风险在哪里？
+2. 当前 signal 规则是否太粗糙？怎么改？
+3. 如何设计更可靠的 FDA briefing document prompt？
+4. 如何构建一个更平衡的 historical backtest dataset？
+5. REGN 和 Opill 误判说明了什么？应该加入哪些特征？
+6. 纸面交易表应该怎么扩展，才能真正判断策略是否有效？
+7. 如果后续要接 broker，必须先满足哪些安全条件？
+
+
+七、常用命令
+
+安装 / 环境：
+source .venv-codex/bin/activate
+pip install -e ".[ai,dev]"
+
+发现候选文件：
+fda-adcom discover --max-pages 80
+fda-adcom discover --pages --max-pages 80
+
+首次上线前标记已有文件：
+fda-adcom bootstrap-seen --max-pages 80
+
+干跑：
+fda-adcom run-once --dry-run
+
+持续监控：
+fda-adcom watch
+
+历史样本：
+fda-adcom backfill-history --max-pages 45 --limit 5
+fda-adcom rank-history --limit 25 --output data/runs/history_rank_top25.json
+fda-adcom analyze-ranked-history --limit 1 --min-score 80
+fda-adcom map-tickers --limit 50 --output data/runs/history_ticker_map_top50.json
+fda-adcom enrich-market --limit 25 --output data/runs/history_market_enriched_top25.json
+fda-adcom init-outcomes --limit 80
+fda-adcom mini-backtest --output data/runs/mini_backtest.json
+
+日报：
+fda-adcom daily-report --hours 24
+
+分析本地 PDF：
+fda-adcom analyze-pdf /path/to/briefing.pdf
+
+测试：
+pytest -q
+
+
+八、给接手者的一句话总结
+
+这个项目已经完成了“FDA 文件发现 -> PDF 下载 -> 文本解析 -> AI/规则分析 -> 信号生成 -> 历史样本/标签/小回测”的 MVP 闭环。现在最重要的不是立刻自动交易，而是扩充并清洗历史样本、补 outcome 标签、针对误判改 prompt 和特征、做 1-3 个月实时纸面跟踪，证明它能稳定识别 FDA briefing 文件中的真实监管风险和机会。

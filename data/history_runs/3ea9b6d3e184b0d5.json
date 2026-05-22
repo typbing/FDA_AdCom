@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T07:14:47.007361+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T07:12:56.224156+00:00",
+    "id": "3ea9b6d3e184b0d5",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- Regeneron Briefing Document",
+    "url": "https://www.fda.gov/media/164339/download"
+  },
+  "page_count": 90,
+  "pdf_path": "data/history_pdfs/3ea9b6d3e184b0d5_January_9_2023_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee-_Regeneron_Briefing_Document.pdf",
+  "section_lengths": {
+    "background": 7701,
+    "efficacy": 23454,
+    "executive_summary": 8903,
+    "safety": 30170
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

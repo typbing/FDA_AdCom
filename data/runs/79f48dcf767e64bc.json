@@ -1,0 +1,79 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 35,
+    "confidence": 80,
+    "key_concerns": [
+      "Higher rate of early deaths in the ide-cel arm, particularly within the first 9 months (18% vs 11% in ITT)",
+      "Many early deaths occurred before ide-cel infusion, raising concerns about patient selection and manufacturing delays",
+      "No statistically significant OS benefit, with crossing Kaplan-Meier curves indicating potential early detriment",
+      "The Applicant's post-hoc OS analyses rely on unverifiable assumptions and are not convincing",
+      "Uncertainty remains whether PFS benefit outweighs the risk of early mortality"
+    ],
+    "key_positives": [
+      "Statistically significant and clinically meaningful improvement in PFS (HR 0.49, median 13.3 vs 4.4 months)",
+      "High overall response rate (71% vs 42%) with durable responses",
+      "Consistent PFS benefit across subgroups and by independent review",
+      "Later OS data (median 41.4 vs 37.9 months) do not show a significant survival disadvantage"
+    ],
+    "overall_sentiment": -4,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 35,
+      "confidence": 80,
+      "evidence_notes": [
+        "KarMMa-3 met its primary endpoint, demonstrating a statistically significant improvement in PFS",
+        "The rate of deaths in the first 9 months post randomization was higher in the ide-cel arm (45/254; 18%) compared to the SOC arm (15/132; 11%)",
+        "Visual inspection of the Kaplan Meier plot for OS indicates that ... there were more early deaths occurring in the ide-cel arm compared to the SOC arm",
+        "The Applicant's analyses do not provide convincing evidence that ide-cel treatment provides OS benefit",
+        "FDA considers the risks associated with administration of the treatment to be integral to the benefit-risk assessment",
+        "A higher proportion of subjects died before disease progression in the ide-cel arm (8%) compared to the standard of care arm (3%)"
+      ],
+      "key_concerns": [
+        "Higher rate of early deaths in the ide-cel arm, particularly within the first 9 months (18% vs 11% in ITT)",
+        "Many early deaths occurred before ide-cel infusion, raising concerns about patient selection and manufacturing delays",
+        "No statistically significant OS benefit, with crossing Kaplan-Meier curves indicating potential early detriment",
+        "The Applicant's post-hoc OS analyses rely on unverifiable assumptions and are not convincing",
+        "Uncertainty remains whether PFS benefit outweighs the risk of early mortality"
+      ],
+      "key_positives": [
+        "Statistically significant and clinically meaningful improvement in PFS (HR 0.49, median 13.3 vs 4.4 months)",
+        "High overall response rate (71% vs 42%) with durable responses",
+        "Consistent PFS benefit across subgroups and by independent review",
+        "Later OS data (median 41.4 vs 37.9 months) do not show a significant survival disadvantage"
+      ],
+      "overall_sentiment": -4,
+      "questions_framing": {
+        "focus": "early deaths risk acceptability",
+        "polarity": "negative/concern",
+        "question": "Is the risk-benefit assessment for idecabtagene vicleucel favorable?"
+      }
+    }
+  },
+  "created_at": "2026-05-21T06:41:26.575886+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:31:44.345216+00:00",
+    "id": "79f48dcf767e64bc",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-15-2024-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03152024",
+    "title": "March 15, 2024 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document (ABECMA)",
+    "url": "https://www.fda.gov/media/176989/download"
+  },
+  "page_count": 37,
+  "pdf_path": "data/raw_pdfs/79f48dcf767e64bc_March_15_2024_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document_ABECMA.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_SMALL_BEARISH_OR_NO_TRADE",
+    "confidence": 80,
+    "label": "NEGATIVE",
+    "probability": 35,
+    "rationale": [
+      "Concerns: Higher rate of early deaths in the ide-cel arm, particularly within the first 9 months (18% vs 11% in ITT); Many early deaths occurred before ide-cel infusion, raising concerns about patient selection and manufacturing delays; No statistically significant OS benefit, with crossing Kaplan-Meier curves indicating potential early detriment; The Applicant's post-hoc OS analyses rely on unverifiable assumptions and are not convincing; Uncertainty remains whether PFS benefit outweighs the risk of early mortality",
+      "Positives: Statistically significant and clinically meaningful improvement in PFS (HR 0.49, median 13.3 vs 4.4 months); High overall response rate (71% vs 42%) with durable responses; Consistent PFS benefit across subgroups and by independent review; Later OS data (median 41.4 vs 37.9 months) do not show a significant survival disadvantage"
+    ]
+  }
+}

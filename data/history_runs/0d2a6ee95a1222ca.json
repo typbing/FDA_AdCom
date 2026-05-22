@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:50:10.368080+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "0d2a6ee95a1222ca",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/vaccines-and-related-biological-products-advisory-committee-february-26-2021-meeting-announcement",
+    "title": "Vaccines and Related Biological Products Advisory Committee February 26, 2021 Meeting Briefing Document- Sponsor",
+    "url": "https://www.fda.gov/media/146219/download"
+  },
+  "page_count": 119,
+  "pdf_path": "data/history_pdfs/0d2a6ee95a1222ca_Vaccines_and_Related_Biological_Products_Advisory_Committee_February_26_2021_Meeting_Briefing_Document-_Sponsor.pdf",
+  "section_lengths": {
+    "background": 24,
+    "efficacy": 17762,
+    "executive_summary": 34757,
+    "safety": 3310
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

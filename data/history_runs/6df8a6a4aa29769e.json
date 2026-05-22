@@ -1,0 +1,100 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 15,
+    "confidence": 90,
+    "key_concerns": [
+      "Primary non-inferiority endpoint not met in either pivotal study",
+      "High rate of important protocol deviations in Butterfleye (40% in aflibercept arm)",
+      "Potential systemic safety risks in preterm infants (higher systemic exposure than adults, nonclinical nasal turbinate erosions)",
+      "Safety database for pediatric ROP limited; long-term effects unknown"
+    ],
+    "key_positives": [
+      "Orphan drug designation shows recognition of unmet need",
+      "Avoids retinal laser scarring, potentially preserving peripheral vision",
+      "Single injection may reduce treatment burden compared to multiple laser sessions"
+    ],
+    "overall_sentiment": -8,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 15,
+      "confidence": 90,
+      "evidence_notes": [
+        "\"the primary endpoint (non-inferiority to the control) was not met in either study\"",
+        "\"Failure of the Primary Endpoint precludes testing of the secondary or other endpoints\"",
+        "\"BUTTERFLEYE: Any Important Protocol Deviation ... 40%\" in aflibercept arm",
+        "\"concentrations of free aflibercept in plasma ... 0.583 mcg/mL at Day 1\" — exceeding adult levels",
+        "\"Erosions and ulcerations of the respiratory epithelium in nasal turbinates in monkeys\" — at exposures only 2-fold higher than infant Cmax"
+      ],
+      "key_concerns": [
+        "Primary non-inferiority endpoint not met in either pivotal study",
+        "High rate of important protocol deviations in Butterfleye (40% in aflibercept arm)",
+        "Potential systemic safety risks in preterm infants (higher systemic exposure than adults, nonclinical nasal turbinate erosions)",
+        "Safety database for pediatric ROP limited; long-term effects unknown"
+      ],
+      "key_positives": [
+        "Orphan drug designation shows recognition of unmet need",
+        "Avoids retinal laser scarring, potentially preserving peripheral vision",
+        "Single injection may reduce treatment burden compared to multiple laser sessions"
+      ],
+      "overall_sentiment": -8,
+      "questions_framing": {
+        "focus": "Insufficient efficacy evidence and potential safety concerns in preterm infants",
+        "polarity": "negative",
+        "primary_question": "Should the benefit-risk profile of aflibercept for ROP be considered favorable despite failure to demonstrate non-inferiority?"
+      }
+    }
+  },
+  "created_at": "2026-05-21T13:56:12.138823+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:24:41.373191+00:00",
+    "id": "6df8a6a4aa29769e",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/164338/download"
+  },
+  "history_rank": {
+    "document_id": "6df8a6a4aa29769e",
+    "file": "data/history_runs/6df8a6a4aa29769e.json",
+    "has_ai_analysis": false,
+    "meeting_date": "2023-01-09",
+    "page_count": 64,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "efficacy and safety sections",
+      "substantial PDF length",
+      "ticker inferred from same meeting page: REGN"
+    ],
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/january-9-2023-dermatologic-and-ophthalmic-drugs-advisory-committee-meeting-01092023",
+    "sponsor": "Regeneron",
+    "ticker": "REGN",
+    "title": "January 9, 2023 Meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/164338/download",
+    "value_score": 79
+  },
+  "page_count": 64,
+  "pdf_path": "data/history_pdfs/6df8a6a4aa29769e_January_9_2023_Meeting_of_the_Dermatologic_and_Ophthalmic_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_PUT_OR_BEARISH_HEDGE",
+    "confidence": 90,
+    "label": "STRONG_NEGATIVE",
+    "probability": 15,
+    "rationale": [
+      "Concerns: Primary non-inferiority endpoint not met in either pivotal study; High rate of important protocol deviations in Butterfleye (40% in aflibercept arm); Potential systemic safety risks in preterm infants (higher systemic exposure than adults, nonclinical nasal turbinate erosions); Safety database for pediatric ROP limited; long-term effects unknown",
+      "Positives: Orphan drug designation shows recognition of unmet need; Avoids retinal laser scarring, potentially preserving peripheral vision; Single injection may reduce treatment burden compared to multiple laser sessions"
+    ]
+  }
+}

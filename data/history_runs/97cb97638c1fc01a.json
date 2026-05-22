@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T13:52:19.283544+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T13:45:40.952852+00:00",
+    "id": "97cb97638c1fc01a",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/cellular-tissue-and-gene-therapies-advisory-committee-june-9-10-2022-meeting-announcement-06092022",
+    "title": "Cellular, Tissue, and Gene Therapies Advisory Committee June 9-10, 2022 Meeting Briefing Document- Sponsor- 125717",
+    "url": "https://www.fda.gov/media/159011/download"
+  },
+  "page_count": 140,
+  "pdf_path": "data/history_pdfs/97cb97638c1fc01a_Cellular_Tissue_and_Gene_Therapies_Advisory_Committee_June_9-10_2022_Meeting_Briefing_Document-_Sponsor-_125717.pdf",
+  "section_lengths": {
+    "background": 50845,
+    "efficacy": 2598,
+    "executive_summary": 38454,
+    "safety": 19841
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

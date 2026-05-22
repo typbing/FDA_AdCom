@@ -1,0 +1,25 @@
+{
+  "analysis_status": "metadata_only",
+  "created_at": "2026-05-21T06:55:25.357293+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "25ffbfbe22b73aa6",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/april-28-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-04282023",
+    "title": "April 28, 2023 Meeting of the Oncologic Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/167483/download"
+  },
+  "page_count": 29,
+  "pdf_path": "data/history_pdfs/25ffbfbe22b73aa6_April_28_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "section_lengths": {
+    "background": 8151,
+    "efficacy": 23138,
+    "executive_summary": 14975,
+    "safety": 4372
+  },
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "safety"
+  ]
+}

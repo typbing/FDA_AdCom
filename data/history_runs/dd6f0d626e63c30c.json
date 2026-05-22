@@ -1,0 +1,115 @@
+{
+  "analysis": {
+    "approval_probability_estimate": 80,
+    "confidence": 75,
+    "key_concerns": [
+      "Small safety database (N=158 SUL-DUR exposed)",
+      "Single pivotal trial with 125 subjects in primary analysis",
+      "Wide non-inferiority margin of 20%",
+      "Imbalances in baseline characteristics (age, race, region) raising potential confounding",
+      "Limited U.S. enrollment (1 subject) affecting generalizability",
+      "No multiplicity adjustment for secondary efficacy endpoints",
+      "No independent adjudication committee for endpoints",
+      "Potential impact of COVID-19 on enrollment and trial conduct"
+    ],
+    "key_positives": [
+      "Primary endpoint met: SUL-DUR noninferior to colistin for 28-day mortality",
+      "Upper bound of 95% CI (3.5%) well below 20% margin, would satisfy a 10% margin",
+      "Numerically lower mortality (19% vs 32.3%) and favorable secondary endpoints",
+      "High unmet medical need for CRABC with limited treatment options",
+      "No unexpected safety signals identified in development program",
+      "Consistent efficacy across analysis populations and supportive nonclinical data"
+    ],
+    "overall_sentiment": 5,
+    "provider": "deepseek",
+    "raw": {
+      "approval_probability_estimate": 80,
+      "confidence": 75,
+      "evidence_notes": [
+        "Primary analysis: 'SUL-DUR was noninferior to colistin using a 20% NI margin' — upper 95% CI 3.5%.",
+        "Safety limitation: 'the limited size of the current safety database for SUL-DUR' — only 158 subjects exposed.",
+        "Subgroup robustness: 'The sample sizes for many subgroups were small, which limits the ability to identify trends with certainty.'",
+        "Multiplicity concern: 'The Applicant did not specify how to control multiplicity for testing the secondary efficacy endpoints.'",
+        "Baseline imbalance noted: '10% differences in ... age, race, enrollment area and infection type' between arms.",
+        "US representativeness: 'Only one (0.8%) subject was enrolled in the United States.'"
+      ],
+      "key_concerns": [
+        "Small safety database (N=158 SUL-DUR exposed)",
+        "Single pivotal trial with 125 subjects in primary analysis",
+        "Wide non-inferiority margin of 20%",
+        "Imbalances in baseline characteristics (age, race, region) raising potential confounding",
+        "Limited U.S. enrollment (1 subject) affecting generalizability",
+        "No multiplicity adjustment for secondary efficacy endpoints",
+        "No independent adjudication committee for endpoints",
+        "Potential impact of COVID-19 on enrollment and trial conduct"
+      ],
+      "key_positives": [
+        "Primary endpoint met: SUL-DUR noninferior to colistin for 28-day mortality",
+        "Upper bound of 95% CI (3.5%) well below 20% margin, would satisfy a 10% margin",
+        "Numerically lower mortality (19% vs 32.3%) and favorable secondary endpoints",
+        "High unmet medical need for CRABC with limited treatment options",
+        "No unexpected safety signals identified in development program",
+        "Consistent efficacy across analysis populations and supportive nonclinical data"
+      ],
+      "overall_sentiment": 5,
+      "questions_framing": {
+        "description": "FDA asks committee to assess benefit-risk given unmet need and limited data, with conditional framing ('If yes... If no...') that does not telegraph a negative recommendation.",
+        "polarity": "neutral to slightly positive"
+      }
+    }
+  },
+  "created_at": "2026-05-21T14:04:47.293732+00:00",
+  "document": {
+    "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+    "id": "dd6f0d626e63c30c",
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-april-17-2023-meeting-antimicrobial-drugs-advisory-committee-meeting",
+    "title": "April 17, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/167096/download"
+  },
+  "history_rank": {
+    "document_id": "dd6f0d626e63c30c",
+    "file": "data/history_runs/dd6f0d626e63c30c.json",
+    "has_ai_analysis": false,
+    "meeting_date": "2023-04-17",
+    "page_count": 47,
+    "reasons": [
+      "FDA briefing document",
+      "high-value human drug committee",
+      "meeting date inferred",
+      "questions available",
+      "efficacy and safety sections"
+    ],
+    "sections_found": [
+      "background",
+      "efficacy",
+      "executive_summary",
+      "questions",
+      "safety"
+    ],
+    "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/updated-information-april-17-2023-meeting-antimicrobial-drugs-advisory-committee-meeting",
+    "sponsor": null,
+    "ticker": null,
+    "title": "April 17, 2023 Meeting of the Antimicrobial Drugs Advisory Committee- FDA Briefing Document",
+    "url": "https://www.fda.gov/media/167096/download",
+    "value_score": 75
+  },
+  "page_count": 47,
+  "pdf_path": "data/history_pdfs/dd6f0d626e63c30c_April_17_2023_Meeting_of_the_Antimicrobial_Drugs_Advisory_Committee-_FDA_Briefing_Document.pdf",
+  "sections_found": [
+    "background",
+    "efficacy",
+    "executive_summary",
+    "questions",
+    "safety"
+  ],
+  "signal": {
+    "action": "REVIEW_CALL_OR_EQUITY_LONG",
+    "confidence": 75,
+    "label": "STRONG_POSITIVE",
+    "probability": 80,
+    "rationale": [
+      "Concerns: Small safety database (N=158 SUL-DUR exposed); Single pivotal trial with 125 subjects in primary analysis; Wide non-inferiority margin of 20%; Imbalances in baseline characteristics (age, race, region) raising potential confounding; Limited U.S. enrollment (1 subject) affecting generalizability",
+      "Positives: Primary endpoint met: SUL-DUR noninferior to colistin for 28-day mortality; Upper bound of 95% CI (3.5%) well below 20% margin, would satisfy a 10% margin; Numerically lower mortality (19% vs 32.3%) and favorable secondary endpoints; High unmet medical need for CRABC with limited treatment options; No unexpected safety signals identified in development program"
+    ]
+  }
+}

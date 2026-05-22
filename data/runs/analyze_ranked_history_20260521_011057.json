@@ -1,0 +1,111 @@
+[
+  {
+    "document": {
+      "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document",
+      "url": "https://www.fda.gov/media/165961/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023",
+      "discovered_at": "2026-05-21T06:52:57.181861+00:00",
+      "id": "0b99a891dd01a3b2"
+    },
+    "pdf_path": "data/history_pdfs/0b99a891dd01a3b2_March_9_2023_Meeting_of_the_Oncologic_Drugs_Advisory_Committee-_Combined_FDA_and_Genentech_Briefing_Document.pdf",
+    "page_count": 104,
+    "sections_found": [
+      "efficacy",
+      "executive_summary",
+      "safety"
+    ],
+    "analysis": {
+      "provider": "deepseek",
+      "overall_sentiment": 2,
+      "approval_probability_estimate": 65,
+      "confidence": 80,
+      "key_concerns": [
+        "Modest PFS benefit (1-year difference 4.1%, 2-year 6.5%)",
+        "No overall survival improvement",
+        "Increased febrile neutropenia and infections",
+        "Potential underestimation of myelosuppression due to lack of midcycle labs",
+        "Inadequate PRO tolerability assessment per FDA"
+      ],
+      "key_positives": [
+        "Statistically significant PFS improvement (HR 0.73)",
+        "Consistent benefit across secondary endpoints (EFSeff, DFS, DOR)",
+        "Comparable overall safety profile to R-CHOP",
+        "High relative dose intensity indicating tolerability",
+        "Addresses unmet need in 1L DLBCL"
+      ],
+      "raw": {
+        "overall_sentiment": 2,
+        "approval_probability_estimate": 65,
+        "confidence": 80,
+        "key_concerns": [
+          "Modest PFS benefit (1-year difference 4.1%, 2-year 6.5%)",
+          "No overall survival improvement",
+          "Increased febrile neutropenia and infections",
+          "Potential underestimation of myelosuppression due to lack of midcycle labs",
+          "Inadequate PRO tolerability assessment per FDA"
+        ],
+        "key_positives": [
+          "Statistically significant PFS improvement (HR 0.73)",
+          "Consistent benefit across secondary endpoints (EFSeff, DFS, DOR)",
+          "Comparable overall safety profile to R-CHOP",
+          "High relative dose intensity indicating tolerability",
+          "Addresses unmet need in 1L DLBCL"
+        ],
+        "evidence_notes": [
+          "PFS benefit 'both statistically significant and clinically meaningful' per Applicant but FDA notes 'effect size was modest'",
+          "Safety profile 'comparable to R-CHOP' though Table 12 shows higher febrile neutropenia (14.3% vs 8.0%)",
+          "FDA: 'lack of superiority is not suitable evidence for claims of comparability' regarding PROs",
+          "MYELOSUPPRESSION: 'midcycle nadir labs were not collected' raising FDA concern of underestimation",
+          "OS 'consistently shown HR<1' but 'remains immature and was not statistically different'"
+        ],
+        "questions_framing": {
+          "polarity": "cautious",
+          "key_issues": [
+            "modest PFS benefit",
+            "no OS improvement",
+            "infection risk",
+            "PRO tolerability design"
+          ]
+        }
+      }
+    },
+    "signal": {
+      "label": "POSITIVE",
+      "probability": 65,
+      "confidence": 80,
+      "action": "REVIEW_SMALL_BULLISH_OR_NO_TRADE",
+      "rationale": [
+        "Concerns: Modest PFS benefit (1-year difference 4.1%, 2-year 6.5%); No overall survival improvement; Increased febrile neutropenia and infections; Potential underestimation of myelosuppression due to lack of midcycle labs; Inadequate PRO tolerability assessment per FDA",
+        "Positives: Statistically significant PFS improvement (HR 0.73); Consistent benefit across secondary endpoints (EFSeff, DFS, DOR); Comparable overall safety profile to R-CHOP; High relative dose intensity indicating tolerability; Addresses unmet need in 1L DLBCL"
+      ]
+    },
+    "created_at": "2026-05-21T07:11:51.933326+00:00",
+    "history_rank": {
+      "file": "data/history_runs/0b99a891dd01a3b2.json",
+      "document_id": "0b99a891dd01a3b2",
+      "title": "March 9, 2023 Meeting of the Oncologic Drugs Advisory Committee- Combined FDA and Genentech Briefing Document",
+      "url": "https://www.fda.gov/media/165961/download",
+      "source_page": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/march-9-2023-meeting-oncologic-drugs-advisory-committee-meeting-announcement-03092023",
+      "meeting_date": "2023-03-09",
+      "sponsor": "Genentech",
+      "ticker": "RHHBY",
+      "page_count": 104,
+      "sections_found": [
+        "efficacy",
+        "executive_summary",
+        "safety"
+      ],
+      "has_ai_analysis": false,
+      "value_score": 91,
+      "reasons": [
+        "FDA briefing document",
+        "high-value human drug committee",
+        "ticker mapped: RHHBY",
+        "market reaction can be fetched",
+        "efficacy and safety sections",
+        "substantial PDF length"
+      ]
+    },
+    "result_path": "data/history_runs/0b99a891dd01a3b2.json"
+  }
+]
