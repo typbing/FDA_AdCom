@@ -1,0 +1,114 @@
+{
+  "total_rows": 57,
+  "rows_with_ticker": 17,
+  "rows_with_briefing_pdf_release_date": 0,
+  "rows_with_market_label": 0,
+  "status_counts": {
+    "missing_release_date": 17,
+    "missing_ticker": 40
+  },
+  "missing_release_date": [
+    {
+      "document_id": "2b2013a2acf6a3ce",
+      "ticker": "CDTX",
+      "drug": "rezafungin / REZZAYO",
+      "meeting_date": "2023-01-24"
+    },
+    {
+      "document_id": "0b99a891dd01a3b2",
+      "ticker": "RHHBY",
+      "drug": "polatuzumab vedotin-piiq / POLIVY",
+      "meeting_date": "2023-03-09"
+    },
+    {
+      "document_id": "6df8a6a4aa29769e",
+      "ticker": "REGN",
+      "drug": "aflibercept / EYLEA",
+      "meeting_date": "2023-01-09"
+    },
+    {
+      "document_id": "f8bbf578a35e0569",
+      "ticker": "HZNP",
+      "drug": "teprotumumab / TEPEZZA",
+      "meeting_date": "2019-12-13"
+    },
+    {
+      "document_id": "2252b7c3b1118d54",
+      "ticker": "PRGO",
+      "drug": "norgestrel / Opill",
+      "meeting_date": "2023-05-09"
+    },
+    {
+      "document_id": "1b07cb209a078f7d",
+      "ticker": "SNY/AZN",
+      "drug": "nirsevimab / BEYFORTUS",
+      "meeting_date": "2023-06-08"
+    },
+    {
+      "document_id": "af190de57f8c9774",
+      "ticker": "PFE",
+      "drug": "nirmatrelvir/ritonavir / PAXLOVID",
+      "meeting_date": "2023-03-16"
+    },
+    {
+      "document_id": "dd6f0d626e63c30c",
+      "ticker": "INVA",
+      "drug": "sulbactam-durlobactam / XACDURO",
+      "meeting_date": "2023-04-17"
+    },
+    {
+      "document_id": "07d0a87f7ff02db9",
+      "ticker": "CDTX",
+      "drug": "",
+      "meeting_date": "2023-01-24"
+    },
+    {
+      "document_id": "3ea9b6d3e184b0d5",
+      "ticker": "REGN",
+      "drug": "",
+      "meeting_date": "2023-01-09"
+    },
+    {
+      "document_id": "07ae88dc3a7a1552",
+      "ticker": "HZNP",
+      "drug": "",
+      "meeting_date": "2019-12-13"
+    },
+    {
+      "document_id": "08d7a4cf68c80338",
+      "ticker": "RHHBY",
+      "drug": "",
+      "meeting_date": "2023-03-09"
+    },
+    {
+      "document_id": "74f2619b703a09c2",
+      "ticker": "REGN",
+      "drug": "",
+      "meeting_date": "2023-01-09"
+    },
+    {
+      "document_id": "765741af520c206b",
+      "ticker": "HZNP",
+      "drug": "",
+      "meeting_date": "2019-12-13"
+    },
+    {
+      "document_id": "fd90bab1d0efa617",
+      "ticker": "CDTX",
+      "drug": "",
+      "meeting_date": "2023-01-24"
+    },
+    {
+      "document_id": "dd15c80512cccec8",
+      "ticker": "HZNP",
+      "drug": "",
+      "meeting_date": "2019-12-13"
+    },
+    {
+      "document_id": "66e326fd862af572",
+      "ticker": "CDTX",
+      "drug": "",
+      "meeting_date": "2023-01-24"
+    }
+  ]
+}

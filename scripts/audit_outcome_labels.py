@@ -28,6 +28,9 @@ EXPECTED_COLUMNS = [
     "sponsor",
     "ticker",
     *CRITICAL_FIELDS,
+    "briefing_pdf_release_date",
+    "abn_return_3d",
+    "market_label",
     "notes",
 ]
 
@@ -182,6 +185,14 @@ def main() -> None:
     print(f"- Mixed / Split Vote: {outcome_counts['mixed']}")
     print(f"- Withdrawn: {outcome_counts['withdrawn']}")
     print(f"- Unknown / TODO: {outcome_counts['unknown']}")
+    print()
+    print("[Market Reaction Label Coverage]")
+    print(
+        "- Rows with briefing_pdf_release_date: "
+        f"{sum(1 for row in rows if clean(row.get('briefing_pdf_release_date')))}"
+    )
+    print(f"- Rows with market_label: {sum(1 for row in rows if clean(row.get('market_label')))}")
+    print(f"- Missing market_label: {sum(1 for row in rows if not clean(row.get('market_label')))}")
     print()
     print("[Mini Backtest v2 Summary]")
     print(f"- labeled_analyzed_count: {backtest.get('labeled_analyzed_count', 'WARNING_MISSING')}")
